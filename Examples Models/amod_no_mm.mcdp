@@ -1,0 +1,21 @@
+dp {
+	# The demand is a fixed parameter/s for our cases of NYC and Berlin, we consider it here varying
+	provides total_requests [dimensionless]
+	#provides revenue [$/s]
+	#  Bought vehicles
+	requires number_veh_available [Nat]
+	# Achievable velocity
+	requires velocity_av [miles/hour]
+	# Average travel time (metric of I-AMoD)
+	requires time_travel [s]
+	# Total Distance driven in one second
+	requires d_road_av [meter/s]
+	# Total distance on public transport in one second
+	requires d_subway [meter/s]
+	# Number of Subways
+	requires number_subway [Nat]
+	# CO2 from vehicles in one second
+	requires CO2_road_av [kg/s]
+
+   implemented-by code mcdp_importers.read_yaml(fn="camod_TNSE.mcdplib/yaml_catalogues/amod_no_mm.dpc.yaml")
+}
