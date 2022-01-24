@@ -1,0 +1,15 @@
+# revenues Design Problem
+dp {
+        # revenues over entire time horizon [CHF]
+        provides revenues [CHF]
+        # profit over entire time horizon [CHF]
+        provides profit [CHF]
+        # H_2 selling price [CHF/kg]
+        requires price [CHF/kg]
+        # time horizon [years]
+        requires time [years]
+        # total demand [t/day]
+        requires total_demand [t/day]
+       
+    implemented-by code mcdp_importers.read_yaml(fn="./DPrevenues_small.yaml")
+}

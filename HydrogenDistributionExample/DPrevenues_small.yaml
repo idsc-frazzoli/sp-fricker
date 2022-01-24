@@ -1,0 +1,3608 @@
+F:
+- revenues [CHF]
+- profit [CHF]
+R:
+- time [years]
+- price [CHF/kg]
+- total_demand [t/day]
+implementations:
+  model001:
+    f_max:
+    - 294000000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model002:
+    f_max:
+    - 392000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model003:
+    f_max:
+    - 490000000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model004:
+    f_max:
+    - 588000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model005:
+    f_max:
+    - 686000000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model006:
+    f_max:
+    - 784000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model007:
+    f_max:
+    - 882000000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model008:
+    f_max:
+    - 980000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model009:
+    f_max:
+    - 1078000000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model010:
+    f_max:
+    - 1176000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model011:
+    f_max:
+    - 1274000000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model012:
+    f_max:
+    - 1372000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model013:
+    f_max:
+    - 1470000000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model014:
+    f_max:
+    - 1568000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model015:
+    f_max:
+    - 1666000000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model016:
+    f_max:
+    - 1764000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model017:
+    f_max:
+    - 1862000000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model018:
+    f_max:
+    - 1960000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 2.0 CHF/t
+    - 140 t/day
+  model019:
+    f_max:
+    - 330750000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model020:
+    f_max:
+    - 441000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model021:
+    f_max:
+    - 551250000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model022:
+    f_max:
+    - 661500000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model023:
+    f_max:
+    - 771750000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model024:
+    f_max:
+    - 882000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model025:
+    f_max:
+    - 992250000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model026:
+    f_max:
+    - 1102500000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model027:
+    f_max:
+    - 1212750000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model028:
+    f_max:
+    - 1323000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model029:
+    f_max:
+    - 1433250000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model030:
+    f_max:
+    - 1543500000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model031:
+    f_max:
+    - 1653750000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model032:
+    f_max:
+    - 1764000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model033:
+    f_max:
+    - 1874250000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model034:
+    f_max:
+    - 1984500000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model035:
+    f_max:
+    - 2094750000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model036:
+    f_max:
+    - 2205000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 2.25 CHF/t
+    - 140 t/day
+  model037:
+    f_max:
+    - 367500000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model038:
+    f_max:
+    - 490000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model039:
+    f_max:
+    - 612500000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model040:
+    f_max:
+    - 735000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model041:
+    f_max:
+    - 857500000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model042:
+    f_max:
+    - 980000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model043:
+    f_max:
+    - 1102500000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model044:
+    f_max:
+    - 1225000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model045:
+    f_max:
+    - 1347500000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model046:
+    f_max:
+    - 1470000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model047:
+    f_max:
+    - 1592500000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model048:
+    f_max:
+    - 1715000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model049:
+    f_max:
+    - 1837500000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model050:
+    f_max:
+    - 1960000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model051:
+    f_max:
+    - 2082500000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model052:
+    f_max:
+    - 2205000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model053:
+    f_max:
+    - 2327500000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model054:
+    f_max:
+    - 2450000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 2.5 CHF/t
+    - 140 t/day
+  model055:
+    f_max:
+    - 404250000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model056:
+    f_max:
+    - 539000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model057:
+    f_max:
+    - 673750000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model058:
+    f_max:
+    - 808500000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model059:
+    f_max:
+    - 943250000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model060:
+    f_max:
+    - 1078000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model061:
+    f_max:
+    - 1212750000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model062:
+    f_max:
+    - 1347500000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model063:
+    f_max:
+    - 1482250000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model064:
+    f_max:
+    - 1617000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model065:
+    f_max:
+    - 1751750000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model066:
+    f_max:
+    - 1886500000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model067:
+    f_max:
+    - 2021250000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model068:
+    f_max:
+    - 2156000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model069:
+    f_max:
+    - 2290750000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model070:
+    f_max:
+    - 2425500000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model071:
+    f_max:
+    - 2560250000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model072:
+    f_max:
+    - 2695000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 2.75 CHF/t
+    - 140 t/day
+  model073:
+    f_max:
+    - 441000000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model074:
+    f_max:
+    - 588000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model075:
+    f_max:
+    - 735000000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model076:
+    f_max:
+    - 882000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model077:
+    f_max:
+    - 1029000000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model078:
+    f_max:
+    - 1176000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model079:
+    f_max:
+    - 1323000000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model080:
+    f_max:
+    - 1470000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model081:
+    f_max:
+    - 1617000000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model082:
+    f_max:
+    - 1764000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model083:
+    f_max:
+    - 1911000000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model084:
+    f_max:
+    - 2058000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model085:
+    f_max:
+    - 2205000000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model086:
+    f_max:
+    - 2352000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model087:
+    f_max:
+    - 2499000000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model088:
+    f_max:
+    - 2646000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model089:
+    f_max:
+    - 2793000000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model090:
+    f_max:
+    - 2940000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 3.0 CHF/t
+    - 140 t/day
+  model091:
+    f_max:
+    - 477750000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model092:
+    f_max:
+    - 637000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model093:
+    f_max:
+    - 796250000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model094:
+    f_max:
+    - 955500000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model095:
+    f_max:
+    - 1114750000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model096:
+    f_max:
+    - 1274000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model097:
+    f_max:
+    - 1433250000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model098:
+    f_max:
+    - 1592500000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model099:
+    f_max:
+    - 1751750000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model100:
+    f_max:
+    - 1911000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model101:
+    f_max:
+    - 2070250000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model102:
+    f_max:
+    - 2229500000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model103:
+    f_max:
+    - 2388750000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model104:
+    f_max:
+    - 2548000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model105:
+    f_max:
+    - 2707250000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model106:
+    f_max:
+    - 2866500000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model107:
+    f_max:
+    - 3025750000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model108:
+    f_max:
+    - 3185000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 3.25 CHF/t
+    - 140 t/day
+  model109:
+    f_max:
+    - 514500000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model110:
+    f_max:
+    - 686000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model111:
+    f_max:
+    - 857500000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model112:
+    f_max:
+    - 1029000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model113:
+    f_max:
+    - 1200500000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model114:
+    f_max:
+    - 1372000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model115:
+    f_max:
+    - 1543500000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model116:
+    f_max:
+    - 1715000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model117:
+    f_max:
+    - 1886500000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model118:
+    f_max:
+    - 2058000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model119:
+    f_max:
+    - 2229500000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model120:
+    f_max:
+    - 2401000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model121:
+    f_max:
+    - 2572500000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model122:
+    f_max:
+    - 2744000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model123:
+    f_max:
+    - 2915500000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model124:
+    f_max:
+    - 3087000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model125:
+    f_max:
+    - 3258500000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model126:
+    f_max:
+    - 3430000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 3.5 CHF/t
+    - 140 t/day
+  model127:
+    f_max:
+    - 551250000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model128:
+    f_max:
+    - 735000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model129:
+    f_max:
+    - 918750000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model130:
+    f_max:
+    - 1102500000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model131:
+    f_max:
+    - 1286250000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model132:
+    f_max:
+    - 1470000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model133:
+    f_max:
+    - 1653750000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model134:
+    f_max:
+    - 1837500000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model135:
+    f_max:
+    - 2021250000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model136:
+    f_max:
+    - 2205000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model137:
+    f_max:
+    - 2388750000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model138:
+    f_max:
+    - 2572500000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model139:
+    f_max:
+    - 2756250000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model140:
+    f_max:
+    - 2940000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model141:
+    f_max:
+    - 3123750000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model142:
+    f_max:
+    - 3307500000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model143:
+    f_max:
+    - 3491250000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model144:
+    f_max:
+    - 3675000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 3.75 CHF/t
+    - 140 t/day
+  model145:
+    f_max:
+    - 588000000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model146:
+    f_max:
+    - 784000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model147:
+    f_max:
+    - 980000000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model148:
+    f_max:
+    - 1176000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model149:
+    f_max:
+    - 1372000000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model150:
+    f_max:
+    - 1568000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model151:
+    f_max:
+    - 1764000000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model152:
+    f_max:
+    - 1960000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model153:
+    f_max:
+    - 2156000000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model154:
+    f_max:
+    - 2352000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model155:
+    f_max:
+    - 2548000000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model156:
+    f_max:
+    - 2744000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model157:
+    f_max:
+    - 2940000000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model158:
+    f_max:
+    - 3136000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model159:
+    f_max:
+    - 3332000000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model160:
+    f_max:
+    - 3528000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model161:
+    f_max:
+    - 3724000000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model162:
+    f_max:
+    - 3920000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 4.0 CHF/t
+    - 140 t/day
+  model163:
+    f_max:
+    - 624750000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model164:
+    f_max:
+    - 833000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model165:
+    f_max:
+    - 1041250000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model166:
+    f_max:
+    - 1249500000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model167:
+    f_max:
+    - 1457750000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model168:
+    f_max:
+    - 1666000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model169:
+    f_max:
+    - 1874250000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model170:
+    f_max:
+    - 2082500000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model171:
+    f_max:
+    - 2290750000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model172:
+    f_max:
+    - 2499000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model173:
+    f_max:
+    - 2707250000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model174:
+    f_max:
+    - 2915500000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model175:
+    f_max:
+    - 3123750000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model176:
+    f_max:
+    - 3332000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model177:
+    f_max:
+    - 3540250000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model178:
+    f_max:
+    - 3748500000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model179:
+    f_max:
+    - 3956750000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model180:
+    f_max:
+    - 4165000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 4.25 CHF/t
+    - 140 t/day
+  model181:
+    f_max:
+    - 661500000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model182:
+    f_max:
+    - 882000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model183:
+    f_max:
+    - 1102500000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model184:
+    f_max:
+    - 1323000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model185:
+    f_max:
+    - 1543500000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model186:
+    f_max:
+    - 1764000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model187:
+    f_max:
+    - 1984500000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model188:
+    f_max:
+    - 2205000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model189:
+    f_max:
+    - 2425500000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model190:
+    f_max:
+    - 2646000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model191:
+    f_max:
+    - 2866500000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model192:
+    f_max:
+    - 3087000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model193:
+    f_max:
+    - 3307500000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model194:
+    f_max:
+    - 3528000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model195:
+    f_max:
+    - 3748500000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model196:
+    f_max:
+    - 3969000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model197:
+    f_max:
+    - 4189500000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model198:
+    f_max:
+    - 4410000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 4.5 CHF/t
+    - 140 t/day
+  model199:
+    f_max:
+    - 698250000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model200:
+    f_max:
+    - 931000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model201:
+    f_max:
+    - 1163750000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model202:
+    f_max:
+    - 1396500000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model203:
+    f_max:
+    - 1629250000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model204:
+    f_max:
+    - 1862000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model205:
+    f_max:
+    - 2094750000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model206:
+    f_max:
+    - 2327500000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model207:
+    f_max:
+    - 2560250000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model208:
+    f_max:
+    - 2793000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model209:
+    f_max:
+    - 3025750000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model210:
+    f_max:
+    - 3258500000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model211:
+    f_max:
+    - 3491250000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model212:
+    f_max:
+    - 3724000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model213:
+    f_max:
+    - 3956750000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model214:
+    f_max:
+    - 4189500000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model215:
+    f_max:
+    - 4422250000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model216:
+    f_max:
+    - 4655000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 4.75 CHF/t
+    - 140 t/day
+  model217:
+    f_max:
+    - 735000000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model218:
+    f_max:
+    - 980000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model219:
+    f_max:
+    - 1225000000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model220:
+    f_max:
+    - 1470000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model221:
+    f_max:
+    - 1715000000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model222:
+    f_max:
+    - 1960000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model223:
+    f_max:
+    - 2205000000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model224:
+    f_max:
+    - 2450000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model225:
+    f_max:
+    - 2695000000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model226:
+    f_max:
+    - 2940000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model227:
+    f_max:
+    - 3185000000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model228:
+    f_max:
+    - 3430000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model229:
+    f_max:
+    - 3675000000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model230:
+    f_max:
+    - 3920000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model231:
+    f_max:
+    - 4165000000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model232:
+    f_max:
+    - 4410000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model233:
+    f_max:
+    - 4655000000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model234:
+    f_max:
+    - 4900000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 5.0 CHF/t
+    - 140 t/day
+  model235:
+    f_max:
+    - 771750000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model236:
+    f_max:
+    - 1029000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model237:
+    f_max:
+    - 1286250000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model238:
+    f_max:
+    - 1543500000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model239:
+    f_max:
+    - 1800750000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model240:
+    f_max:
+    - 2058000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model241:
+    f_max:
+    - 2315250000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model242:
+    f_max:
+    - 2572500000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model243:
+    f_max:
+    - 2829750000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model244:
+    f_max:
+    - 3087000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model245:
+    f_max:
+    - 3344250000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model246:
+    f_max:
+    - 3601500000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model247:
+    f_max:
+    - 3858750000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model248:
+    f_max:
+    - 4116000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model249:
+    f_max:
+    - 4373250000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model250:
+    f_max:
+    - 4630500000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model251:
+    f_max:
+    - 4887750000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model252:
+    f_max:
+    - 5145000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 5.25 CHF/t
+    - 140 t/day
+  model253:
+    f_max:
+    - 808500000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model254:
+    f_max:
+    - 1078000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model255:
+    f_max:
+    - 1347500000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model256:
+    f_max:
+    - 1617000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model257:
+    f_max:
+    - 1886500000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model258:
+    f_max:
+    - 2156000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model259:
+    f_max:
+    - 2425500000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model260:
+    f_max:
+    - 2695000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model261:
+    f_max:
+    - 2964500000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model262:
+    f_max:
+    - 3234000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model263:
+    f_max:
+    - 3503500000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model264:
+    f_max:
+    - 3773000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model265:
+    f_max:
+    - 4042500000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model266:
+    f_max:
+    - 4312000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model267:
+    f_max:
+    - 4581500000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model268:
+    f_max:
+    - 4851000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model269:
+    f_max:
+    - 5120500000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model270:
+    f_max:
+    - 5390000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 5.5 CHF/t
+    - 140 t/day
+  model271:
+    f_max:
+    - 845250000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model272:
+    f_max:
+    - 1127000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model273:
+    f_max:
+    - 1408750000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model274:
+    f_max:
+    - 1690500000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model275:
+    f_max:
+    - 1972250000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model276:
+    f_max:
+    - 2254000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model277:
+    f_max:
+    - 2535750000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model278:
+    f_max:
+    - 2817500000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model279:
+    f_max:
+    - 3099250000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model280:
+    f_max:
+    - 3381000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model281:
+    f_max:
+    - 3662750000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model282:
+    f_max:
+    - 3944500000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model283:
+    f_max:
+    - 4226250000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model284:
+    f_max:
+    - 4508000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model285:
+    f_max:
+    - 4789750000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model286:
+    f_max:
+    - 5071500000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model287:
+    f_max:
+    - 5353250000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model288:
+    f_max:
+    - 5635000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 5.75 CHF/t
+    - 140 t/day
+  model289:
+    f_max:
+    - 882000000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model290:
+    f_max:
+    - 1176000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model291:
+    f_max:
+    - 1470000000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model292:
+    f_max:
+    - 1764000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model293:
+    f_max:
+    - 2058000000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model294:
+    f_max:
+    - 2352000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model295:
+    f_max:
+    - 2646000000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model296:
+    f_max:
+    - 2940000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model297:
+    f_max:
+    - 3234000000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model298:
+    f_max:
+    - 3528000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model299:
+    f_max:
+    - 3822000000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model300:
+    f_max:
+    - 4116000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model301:
+    f_max:
+    - 4410000000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model302:
+    f_max:
+    - 4704000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model303:
+    f_max:
+    - 4998000000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model304:
+    f_max:
+    - 5292000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model305:
+    f_max:
+    - 5586000000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model306:
+    f_max:
+    - 5880000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 6.0 CHF/t
+    - 140 t/day
+  model307:
+    f_max:
+    - 918750000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model308:
+    f_max:
+    - 1225000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model309:
+    f_max:
+    - 1531250000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model310:
+    f_max:
+    - 1837500000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model311:
+    f_max:
+    - 2143750000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model312:
+    f_max:
+    - 2450000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model313:
+    f_max:
+    - 2756250000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model314:
+    f_max:
+    - 3062500000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model315:
+    f_max:
+    - 3368750000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model316:
+    f_max:
+    - 3675000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model317:
+    f_max:
+    - 3981250000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model318:
+    f_max:
+    - 4287500000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model319:
+    f_max:
+    - 4593750000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model320:
+    f_max:
+    - 4900000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model321:
+    f_max:
+    - 5206250000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model322:
+    f_max:
+    - 5512500000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model323:
+    f_max:
+    - 5818750000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model324:
+    f_max:
+    - 6125000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 6.25 CHF/t
+    - 140 t/day
+  model325:
+    f_max:
+    - 955500000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model326:
+    f_max:
+    - 1274000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model327:
+    f_max:
+    - 1592500000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model328:
+    f_max:
+    - 1911000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model329:
+    f_max:
+    - 2229500000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model330:
+    f_max:
+    - 2548000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model331:
+    f_max:
+    - 2866500000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model332:
+    f_max:
+    - 3185000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model333:
+    f_max:
+    - 3503500000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model334:
+    f_max:
+    - 3822000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model335:
+    f_max:
+    - 4140500000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model336:
+    f_max:
+    - 4459000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model337:
+    f_max:
+    - 4777500000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model338:
+    f_max:
+    - 5096000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model339:
+    f_max:
+    - 5414500000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model340:
+    f_max:
+    - 5733000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model341:
+    f_max:
+    - 6051500000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model342:
+    f_max:
+    - 6370000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 6.5 CHF/t
+    - 140 t/day
+  model343:
+    f_max:
+    - 992250000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model344:
+    f_max:
+    - 1323000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model345:
+    f_max:
+    - 1653750000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model346:
+    f_max:
+    - 1984500000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model347:
+    f_max:
+    - 2315250000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model348:
+    f_max:
+    - 2646000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model349:
+    f_max:
+    - 2976750000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model350:
+    f_max:
+    - 3307500000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model351:
+    f_max:
+    - 3638250000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model352:
+    f_max:
+    - 3969000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model353:
+    f_max:
+    - 4299750000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model354:
+    f_max:
+    - 4630500000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model355:
+    f_max:
+    - 4961250000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model356:
+    f_max:
+    - 5292000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model357:
+    f_max:
+    - 5622750000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model358:
+    f_max:
+    - 5953500000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model359:
+    f_max:
+    - 6284250000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model360:
+    f_max:
+    - 6615000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 6.75 CHF/t
+    - 140 t/day
+  model361:
+    f_max:
+    - 1029000000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model362:
+    f_max:
+    - 1372000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model363:
+    f_max:
+    - 1715000000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model364:
+    f_max:
+    - 2058000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model365:
+    f_max:
+    - 2401000000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model366:
+    f_max:
+    - 2744000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model367:
+    f_max:
+    - 3087000000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model368:
+    f_max:
+    - 3430000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model369:
+    f_max:
+    - 3773000000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model370:
+    f_max:
+    - 4116000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model371:
+    f_max:
+    - 4459000000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model372:
+    f_max:
+    - 4802000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model373:
+    f_max:
+    - 5145000000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model374:
+    f_max:
+    - 5488000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model375:
+    f_max:
+    - 5831000000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model376:
+    f_max:
+    - 6174000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model377:
+    f_max:
+    - 6517000000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model378:
+    f_max:
+    - 6860000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 7.0 CHF/t
+    - 140 t/day
+  model379:
+    f_max:
+    - 1065750000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model380:
+    f_max:
+    - 1421000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model381:
+    f_max:
+    - 1776250000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model382:
+    f_max:
+    - 2131500000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model383:
+    f_max:
+    - 2486750000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model384:
+    f_max:
+    - 2842000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model385:
+    f_max:
+    - 3197250000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model386:
+    f_max:
+    - 3552500000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model387:
+    f_max:
+    - 3907750000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model388:
+    f_max:
+    - 4263000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model389:
+    f_max:
+    - 4618250000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model390:
+    f_max:
+    - 4973500000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model391:
+    f_max:
+    - 5328750000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model392:
+    f_max:
+    - 5684000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model393:
+    f_max:
+    - 6039250000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model394:
+    f_max:
+    - 6394500000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model395:
+    f_max:
+    - 6749750000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model396:
+    f_max:
+    - 7105000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 7.25 CHF/t
+    - 140 t/day
+  model397:
+    f_max:
+    - 1102500000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model398:
+    f_max:
+    - 1470000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model399:
+    f_max:
+    - 1837500000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model400:
+    f_max:
+    - 2205000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model401:
+    f_max:
+    - 2572500000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model402:
+    f_max:
+    - 2940000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model403:
+    f_max:
+    - 3307500000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model404:
+    f_max:
+    - 3675000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model405:
+    f_max:
+    - 4042500000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model406:
+    f_max:
+    - 4410000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model407:
+    f_max:
+    - 4777500000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model408:
+    f_max:
+    - 5145000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model409:
+    f_max:
+    - 5512500000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model410:
+    f_max:
+    - 5880000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model411:
+    f_max:
+    - 6247500000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model412:
+    f_max:
+    - 6615000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model413:
+    f_max:
+    - 6982500000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model414:
+    f_max:
+    - 7350000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 7.5 CHF/t
+    - 140 t/day
+  model415:
+    f_max:
+    - 1139250000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model416:
+    f_max:
+    - 1519000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model417:
+    f_max:
+    - 1898750000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model418:
+    f_max:
+    - 2278500000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model419:
+    f_max:
+    - 2658250000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model420:
+    f_max:
+    - 3038000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model421:
+    f_max:
+    - 3417750000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model422:
+    f_max:
+    - 3797500000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model423:
+    f_max:
+    - 4177250000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model424:
+    f_max:
+    - 4557000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model425:
+    f_max:
+    - 4936750000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model426:
+    f_max:
+    - 5316500000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model427:
+    f_max:
+    - 5696250000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model428:
+    f_max:
+    - 6076000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model429:
+    f_max:
+    - 6455750000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model430:
+    f_max:
+    - 6835500000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model431:
+    f_max:
+    - 7215250000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model432:
+    f_max:
+    - 7595000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 7.75 CHF/t
+    - 140 t/day
+  model433:
+    f_max:
+    - 1176000000 CHF
+    - 0 CHF
+    r_min:
+    - 3 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model434:
+    f_max:
+    - 1568000000 CHF
+    - 0 CHF
+    r_min:
+    - 4 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model435:
+    f_max:
+    - 1960000000 CHF
+    - 0 CHF
+    r_min:
+    - 5 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model436:
+    f_max:
+    - 2352000000 CHF
+    - 0 CHF
+    r_min:
+    - 6 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model437:
+    f_max:
+    - 2744000000 CHF
+    - 0 CHF
+    r_min:
+    - 7 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model438:
+    f_max:
+    - 3136000000 CHF
+    - 0 CHF
+    r_min:
+    - 8 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model439:
+    f_max:
+    - 3528000000 CHF
+    - 0 CHF
+    r_min:
+    - 9 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model440:
+    f_max:
+    - 3920000000 CHF
+    - 0 CHF
+    r_min:
+    - 10 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model441:
+    f_max:
+    - 4312000000 CHF
+    - 0 CHF
+    r_min:
+    - 11 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model442:
+    f_max:
+    - 4704000000 CHF
+    - 0 CHF
+    r_min:
+    - 12 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model443:
+    f_max:
+    - 5096000000 CHF
+    - 0 CHF
+    r_min:
+    - 13 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model444:
+    f_max:
+    - 5488000000 CHF
+    - 0 CHF
+    r_min:
+    - 14 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model445:
+    f_max:
+    - 5880000000 CHF
+    - 0 CHF
+    r_min:
+    - 15 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model446:
+    f_max:
+    - 6272000000 CHF
+    - 0 CHF
+    r_min:
+    - 16 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model447:
+    f_max:
+    - 6664000000 CHF
+    - 0 CHF
+    r_min:
+    - 17 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model448:
+    f_max:
+    - 7056000000 CHF
+    - 0 CHF
+    r_min:
+    - 18 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model449:
+    f_max:
+    - 7448000000 CHF
+    - 0 CHF
+    r_min:
+    - 19 years
+    - 8.0 CHF/t
+    - 140 t/day
+  model450:
+    f_max:
+    - 7840000000 CHF
+    - 0 CHF
+    r_min:
+    - 20 years
+    - 8.0 CHF/t
+    - 140 t/day

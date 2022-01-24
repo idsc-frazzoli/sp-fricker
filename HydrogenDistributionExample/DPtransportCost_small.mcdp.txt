@@ -1,0 +1,29 @@
+# transportation cost Design Problem
+dp {
+        # Pipe transport on connection [boolean], vector of dim = number of connections
+        provides pipe_transport0 [boolean]
+        provides pipe_transport1 [boolean]
+        provides pipe_transport2 [boolean]
+        provides pipe_transport3 [boolean]
+        provides pipe_transport4 [boolean]
+        provides pipe_transport5 [boolean]
+        provides pipe_transport6 [boolean]
+        # Truck transport on connection [boolean], vector of dim = number of connections
+        provides truck_transport0 [boolean]
+        provides truck_transport1 [boolean]
+        provides truck_transport2 [boolean]
+        provides truck_transport3 [boolean]
+        provides truck_transport4 [boolean]
+        provides truck_transport5 [boolean]
+        provides truck_transport6 [boolean]
+        # transportation cost for every connection [CHF/t], vector of dim = number of conncections
+        requires transport_cost0 [CHF/t]
+        requires transport_cost1 [CHF/t]
+        requires transport_cost2 [CHF/t]
+        requires transport_cost3 [CHF/t]
+        requires transport_cost4 [CHF/t]
+        requires transport_cost5 [CHF/t]
+        requires transport_cost6 [CHF/t]
+    
+    implemented_by code mcdp_importers.read_yaml(fn="./DPtransportCost_small.yaml")
+}
