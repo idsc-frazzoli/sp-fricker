@@ -1,10 +1,19 @@
 F:
+<<<<<<< HEAD
 - "CHF"
 - "CHF"
 R:
 - "years"
 - "CHF/kg"
 - "t/day"
+=======
+  - "CHF"
+  - "CHF"
+R:
+  - "years"
+  - "CHF/kg"
+  - "t/day"
+>>>>>>> c451c94753fc09dbba42627a72d04a3bae8068ad
 implementations:
   model001:
     f_max:

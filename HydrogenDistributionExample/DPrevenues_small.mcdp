@@ -11,5 +11,5 @@ dp {
         # total demand [t/day]
         requires total_demand [t/day]
        
-    implemented-by code mcdp_importers.read_yaml(fn="./DPrevenues_small.yaml")
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample/DPrevenues_small.yaml")
 }
