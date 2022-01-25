@@ -1,10 +1,10 @@
 F:
-- revenues [CHF]
-- profit [CHF]
+  - "CHF"
+  - "CHF"
 R:
-- time [years]
-- price [CHF/kg]
-- total_demand [t/day]
+  - "years"
+  - "CHF/kg"
+  - "t/day"
 implementations:
   model001:
     f_max:
