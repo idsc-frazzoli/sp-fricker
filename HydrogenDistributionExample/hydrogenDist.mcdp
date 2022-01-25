@@ -28,7 +28,7 @@ mcdp {
     demand = demand0 provided by tranport_lp + demand1 provided by tranport_lp + demand2 provided by tranport_lp + demand3 provided by tranport_lp
     # demand >= total_demand required by revenues_dp
     # revenues_dp: demand * price * time - profit
-    days_per_year = 350
+    days_per_year = 350 days/year
     
     ## Expences
     # transport expences [CHF/day]*[days]
@@ -38,15 +38,15 @@ mcdp {
    
     ## Emissions
     # specify distances [km]
-    l0 = 84
-    l1 = 121
-    l2 = 68
-    l3 = 143
-    l4 = 96
-    l5 = 42
-    l6 = 184
+    l0 = 84 km
+    l1 = 121 km
+    l2 = 68 km
+    l3 = 143 km
+    l4 = 96 km
+    l5 = 42 km
+    l6 = 184 km
     # emissions truck tranpsort [kg_C02/t*km]
-    m_t = 4
+    m_t = 4 kg_C02/(t*km)
     # emissions per connection per ton [kg_C02/t]
     transport_emissions0 = m_t * l0 * pipe_tranport0 required by graph_dp
     transport_emissions1 = m_t * l1 * pipe_tranport1 required by graph_dp

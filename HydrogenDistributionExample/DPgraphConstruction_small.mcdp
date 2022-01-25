@@ -1,11 +1,11 @@
 # graph construction Design Problem
 dp {
-        # fixed demand for every location [t/day], vector of dim = number of demand locations
+        # fixed demand for every location, vector of dim = number of demand locations
         provides demand0 [t/day]
         provides demand1 [t/day]
         provides demand2 [t/day]
         provides demand3 [t/day]
-        # maximal transportation capacity for every connection [t/day], vecotr of dim = number of connections
+        # maximal transportation capacity for every connection, vecotr of dim = number of connections
         provides max_transport0 [t/day]
         provides max_transport1 [t/day]
         provides max_transport2 [t/day]
@@ -13,11 +13,11 @@ dp {
         provides max_transport4 [t/day]
         provides max_transport5 [t/day]
         provides max_transport6 [t/day]
-        # supply of every location [t/day], vector of dim = number of supply locations
+        # supply of every location, vector of dim = number of supply locations
         provides supply0 [t/day]
         provides supply1 [t/day]
         provides supply2 [t/day]
-        # Pipe transport on connection [boolean], vector of dim = number of connections
+        # Pipe transport on connection, vector of dim = number of connections
         requires pipe_transport0 [boolean]
         requires pipe_transport1 [boolean]
         requires pipe_transport2 [boolean]
@@ -25,7 +25,7 @@ dp {
         requires pipe_transport4 [boolean]
         requires pipe_transport5 [boolean]
         requires pipe_transport6 [boolean]
-        # Truck transport on connection [boolean], vector of dim = number of connections
+        # Truck transport on connection, vector of dim = number of connections
         requires truck_transport0 [boolean]
         requires truck_transport1 [boolean]
         requires truck_transport2 [boolean]
@@ -33,7 +33,7 @@ dp {
         requires truck_transport4 [boolean]
         requires truck_transport5 [boolean]
         requires truck_transport6 [boolean]
-        # investment cost for pipeline construction and supply center construction [CHF]
+        # investment cost for pipeline construction and supply center construction
         requires investment_graph [CHF]       
     
     implemented-by code mcdp_importers.read_yaml(fn="./DPgraphConstruction_small.yaml")

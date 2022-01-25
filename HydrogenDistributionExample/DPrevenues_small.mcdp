@@ -1,14 +1,14 @@
 # revenues Design Problem
 dp {
-        # revenues over entire time horizon [CHF]
+        # revenues over entire time horizon
         provides revenues [CHF]
-        # profit over entire time horizon [CHF]
+        # profit over entire time horizon
         provides profit [CHF]
-        # time horizon [years]
+        # time horizon 
         requires time [years]
-        # H_2 selling price [CHF/kg]
+        # H_2 selling price
         requires price [CHF/kg]
-        # total demand [t/day]
+        # total demand
         requires total_demand [t/day]
        
     implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample/DPrevenues_small.yaml")

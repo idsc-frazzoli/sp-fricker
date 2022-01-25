@@ -1,11 +1,11 @@
 # transportation LP Design Problem
 dp {
-        # fixed demand for every location [t/day], vector of dim = number of demand locations
+        # fixed demand for every location, vector of dim = number of demand locations
         provides demand0 [t/day]
         provides demand1 [t/day]
         provides demand2 [t/day]
         provides demand3 [t/day]
-        # transportation cost for every connection [CHF/t], vector of dim = number of conncections
+        # transportation cost for every connection, vector of dim = number of conncections
         provides transport_cost0 [CHF/t]
         provides transport_cost1 [CHF/t]
         provides transport_cost2 [CHF/t]
@@ -13,9 +13,9 @@ dp {
         provides transport_cost4 [CHF/t]
         provides transport_cost5 [CHF/t]
         provides transport_cost6 [CHF/t]
-        # optimal total transportation cost [CHF/day]
+        # optimal total transportation cost
         requires optimal_total_transport_cost [CHF/day]
-        # optimal transportation quantities for every connection [t/day], vector of dim = number of connections
+        # optimal transportation quantities for every connection, vector of dim = number of connections
         requires optimal_transport0 [t/day]
         requires optimal_transport1 [t/day]
         requires optimal_transport2 [t/day]
@@ -23,7 +23,7 @@ dp {
         requires optimal_transport4 [t/day]
         requires optimal_transport5 [t/day]
         requires optimal_transport6 [t/day]
-        # maximal transportation capacity for every connection [t/day], vecotr of dim = number of connections
+        # maximal transportation capacity for every connection, vecotr of dim = number of connections
         requires max_transport0 [t/day]
         requires max_transport1 [t/day]
         requires max_transport2 [t/day]
@@ -31,7 +31,7 @@ dp {
         requires max_transport4 [t/day]
         requires max_transport5 [t/day]
         requires max_transport6 [t/day]
-        # supply of every location [t/day], vector of dim = number of supply locations
+        # supply of every location, vector of dim = number of supply locations
         requires supply0 [t/day]
         requires supply1 [t/day]
         requires supply2 [t/day]
