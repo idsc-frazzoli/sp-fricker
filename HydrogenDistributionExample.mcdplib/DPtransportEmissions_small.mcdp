@@ -1,13 +1,13 @@
 # transportation emissions Design Problem
 dp {
         # Truck transport on connection, vector of dim = number of connections
-        provides truck_transport0 [boolean]
-        provides truck_transport1 [boolean]
-        provides truck_transport2 [boolean]
-        provides truck_transport3 [boolean]
-        provides truck_transport4 [boolean]
-        provides truck_transport5 [boolean]
-        provides truck_transport6 [boolean]
+        provides truck_transport0 [`boolean]
+        provides truck_transport1 [`boolean]
+        provides truck_transport2 [`boolean]
+        provides truck_transport3 [`boolean]
+        provides truck_transport4 [`boolean]
+        provides truck_transport5 [`boolean]
+        provides truck_transport6 [`boolean]
         # transportation cost for every connection, vector of dim = number of conncections
         requires transport_emissions0 [kg/t]
         requires transport_emissions1 [kg/t]
