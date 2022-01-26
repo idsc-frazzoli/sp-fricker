@@ -49,13 +49,13 @@ mcdp {
     # emissions truck tranpsort [kg_C02/t*km]
     #m_t = 4
     # emissions per connection per ton [kg_C02/t]
-    #transport_emissions0 = m_t * l0 * pipe_tranport0 required by graph_dp
-    #transport_emissions1 = m_t * l1 * pipe_tranport1 required by graph_dp
-    #transport_emissions2 = m_t * l2 * pipe_tranport2 required by graph_dp
-    #transport_emissions3 = m_t * l3 * pipe_tranport3 required by graph_dp
-    #transport_emissions4 = m_t * l4 * pipe_tranport4 required by graph_dp
-    #transport_emissions5 = m_t * l5 * pipe_tranport5 required by graph_dp
-    #transport_emissions6 = m_t * l6 * pipe_tranport6 required by graph_dp
+    #transport_emissions0 = m_t * l0 * pipe_transport0 required by graph_dp
+    #transport_emissions1 = m_t * l1 * pipe_transport1 required by graph_dp
+    #transport_emissions2 = m_t * l2 * pipe_transport2 required by graph_dp
+    #transport_emissions3 = m_t * l3 * pipe_transport3 required by graph_dp
+    #transport_emissions4 = m_t * l4 * pipe_transport4 required by graph_dp
+    #transport_emissions5 = m_t * l5 * pipe_transport5 required by graph_dp
+    #transport_emissions6 = m_t * l6 * pipe_transport6 required by graph_dp
     # emissions per connection [t/day]*[kg_C02/t]
     emissions0 = optimal_transport0 required by transport_lp * transport_emissions0 required by emissions_dp
     emissions1 = optimal_transport1 required by transport_lp * transport_emissions1 required by emissions_dp
@@ -114,22 +114,22 @@ mcdp {
     supply0 required by transport_lp <= supply0 provided by graph_dp
     supply1 required by transport_lp <= supply1 provided by graph_dp
     supply2 required by transport_lp <= supply2 provided by graph_dp
-    # connection is truck tranport from trucks_dp to graph_dp
-    truck_transport0 required by graph_dp <= truck_transport0 provided by truck_dp
-    truck_transport1 required by graph_dp <= truck_transport1 provided by truck_dp
-    truck_transport2 required by graph_dp <= truck_transport2 provided by truck_dp
-    truck_transport3 required by graph_dp <= truck_transport3 provided by truck_dp
-    truck_transport4 required by graph_dp <= truck_transport4 provided by truck_dp
-    truck_transport5 required by graph_dp <= truck_transport5 provided by truck_dp
-    truck_transport6 required by graph_dp <= truck_transport6 provided by truck_dp
-    # connection optimal transport from truck_dp to transport_lp
-    optimal_transport0 required by transport_lp <= optimal_transport0 provided by truck_dp
-    optimal_transport1 required by transport_lp <= optimal_transport1 provided by truck_dp
-    optimal_transport2 required by transport_lp <= optimal_transport2 provided by truck_dp
-    optimal_transport3 required by transport_lp <= optimal_transport3 provided by truck_dp
-    optimal_transport4 required by transport_lp <= optimal_transport4 provided by truck_dp
-    optimal_transport5 required by transport_lp <= optimal_transport5 provided by truck_dp
-    optimal_transport6 required by transport_lp <= optimal_transport6 provided by truck_dp
+    # connection is truck transport from trucks_dp to graph_dp
+    truck_transport0 required by graph_dp <= truck_transport0 provided by trucks_dp
+    truck_transport1 required by graph_dp <= truck_transport1 provided by trucks_dp
+    truck_transport2 required by graph_dp <= truck_transport2 provided by trucks_dp
+    truck_transport3 required by graph_dp <= truck_transport3 provided by trucks_dp
+    truck_transport4 required by graph_dp <= truck_transport4 provided by trucks_dp
+    truck_transport5 required by graph_dp <= truck_transport5 provided by trucks_dp
+    truck_transport6 required by graph_dp <= truck_transport6 provided by trucks_dp
+    # connection optimal transport from trucks_dp to transport_lp
+    optimal_transport0 required by transport_lp <= optimal_transport0 provided by trucks_dp
+    optimal_transport1 required by transport_lp <= optimal_transport1 provided by trucks_dp
+    optimal_transport2 required by transport_lp <= optimal_transport2 provided by trucks_dp
+    optimal_transport3 required by transport_lp <= optimal_transport3 provided by trucks_dp
+    optimal_transport4 required by transport_lp <= optimal_transport4 provided by trucks_dp
+    optimal_transport5 required by transport_lp <= optimal_transport5 provided by trucks_dp
+    optimal_transport6 required by transport_lp <= optimal_transport6 provided by trucks_dp
     # connections total demand to revenues_dp
     demand >= total_demand required by revenues_dp
     # connection revenues to expences
