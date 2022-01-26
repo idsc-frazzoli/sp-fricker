@@ -9,13 +9,13 @@ dp {
         provides truck_transport5 [boolean]
         provides truck_transport6 [boolean]
         # transportation cost for every connection, vector of dim = number of conncections
-        requires transport_emissions0 [kg_C02/t]
-        requires transport_emissions1 [kg_C02/t]
-        requires transport_emissions2 [kg_C02/t]
-        requires transport_emissions3 [kg_C02/t]
-        requires transport_emissions4 [kg_C02/t]
-        requires transport_emissions5 [kg_C02/t]
-        requires transport_emissions6 [kg_C02/t]
+        requires transport_emissions0 [kg/t]
+        requires transport_emissions1 [kg/t]
+        requires transport_emissions2 [kg/t]
+        requires transport_emissions3 [kg/t]
+        requires transport_emissions4 [kg/t]
+        requires transport_emissions5 [kg/t]
+        requires transport_emissions6 [kg/t]
     
     implemented_by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtransportEmissions_small_sh.yaml")
 }
