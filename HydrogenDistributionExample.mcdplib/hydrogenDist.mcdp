@@ -4,6 +4,7 @@ mcdp {
     transport_lp = instance` DPtransportLP_small
     graph_dp = instance` DPgraphConstruction_small
     cost_dp = instance` DPtransprtCost_small
+    emissions_dp = instance` DPtransportEmissions_small
     trucks_dp = instance` DPtruckInvestment_small
     revenues_dp = instance` DPrevenues_small
     
@@ -28,7 +29,7 @@ mcdp {
     demand = demand0 provided by tranport_lp + demand1 provided by tranport_lp + demand2 provided by tranport_lp + demand3 provided by tranport_lp
     # demand >= total_demand required by revenues_dp
     # revenues_dp: demand * price * time - profit
-    days_per_year = 350 days/year
+    days_per_year = 350
     
     ## Expences
     # transport expences [CHF/day]*[days]
@@ -38,31 +39,31 @@ mcdp {
    
     ## Emissions
     # specify distances [km]
-    l0 = 84 km
-    l1 = 121 km
-    l2 = 68 km
-    l3 = 143 km
-    l4 = 96 km
-    l5 = 42 km
-    l6 = 184 km
+    #l0 = 84
+    #l1 = 121
+    #l2 = 68
+    #l3 = 143
+    #l4 = 96
+    #l5 = 42
+    #l6 = 184
     # emissions truck tranpsort [kg_C02/t*km]
-    m_t = 4 kg_C02/(t*km)
+    #m_t = 4
     # emissions per connection per ton [kg_C02/t]
-    transport_emissions0 = m_t * l0 * pipe_tranport0 required by graph_dp
-    transport_emissions1 = m_t * l1 * pipe_tranport1 required by graph_dp
-    transport_emissions2 = m_t * l2 * pipe_tranport2 required by graph_dp
-    transport_emissions3 = m_t * l3 * pipe_tranport3 required by graph_dp
-    transport_emissions4 = m_t * l4 * pipe_tranport4 required by graph_dp
-    transport_emissions5 = m_t * l5 * pipe_tranport5 required by graph_dp
-    transport_emissions6 = m_t * l6 * pipe_tranport6 required by graph_dp
+    #transport_emissions0 = m_t * l0 * pipe_tranport0 required by graph_dp
+    #transport_emissions1 = m_t * l1 * pipe_tranport1 required by graph_dp
+    #transport_emissions2 = m_t * l2 * pipe_tranport2 required by graph_dp
+    #transport_emissions3 = m_t * l3 * pipe_tranport3 required by graph_dp
+    #transport_emissions4 = m_t * l4 * pipe_tranport4 required by graph_dp
+    #transport_emissions5 = m_t * l5 * pipe_tranport5 required by graph_dp
+    #transport_emissions6 = m_t * l6 * pipe_tranport6 required by graph_dp
     # emissions per connection [t/day]*[kg_C02/t]
-    emissions0 = optimal_transport0 required by transport_lp * transport_emissions0 
-    emissions1 = optimal_transport1 required by transport_lp * transport_emissions1 
-    emissions2 = optimal_transport2 required by transport_lp * transport_emissions2 
-    emissions3 = optimal_transport3 required by transport_lp * transport_emissions3 
-    emissions4 = optimal_transport4 required by transport_lp * transport_emissions4 
-    emissions5 = optimal_transport5 required by transport_lp * transport_emissions5 
-    emissions6 = optimal_transport6 required by transport_lp * transport_emissions6 
+    emissions0 = optimal_transport0 required by transport_lp * transport_emissions0 required by emissions_dp
+    emissions1 = optimal_transport1 required by transport_lp * transport_emissions1 required by emissions_dp
+    emissions2 = optimal_transport2 required by transport_lp * transport_emissions2 required by emissions_dp
+    emissions3 = optimal_transport3 required by transport_lp * transport_emissions3 required by emissions_dp
+    emissions4 = optimal_transport4 required by transport_lp * transport_emissions4 required by emissions_dp
+    emissions5 = optimal_transport5 required by transport_lp * transport_emissions5 required by emissions_dp
+    emissions6 = optimal_transport6 required by transport_lp * transport_emissions6 required by emissions_dp
     # emissions per day [kg_C02/day]
     emissions = emissions0 + emissions1 + emissions2 + emissions3 + emissions4 + emissions5 + emissions6
     # total emissions [kg_CO2/day]*[day] = [kg_C02]
@@ -85,6 +86,14 @@ mcdp {
     truck_transport4 required by graph_dp <= truck_transport4 provided by cost_dp
     truck_transport5 required by graph_dp <= truck_transport5 provided by cost_dp
     truck_transport6 required by graph_dp <= truck_transport6 provided by cost_dp
+    # connections truck transport from graph_dp to emissions_dp
+    truck_transport0 required by graph_dp <= truck_transport0 provided by emissions_dp
+    truck_transport1 required by graph_dp <= truck_transport1 provided by emissions_dp
+    truck_transport2 required by graph_dp <= truck_transport2 provided by emissions_dp
+    truck_transport3 required by graph_dp <= truck_transport3 provided by emissions_dp
+    truck_transport4 required by graph_dp <= truck_transport4 provided by emissions_dp
+    truck_transport5 required by graph_dp <= truck_transport5 provided by emissions_dp
+    truck_transport6 required by graph_dp <= truck_transport6 provided by emissions_dp
     # connection transport cost from transport_lp to graph_dp
     transport_cost0 required by cost_dp <= transport_cost0 provided by transport_lp
     transport_cost1 required by cost_dp <= transport_cost1 provided by transport_lp
