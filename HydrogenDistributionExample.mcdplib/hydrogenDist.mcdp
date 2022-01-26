@@ -132,6 +132,7 @@ mcdp {
     optimal_transport6 required by transport_lp <= optimal_transport6 provided by trucks_dp
     # connections total demand to revenues_dp
     demand >= total_demand required by revenues_dp
+    #1.0 t/day >= total_demand required by revenues_dp
     # connection revenues to expences
     total_expences <= revenues provided by revenues_dp
     
