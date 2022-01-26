@@ -26,7 +26,7 @@ mcdp {
     requires total_emissions_mcdp [kg]
     
     ## Revenues [t/day]*[CHF/t]*[day] = [CHF]
-    demand = demand0 provided by transport_lp + demand1 provided by transport_lp + demand2 provided by transport_lp + demand3 provided by transport_lp
+    #demand = demand0 provided by transport_lp + demand1 provided by transport_lp + demand2 provided by transport_lp + demand3 provided by transport_lp
     # demand >= total_demand required by revenues_dp
     # revenues_dp: demand * price * time - profit
     days_per_year = 350 days/year
@@ -131,8 +131,7 @@ mcdp {
     optimal_transport5 required by transport_lp <= optimal_transport5 provided by trucks_dp
     optimal_transport6 required by transport_lp <= optimal_transport6 provided by trucks_dp
     # connections total demand to revenues_dp
-    demand >= total_demand required by revenues_dp
-    #1.0 t/day >= total_demand required by revenues_dp
+    #demand >= total_demand required by revenues_dp
     # connection revenues to expences
     total_expences <= revenues provided by revenues_dp
     

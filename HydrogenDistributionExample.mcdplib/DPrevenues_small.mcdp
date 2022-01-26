@@ -9,8 +9,8 @@ dp {
         # H_2 selling price
         requires price [CHF/kg]
         # total demand
-        requires total_demand [t/day]
+        #requires total_demand [t/day]
        
-    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPrevenues_small_sh.yaml")
-    #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPrevenues_small.yaml")
+    #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPrevenues_small_sh.yaml")
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPrevenues_small.yaml")
 }
