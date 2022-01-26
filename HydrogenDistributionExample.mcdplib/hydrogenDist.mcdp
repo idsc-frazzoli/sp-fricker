@@ -26,7 +26,7 @@ mcdp {
     requires total_emissions_mcdp [kg]
     
     ## Revenues [t/day]*[CHF/t]*[day] = [CHF]
-    demand = demand0 provided by tranport_lp + demand1 provided by tranport_lp + demand2 provided by tranport_lp + demand3 provided by tranport_lp
+    demand = demand0 provided by transport_lp + demand1 provided by transport_lp + demand2 provided by transport_lp + demand3 provided by transport_lp
     # demand >= total_demand required by revenues_dp
     # revenues_dp: demand * price * time - profit
     days_per_year = 350
