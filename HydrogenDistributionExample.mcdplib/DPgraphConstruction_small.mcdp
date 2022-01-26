@@ -18,23 +18,23 @@ dp {
         provides supply1 [t/day]
         provides supply2 [t/day]
         # Pipe transport on connection, vector of dim = number of connections
-        requires pipe_transport0 [boolean]
-        requires pipe_transport1 [boolean]
-        requires pipe_transport2 [boolean]
-        requires pipe_transport3 [boolean]
-        requires pipe_transport4 [boolean]
-        requires pipe_transport5 [boolean]
-        requires pipe_transport6 [boolean]
+        requires pipe_transport0 [`boolean]
+        requires pipe_transport1 [`boolean]
+        requires pipe_transport2 [`boolean]
+        requires pipe_transport3 [`boolean]
+        requires pipe_transport4 [`boolean]
+        requires pipe_transport5 [`boolean]
+        requires pipe_transport6 [`boolean]
         # Truck transport on connection, vector of dim = number of connections
-        requires truck_transport0 [boolean]
-        requires truck_transport1 [boolean]
-        requires truck_transport2 [boolean]
-        requires truck_transport3 [boolean]
-        requires truck_transport4 [boolean]
-        requires truck_transport5 [boolean]
-        requires truck_transport6 [boolean]
+        requires truck_transport0 [`boolean]
+        requires truck_transport1 [`boolean]
+        requires truck_transport2 [`boolean]
+        requires truck_transport3 [`boolean]
+        requires truck_transport4 [`boolean]
+        requires truck_transport5 [`boolean]
+        requires truck_transport6 [`boolean]
         # investment cost for pipeline construction and supply center construction
         requires investment_graph [CHF]       
     
-    implemented-by code mcdp_importers.read_yaml(fn="./DPgraphConstruction_small.yaml")
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPgraphConstruction_small.yaml")
 }

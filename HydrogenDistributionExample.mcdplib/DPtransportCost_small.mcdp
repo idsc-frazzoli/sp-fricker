@@ -25,5 +25,5 @@ dp {
         requires transport_cost5 [CHF/t]
         requires transport_cost6 [CHF/t]
     
-    implemented_by code mcdp_importers.read_yaml(fn="./DPtransportCost_small.yaml")
+    implemented_by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtransportCost_small.yaml")
 }
