@@ -17,5 +17,5 @@ dp {
         requires transport_emissions5 [kg_C02/t]
         requires transport_emissions6 [kg_C02/t]
     
-    implemented_by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtransportEmissions_small.yaml")
+    implemented_by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtransportEmissions_small_sh.yaml")
 }

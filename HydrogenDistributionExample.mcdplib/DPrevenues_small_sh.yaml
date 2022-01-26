@@ -1,0 +1,184 @@
+F:
+- "CHF"
+- "CHF"
+R:
+- "years"
+- "CHF/kg"
+- "t/day"
+implementations:
+  model001:
+    f_max:
+    - "294000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "3 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model002:
+    f_max:
+    - "392000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "4 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model003:
+    f_max:
+    - "490000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "5 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model004:
+    f_max:
+    - "588000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "6 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model005:
+    f_max:
+    - "686000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "7 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model006:
+    f_max:
+    - "784000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "8 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model007:
+    f_max:
+    - "882000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "9 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model008:
+    f_max:
+    - "980000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "10 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model009:
+    f_max:
+    - "1078000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "11 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model010:
+    f_max:
+    - "1176000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "12 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model011:
+    f_max:
+    - "1274000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "13 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model012:
+    f_max:
+    - "1372000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "14 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model013:
+    f_max:
+    - "1470000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "15 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model014:
+    f_max:
+    - "1568000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "16 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model015:
+    f_max:
+    - "1666000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "17 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model016:
+    f_max:
+    - "1764000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "18 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model017:
+    f_max:
+    - "1862000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "19 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model018:
+    f_max:
+    - "1960000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "20 years"
+    - "2.0 CHF/kg"
+    - "140 t/day"
+  model019:
+    f_max:
+    - "330750000 CHF"
+    - "0 CHF"
+    r_min:
+    - "3 years"
+    - "2.25 CHF/kg"
+    - "140 t/day"
+  model020:
+    f_max:
+    - "441000000 CHF"
+    - "0 CHF"
+    r_min:
+    - "4 years"
+    - "2.25 CHF/kg"
+    - "140 t/day"
+  model021:
+    f_max:
+    - "551250000 CHF"
+    - "0 CHF"
+    r_min:
+    - "5 years"
+    - "2.25 CHF/kg"
+    - "140 t/day"
+  model022:
+    f_max:
+    - "661500000 CHF"
+    - "0 CHF"
+    r_min:
+    - "6 years"
+    - "2.25 CHF/kg"
+    - "140 t/day"

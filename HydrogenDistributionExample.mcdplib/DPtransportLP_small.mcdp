@@ -36,5 +36,5 @@ dp {
         requires supply1 [t/day]
         requires supply2 [t/day]
     
-    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtransportLP_small.yaml")
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtransportLP_small_sh.yaml")
 }

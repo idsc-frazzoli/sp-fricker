@@ -3,7 +3,7 @@ mcdp {
     # import DPs
     transport_lp = instance` DPtransportLP_small
     graph_dp = instance` DPgraphConstruction_small
-    cost_dp = instance` DPtransprtCost_small
+    cost_dp = instance` DPtransportCost_small
     emissions_dp = instance` DPtransportEmissions_small
     trucks_dp = instance` DPtruckInvestment_small
     revenues_dp = instance` DPrevenues_small
@@ -23,7 +23,7 @@ mcdp {
     # hydrogen selling price
     requires price_mcdp [CHF/t]
     # total C02 emissions from transport
-    requires total_emissions_mcdp [kg_C02]
+    requires total_emissions_mcdp [kg]
     
     ## Revenues [t/day]*[CHF/t]*[day] = [CHF]
     demand = demand0 provided by tranport_lp + demand1 provided by tranport_lp + demand2 provided by tranport_lp + demand3 provided by tranport_lp
