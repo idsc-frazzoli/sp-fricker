@@ -1,0 +1,12 @@
+# truck investement cost Design Problem
+dp {
+        # optimal transportation quantities for every connection [t/day], vector of dim = number of connections
+        provides optimal_transport [`x_pos]
+        # Truck transport on connection [boolean], vector of dim = number of connections
+        provides truck_transport [`t_pos]
+       
+        # investment cost for total amount of trucks needed
+        requires investment_trucks [CHF]
+    
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPtruckInvestment_small.yaml")
+}

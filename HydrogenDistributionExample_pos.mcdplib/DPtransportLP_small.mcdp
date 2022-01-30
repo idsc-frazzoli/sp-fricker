@@ -1,0 +1,18 @@
+# transportation LP Design Problem
+dp {
+        # fixed demand for every location [t/day], vector of dim = number of demand locations
+        provides demand [`d_pos]
+        # transportation cost for every connection [CHF/t], vector of dim = number of conncections
+        provides transport_cost [`c_pos]
+    
+        # optimal total transportation cost
+        requires optimal_total_transport_cost [CHF/day]
+        # optimal transportation quantities for every connection [t/day], vector of dim = number of connections
+        requires optimal_transport [`x_pos]
+        # maximal transportation capacity for every connection [t/day], vecotr of dim = number of connections
+        requires max_transport [`x_max_pos]
+        # supply of every location [t/day], vector of dim = number of supply locations
+        requires supply [`s_pos]
+    
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPtransportLP_small.yaml")
+}

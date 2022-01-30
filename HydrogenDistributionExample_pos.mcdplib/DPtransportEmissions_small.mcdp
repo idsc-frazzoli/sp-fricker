@@ -1,0 +1,12 @@
+# transportation emissions Design Problem
+dp {
+        # Truck transport on connection [boolean], vector of dim = number of connections
+        provides truck_transport [`t_pos]
+        # optimal transportation quantities for every connection [t/day], vector of dim = number of connections
+        provides optimal_transport [`x_pos]
+    
+        # total transportation emissions 
+        requires transport_emissions [kg/day]
+    
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPtransportEmissions_small.yaml")
+}
