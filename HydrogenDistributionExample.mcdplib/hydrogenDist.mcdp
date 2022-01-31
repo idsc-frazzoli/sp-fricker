@@ -38,36 +38,8 @@ mcdp {
     total_expences = total_transport_expences + investment_graph required by graph_dp + investment_trucks required by trucks_dp
    
     ## Emissions
-    # specify distances [km]
-    #l0 = 84
-    #l1 = 121
-    #l2 = 68
-    #l3 = 143
-    #l4 = 96
-    #l5 = 42
-    #l6 = 184
-    # emissions truck tranpsort [kg_C02/t*km]
-    #m_t = 4
-    # emissions per connection per ton [kg_C02/t]
-    #transport_emissions0 = m_t * l0 * pipe_transport0 required by graph_dp
-    #transport_emissions1 = m_t * l1 * pipe_transport1 required by graph_dp
-    #transport_emissions2 = m_t * l2 * pipe_transport2 required by graph_dp
-    #transport_emissions3 = m_t * l3 * pipe_transport3 required by graph_dp
-    #transport_emissions4 = m_t * l4 * pipe_transport4 required by graph_dp
-    #transport_emissions5 = m_t * l5 * pipe_transport5 required by graph_dp
-    #transport_emissions6 = m_t * l6 * pipe_transport6 required by graph_dp
-    # emissions per connection [t/day]*[kg_C02/t]
-    emissions0 = optimal_transport0 required by transport_lp * transport_emissions0 required by emissions_dp
-    emissions1 = optimal_transport1 required by transport_lp * transport_emissions1 required by emissions_dp
-    emissions2 = optimal_transport2 required by transport_lp * transport_emissions2 required by emissions_dp
-    emissions3 = optimal_transport3 required by transport_lp * transport_emissions3 required by emissions_dp
-    emissions4 = optimal_transport4 required by transport_lp * transport_emissions4 required by emissions_dp
-    emissions5 = optimal_transport5 required by transport_lp * transport_emissions5 required by emissions_dp
-    emissions6 = optimal_transport6 required by transport_lp * transport_emissions6 required by emissions_dp
-    # emissions per day [kg_C02/day]
-    emissions = emissions0 + emissions1 + emissions2 + emissions3 + emissions4 + emissions5 + emissions6
-    # total emissions [kg_CO2/day]*[days] = [kg_C02]
-    total_emissions = emissions * time required by revenues_dp * days_per_year
+    # total emissions [kg_CO2/day]*[day] = [kg_C02]
+    total_emissions = transport_emissions required by emissions_dp * time required by revenues_dp * days_per_year
     
     ## Co-Design Contraints
     # connections pipe transport from graph_dp to cost_dp

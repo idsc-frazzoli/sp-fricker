@@ -16,6 +16,7 @@ dp {
         provides truck_transport4 [`boolean]
         provides truck_transport5 [`boolean]
         provides truck_transport6 [`boolean]
+        
         # transportation cost for every connection, vector of dim = number of conncections
         requires transport_cost0 [CHF/t]
         requires transport_cost1 [CHF/t]

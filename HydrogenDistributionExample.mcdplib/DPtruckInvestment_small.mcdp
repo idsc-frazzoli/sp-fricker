@@ -16,6 +16,7 @@ dp {
         provides truck_transport4 [`boolean]
         provides truck_transport5 [`boolean]
         provides truck_transport6 [`boolean]
+        
         # investment cost for total amount of trucks needed
         requires investment_trucks [CHF]
     
