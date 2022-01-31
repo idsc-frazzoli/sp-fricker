@@ -102,6 +102,15 @@ mcdp {
     optimal_transport4 required by transport_lp <= optimal_transport4 provided by trucks_dp
     optimal_transport5 required by transport_lp <= optimal_transport5 provided by trucks_dp
     optimal_transport6 required by transport_lp <= optimal_transport6 provided by trucks_dp
+    # connection optimal transport from emissions_dp to transport_lp
+    optimal_transport0 required by transport_lp <= optimal_transport0 provided by emissions_dp
+    optimal_transport1 required by transport_lp <= optimal_transport1 provided by emissions_dp
+    optimal_transport2 required by transport_lp <= optimal_transport2 provided by emissions_dp
+    optimal_transport3 required by transport_lp <= optimal_transport3 provided by emissions_dp
+    optimal_transport4 required by transport_lp <= optimal_transport4 provided by emissions_dp
+    optimal_transport5 required by transport_lp <= optimal_transport5 provided by emissions_dp
+    optimal_transport6 required by transport_lp <= optimal_transport6 provided by emissions_dp
+    
     # connections total demand to revenues_dp
     #demand >= total_demand required by revenues_dp
     # connection revenues to expences

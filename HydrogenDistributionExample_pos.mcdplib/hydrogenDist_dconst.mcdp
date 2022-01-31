@@ -10,7 +10,7 @@ mcdp {
     
     ## Functionality
     # demand
-    provides demand_mcdp [`d_pos]
+    provides demand_mcdp [`dpos]
     # profit over entire time horizon
     provides profit_mcdp [CHF]
     
@@ -21,7 +21,6 @@ mcdp {
     requires price_mcdp [CHF/t]
     # total C02 emissions from transport
     requires total_emissions_mcdp [kg]
-    # add investment costs?
     
     ## Revenues [t/day]*[CHF/t]*[day] = [CHF]
     #demand = demand0 provided by transport_lp + demand1 provided by transport_lp + demand2 provided by transport_lp + demand3 provided by transport_lp
@@ -33,7 +32,7 @@ mcdp {
     # transport expences [CHF/day]*[days]
     total_transport_expences = optimal_total_transport_cost required by transport_lp * time required by revenues_dp * days_per_year
     # total expences, including investement
-    total_expences = total_transport_expences + investment_graph required by graph_dp + investment_trucks required by trucks_dp #+ investment_fees required by trucks_dp
+    total_expences = total_transport_expences + investment_graph required by graph_dp + investment_trucks required by trucks_dp 
    
     ## Emissions
     # total emissions [kg_CO2/day]*[day] = [kg_C02]

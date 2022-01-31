@@ -1,6 +1,6 @@
 F:
-- "`x_pos"
-- "`t_pos"
+- "`xpos"
+- "`tpos"
 R:
 - "CHF"
 implementations:
