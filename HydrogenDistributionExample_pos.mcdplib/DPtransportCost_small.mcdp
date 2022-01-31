@@ -1,0 +1,12 @@
+# transportation cost Design Problem
+dp {
+        # Pipe transport on connection [boolean], vector of dim = number of connections
+        provides pipe_transport [`t_pos]
+        # Truck transport on connection [boolean], vector of dim = number of connections
+        provides truck_transport [`t_pos]
+        
+        # transportation cost for every connection [CHF/t], vector of dim = number of conncections
+        requires transport_cost [`c_pos]
+    
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPtransportCost_small.yaml")
+}

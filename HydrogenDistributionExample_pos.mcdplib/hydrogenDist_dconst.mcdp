@@ -1,0 +1,80 @@
+# high level Co-Design Problem
+mcdp {
+    # import DPs
+    transport_lp = instance` DPtransportLP_small
+    graph_dp = instance` DPgraphConstruction_small
+    cost_dp = instance` DPtransportCost_small
+    emissions_dp = instance` DPtransportEmissions_small
+    trucks_dp = instance` DPtruckInvestment_small
+    revenues_dp = instance` DPrevenues_small
+    
+    ## Functionality
+    # demand
+    provides demand_mcdp [`d_pos]
+    # profit over entire time horizon
+    provides profit_mcdp [CHF]
+    
+    ## Requirements
+    # time horizon
+    requires time_mcdp [years]
+    # hydrogen selling price
+    requires price_mcdp [CHF/t]
+    # total C02 emissions from transport
+    requires total_emissions_mcdp [kg]
+    # add investment costs?
+    
+    ## Revenues [t/day]*[CHF/t]*[day] = [CHF]
+    #demand = demand0 provided by transport_lp + demand1 provided by transport_lp + demand2 provided by transport_lp + demand3 provided by transport_lp
+    # demand >= total_demand required by revenues_dp
+    # revenues_dp: demand * price * time - profit
+    days_per_year = 350
+    
+    ## Expences
+    # transport expences [CHF/day]*[days]
+    total_transport_expences = optimal_total_transport_cost required by transport_lp * time required by revenues_dp * days_per_year
+    # total expences, including investement
+    total_expences = total_transport_expences + investment_graph required by graph_dp + investment_trucks required by trucks_dp #+ investment_fees required by trucks_dp
+   
+    ## Emissions
+    # total emissions [kg_CO2/day]*[day] = [kg_C02]
+    total_emissions = transport_emissions required by emissions_dp * time required by revenues_dp * days_per_year
+    
+    ## Co-Design Contraints
+    # connections pipe transport from graph_dp to cost_dp
+    pipe_transport required by graph_dp <= pipe_transport provided by cost_dp
+    # connections truck transport from graph_dp to cost_dp
+    truck_transport required by graph_dp <= truck_transport provided by cost_dp
+    # connections truck transport from graph_dp to emissions_dp
+    truck_transport required by graph_dp <= truck_transport provided by emissions_dp
+    # connection transport cost from transport_lp to graph_dp
+    transport_cost required by cost_dp <= transport_cost provided by transport_lp
+    # connections max transport from graph_dp to transport_lp
+    max_transport required by transport_lp <= max_transport provided by graph_dp
+    # connection supply from graph_dp to transport_lp
+    supply required by transport_lp <= supply provided by graph_dp
+    # connection is truck transport from trucks_dp to graph_dp
+    truck_transport required by graph_dp <= truck_transport provided by trucks_dp
+    # connection optimal transport from trucks_dp to transport_lp
+    optimal_transport required by transport_lp <= optimal_transport provided by trucks_dp
+    # connection optimal transport from emissions_dp to transport_lp
+    optimal_transport required by transport_lp <= optimal_transport provided by emissions_dp
+
+    # connections total demand to revenues_dp
+    #demand >= total_demand required by revenues_dp
+    # connection revenues to expences
+    total_expences <= revenues provided by revenues_dp
+    
+    ## Constraints on ressources and functionalities
+    # emissions
+    required total_emissions_mcdp >= total_emissions 
+    # time
+    required time_mcdp >= time required by revenues_dp
+    # price
+    required price_mcdp >= price required by revenues_dp
+    # demand - tranpsortLP
+    provided demand_mcdp <= demand provided by transport_lp
+    # demand - graphDP
+    provided demand_mcdp <= demand provided by graph_dp
+    # profit
+    provided profit_mcdp <= profit provided by revenues_dp
+}

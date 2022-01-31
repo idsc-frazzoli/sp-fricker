@@ -1,0 +1,18 @@
+# graph construction Design Problem
+dp {
+        # fixed demand for every location [t/day], vector of dim = number of demand locations
+        provides demand [`d_pos]
+        # maximal transportation capacity for every connection [t/day], vecotr of dim = number of connections
+        provides max_transport [`x_max_pos]
+        # supply of every location [t/day], vector of dim = number of supply locations
+        provides supply [`s_pos]
+       
+        # Pipe transport on connection [boolean], vector of dim = number of connections
+        requires pipe_transport [`t_pos]
+        # Truck transport on connection [boolean], vector of dim = number of connections
+        requires truck_transport [`t_pos]
+        # investment cost for pipeline construction and supply center construction
+        requires investment_graph [CHF]       
+    
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPgraphConstruction_small.yaml")
+}
