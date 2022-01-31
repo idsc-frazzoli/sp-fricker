@@ -4,6 +4,7 @@ dp {
         provides revenues [CHF]
         # profit over entire time horizon
         provides profit [CHF]
+        
         # time horizon 
         requires time [years]
         # H_2 selling price

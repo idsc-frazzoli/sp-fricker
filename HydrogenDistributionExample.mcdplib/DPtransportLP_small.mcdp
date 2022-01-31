@@ -13,6 +13,7 @@ dp {
         provides transport_cost4 [CHF/t]
         provides transport_cost5 [CHF/t]
         provides transport_cost6 [CHF/t]
+        
         # optimal total transportation cost
         requires optimal_total_transport_cost [CHF/day]
         # optimal transportation quantities for every connection, vector of dim = number of connections
