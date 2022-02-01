@@ -1,0 +1,4 @@
+docker pull registry-stage.duckietown.org/andreacensi/mcdp:z6-py38
+alias docker-mcdp-solve='docker run --rm -v ${PWD}:${PWD} -w ${PWD} registry-stage.duckietown.org/andreacensi/mcdp:z6-py38 mcdp-solve'
+docker-mcdp-solve -d HydrogenDistributionExample.mcdplib hydrogenDist_dconst '<55 t/day, 30 t/day, 15 t/day, 40 t/day, 0 CHF>'
+docker-mcdp-solve -d HydrogenDistributionExample_pos.mcdplib hydrogenDist_dconst '<`dpos: d55301540, 0 CHF>'

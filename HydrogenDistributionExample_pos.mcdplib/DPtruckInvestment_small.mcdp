@@ -10,5 +10,6 @@ dp {
         # fees for road usage (proportional to distance)
         #requires investment_fees [CHF]
     
-    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPtruckInvestment_small.yaml")
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPtruckInvestment_small_sh.yaml")
+    #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPtruckInvestment_small.yaml")
 }
