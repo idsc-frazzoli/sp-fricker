@@ -1,0 +1,510 @@
+F:
+- "`tpos"
+- "`xpos"
+R:
+- "kg/day"
+implementations:
+  emission0001:
+    f_max:
+    - "`tpos: t1100010"
+    - "`xpos: x200150035035030050"
+    r_min:
+    - "19020 kg/day"
+  emission0002:
+    f_max:
+    - "`tpos: t1110100"
+    - "`xpos: x200150300503500350"
+    r_min:
+    - "35580 kg/day"
+  emission0003:
+    f_max:
+    - "`tpos: t1101000"
+    - "`xpos: x200150300503500350"
+    r_min:
+    - "16820 kg/day"
+  emission0004:
+    f_max:
+    - "`tpos: t1100001"
+    - "`xpos: x200150300503500350"
+    r_min:
+    - "39740 kg/day"
+  emission0005:
+    f_max:
+    - "`tpos: t1011000"
+    - "`xpos: x200150300503500350"
+    r_min:
+    - "17720 kg/day"
+  emission0006:
+    f_max:
+    - "`tpos: t1010001"
+    - "`xpos: x200150300503500350"
+    r_min:
+    - "40640 kg/day"
+  emission0008:
+    f_max:
+    - "`tpos: t0101110"
+    - "`xpos: x200150035035030050"
+    r_min:
+    - "45620 kg/day"
+  emission0009:
+    f_max:
+    - "`tpos: t0100101"
+    - "`xpos: x200150035035030050"
+    r_min:
+    - "24380 kg/day"
+  emission0011:
+    f_max:
+    - "`tpos: t0101011"
+    - "`xpos: x200150035035030050"
+    r_min:
+    - "35860 kg/day"
+  emission0012:
+    f_max:
+    - "`tpos: t0001001"
+    - "`xpos: x200150035035030050"
+    r_min:
+    - "23560 kg/day"
+  emission0014:
+    f_max:
+    - "`tpos: t0001101"
+    - "`xpos: x200150300503500350"
+    r_min:
+    - "42040 kg/day"
+  emission0018:
+    f_max:
+    - "`tpos: t1100100"
+    - "`xpos: x20015030040035000"
+    r_min:
+    - "27420 kg/day"
+  emission0020:
+    f_max:
+    - "`tpos: t1010100"
+    - "`xpos: x20015030040035000"
+    r_min:
+    - "28320 kg/day"
+  emission0025:
+    f_max:
+    - "`tpos: t0101000"
+    - "`xpos: x20015030040035000"
+    r_min:
+    - "29980 kg/day"
+  emission0026:
+    f_max:
+    - "`tpos: t0100100"
+    - "`xpos: x20015030040035000"
+    r_min:
+    - "20700 kg/day"
+  emission0027:
+    f_max:
+    - "`tpos: t0011000"
+    - "`xpos: x20015030040035000"
+    r_min:
+    - "30880 kg/day"
+  emission0028:
+    f_max:
+    - "`tpos: t0010100"
+    - "`xpos: x20015030040035000"
+    r_min:
+    - "21600 kg/day"
+  emission0029:
+    f_max:
+    - "`tpos: t0001000"
+    - "`xpos: x20015030040035000"
+    r_min:
+    - "22720 kg/day"
+  emission0031:
+    f_max:
+    - "`tpos: t0111100"
+    - "`xpos: x01503002505500150"
+    r_min:
+    - "50740 kg/day"
+  emission0033:
+    f_max:
+    - "`tpos: t0101100"
+    - "`xpos: x015030040055000"
+    r_min:
+    - "51100 kg/day"
+  emission0034:
+    f_max:
+    - "`tpos: t0100100"
+    - "`xpos: x01503002695500131"
+    r_min:
+    - "28380 kg/day"
+  emission0035:
+    f_max:
+    - "`tpos: t0011100"
+    - "`xpos: x015030040055000"
+    r_min:
+    - "52000 kg/day"
+  emission0036:
+    f_max:
+    - "`tpos: t0010100"
+    - "`xpos: x01503002735500127"
+    r_min:
+    - "29280 kg/day"
+  emission0039:
+    f_max:
+    - "`tpos: t1100110"
+    - "`xpos: x20015004003503000"
+    r_min:
+    - "32460 kg/day"
+  emission0043:
+    f_max:
+    - "`tpos: t1100100"
+    - "`xpos: x2001503002243500176"
+    r_min:
+    - "27420 kg/day"
+  emission0044:
+    f_max:
+    - "`tpos: t1001010"
+    - "`xpos: x15015004004003000"
+    r_min:
+    - "32800 kg/day"
+  emission0045:
+    f_max:
+    - "`tpos: t1000010"
+    - "`xpos: x15015004004003000"
+    r_min:
+    - "10080 kg/day"
+  emission0047:
+    f_max:
+    - "`tpos: t1010100"
+    - "`xpos: x2001503001913500209"
+    r_min:
+    - "28320 kg/day"
+  emission0048:
+    f_max:
+    - "`tpos: t1001000"
+    - "`xpos: x200150300503500350"
+    r_min:
+    - "9560 kg/day"
+  emission0050:
+    f_max:
+    - "`tpos: t0111000"
+    - "`xpos: x200150300503500350"
+    r_min:
+    - "18260 kg/day"
+  emission0053:
+    f_max:
+    - "`tpos: t0001110"
+    - "`xpos: x200150035035030050"
+    r_min:
+    - "38360 kg/day"
+  emission0057:
+    f_max:
+    - "`tpos: t0000100"
+    - "`xpos: x2001501494003501510"
+    r_min:
+    - "13440 kg/day"
+  emission0058:
+    f_max:
+    - "`tpos: t1100010"
+    - "`xpos: x550150000300400"
+    r_min:
+    - "30780 kg/day"
+  emission0062:
+    f_max:
+    - "`tpos: t1100001"
+    - "`xpos: x550150000300400"
+    r_min:
+    - "55180 kg/day"
+  emission0063:
+    f_max:
+    - "`tpos: t1000011"
+    - "`xpos: x550150000300400"
+    r_min:
+    - "52960 kg/day"
+  emission0069:
+    f_max:
+    - "`tpos: t0100011"
+    - "`xpos: x550150000300400"
+    r_min:
+    - "41740 kg/day"
+  emission0073:
+    f_max:
+    - "`tpos: t0100010"
+    - "`xpos: x550150000300400"
+    r_min:
+    - "12300 kg/day"
+  emission0077:
+    f_max:
+    - "`tpos: t0000001"
+    - "`xpos: x550150000300400"
+    r_min:
+    - "29440 kg/day"
+  emission0078:
+    f_max:
+    - "`tpos: t1101001"
+    - "`xpos: x5501500350030050"
+    r_min:
+    - "49300 kg/day"
+  emission0079:
+    f_max:
+    - "`tpos: t1111000"
+    - "`xpos: x5501503005000350"
+    r_min:
+    - "36740 kg/day"
+  emission0083:
+    f_max:
+    - "`tpos: t1001001"
+    - "`xpos: x5501500350030050"
+    r_min:
+    - "42040 kg/day"
+  emission0087:
+    f_max:
+    - "`tpos: t0100010"
+    - "`xpos: x5501500350030050"
+    r_min:
+    - "12300 kg/day"
+  emission0089:
+    f_max:
+    - "`tpos: t0101000"
+    - "`xpos: x5501503005000350"
+    r_min:
+    - "10100 kg/day"
+  emission0090:
+    f_max:
+    - "`tpos: t0100001"
+    - "`xpos: x5501503005000350"
+    r_min:
+    - "33020 kg/day"
+  emission0091:
+    f_max:
+    - "`tpos: t0000010"
+    - "`xpos: x5501500350030050"
+    r_min:
+    - "5040 kg/day"
+  emission0092:
+    f_max:
+    - "`tpos: t0011000"
+    - "`xpos: x5501503005000350"
+    r_min:
+    - "11000 kg/day"
+  emission0093:
+    f_max:
+    - "`tpos: t0010001"
+    - "`xpos: x5501503005000350"
+    r_min:
+    - "33920 kg/day"
+  emission0095:
+    f_max:
+    - "`tpos: t0000001"
+    - "`xpos: x5501500350030050"
+    r_min:
+    - "3680 kg/day"
+  emission0098:
+    f_max:
+    - "`tpos: t1110001"
+    - "`xpos: x25015030003000400"
+    r_min:
+    - "53260 kg/day"
+  emission0100:
+    f_max:
+    - "`tpos: t1100001"
+    - "`xpos: x55015015500145400"
+    r_min:
+    - "55180 kg/day"
+  emission0103:
+    f_max:
+    - "`tpos: t1000010"
+    - "`xpos: x55015001860300214"
+    r_min:
+    - "23520 kg/day"
+  emission0107:
+    f_max:
+    - "`tpos: t1000001"
+    - "`xpos: x25015030003000400"
+    r_min:
+    - "37840 kg/day"
+  emission0109:
+    f_max:
+    - "`tpos: t1000001"
+    - "`xpos: x5501500350030050"
+    r_min:
+    - "22160 kg/day"
+  emission0113:
+    f_max:
+    - "`tpos: t0110001"
+    - "`xpos: x32515030002250400"
+    r_min:
+    - "44860 kg/day"
+  emission0116:
+    f_max:
+    - "`tpos: t0100001"
+    - "`xpos: x550150300000400"
+    r_min:
+    - "36700 kg/day"
+  emission0118:
+    f_max:
+    - "`tpos: t0101011"
+    - "`xpos: x379150035017130050"
+    r_min:
+    - "35860 kg/day"
+  emission0119:
+    f_max:
+    - "`tpos: t0000011"
+    - "`xpos: x550150000300400"
+    r_min:
+    - "34480 kg/day"
+  emission0120:
+    f_max:
+    - "`tpos: t0001001"
+    - "`xpos: x283150035026730050"
+    r_min:
+    - "23560 kg/day"
+  emission0121:
+    f_max:
+    - "`tpos: t0010001"
+    - "`xpos: x550150300000400"
+    r_min:
+    - "37600 kg/day"
+  emission0129:
+    f_max:
+    - "`tpos: t1101000"
+    - "`xpos: x550150300400000"
+    r_min:
+    - "48460 kg/day"
+  emission0132:
+    f_max:
+    - "`tpos: t1011000"
+    - "`xpos: x550150300400000"
+    r_min:
+    - "49360 kg/day"
+  emission0141:
+    f_max:
+    - "`tpos: t0101000"
+    - "`xpos: x550150300400000"
+    r_min:
+    - "29980 kg/day"
+  emission0143:
+    f_max:
+    - "`tpos: t0011000"
+    - "`xpos: x550150300400000"
+    r_min:
+    - "30880 kg/day"
+  emission0145:
+    f_max:
+    - "`tpos: t0001000"
+    - "`xpos: x550150300400000"
+    r_min:
+    - "22720 kg/day"
+  emission0153:
+    f_max:
+    - "`tpos: t1101000"
+    - "`xpos: x20015030040035000"
+    r_min:
+    - "36700 kg/day"
+  emission0155:
+    f_max:
+    - "`tpos: t1001010"
+    - "`xpos: x5001500400503000"
+    r_min:
+    - "44560 kg/day"
+  emission0156:
+    f_max:
+    - "`tpos: t1000010"
+    - "`xpos: x5001500400503000"
+    r_min:
+    - "21840 kg/day"
+  emission0157:
+    f_max:
+    - "`tpos: t1011000"
+    - "`xpos: x20015030040035000"
+    r_min:
+    - "37600 kg/day"
+  emission0159:
+    f_max:
+    - "`tpos: t1001000"
+    - "`xpos: x55015014040001600"
+    r_min:
+    - "41200 kg/day"
+  emission0160:
+    f_max:
+    - "`tpos: t1001000"
+    - "`xpos: x5501503005000350"
+    r_min:
+    - "21320 kg/day"
+  emission0162:
+    f_max:
+    - "`tpos: t0101010"
+    - "`xpos: x550150040003000"
+    r_min:
+    - "35020 kg/day"
+  emission0163:
+    f_max:
+    - "`tpos: t0100010"
+    - "`xpos: x5501500363030037"
+    r_min:
+    - "12300 kg/day"
+  emission0165:
+    f_max:
+    - "`tpos: t0111000"
+    - "`xpos: x5501503005000350"
+    r_min:
+    - "18260 kg/day"
+  emission0173:
+    f_max:
+    - "`tpos: t0001000"
+    - "`xpos: x5501503005000350"
+    r_min:
+    - "2840 kg/day"
+  emission0177:
+    f_max:
+    - "`tpos: t0110100"
+    - "`xpos: x01501504005501500"
+    r_min:
+    - "32460 kg/day"
+  emission0180:
+    f_max:
+    - "`tpos: t0001100"
+    - "`xpos: x01503002505500150"
+    r_min:
+    - "35320 kg/day"
+  emission0182:
+    f_max:
+    - "`tpos: t1101010"
+    - "`xpos: x550150040003000"
+    r_min:
+    - "53500 kg/day"
+  emission0183:
+    f_max:
+    - "`tpos: t1100010"
+    - "`xpos: x55015002340300166"
+    r_min:
+    - "30780 kg/day"
+  emission0188:
+    f_max:
+    - "`tpos: t1100001"
+    - "`xpos: x25015030003000400"
+    r_min:
+    - "45100 kg/day"
+  emission0194:
+    f_max:
+    - "`tpos: t1010001"
+    - "`xpos: x25015030003000400"
+    r_min:
+    - "46000 kg/day"
+  emission0197:
+    f_max:
+    - "`tpos: t1000001"
+    - "`xpos: x550150300000400"
+    r_min:
+    - "47920 kg/day"
+  emission0203:
+    f_max:
+    - "`tpos: t0110001"
+    - "`xpos: x550150300000400"
+    r_min:
+    - "44860 kg/day"
+  emission0217:
+    f_max:
+    - "`tpos: t0000001"
+    - "`xpos: x425150285012515400"
+    r_min:
+    - "29440 kg/day"
+  emission0218:
+    f_max:
+    - "`tpos: t0001000"
+    - "`xpos: x22715030040032300"
+    r_min:
+    - "22720 kg/day"

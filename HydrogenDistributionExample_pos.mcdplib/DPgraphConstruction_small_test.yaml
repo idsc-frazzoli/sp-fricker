@@ -1,0 +1,1980 @@
+F:
+- "`dpos"
+- "`xmaxpos"
+- "`spos"
+R:
+- "`tpos"
+- "`tpos"
+- "CHF"
+implementations:
+  graph0001:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t0001101"
+    - "`tpos: t1100010"
+    - "427000000 CHF"
+  graph0002:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t0001001"
+    - "`tpos: t1110100"
+    - "380200000 CHF"
+  graph0003:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t0010111"
+    - "`tpos: t1101000"
+    - "407200000 CHF"
+  graph0004:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t0011100"
+    - "`tpos: t1100001"
+    - "364600000 CHF"
+  graph0005:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t0100111"
+    - "`tpos: t1011000"
+    - "433000000 CHF"
+  graph0006:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t0101100"
+    - "`tpos: t1010001"
+    - "390400000 CHF"
+  graph0007:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t0110001"
+    - "`tpos: t1001110"
+    - "398200000 CHF"
+  graph0008:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t1000001"
+    - "`tpos: t0101110"
+    - "349000000 CHF"
+  graph0009:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t1001010"
+    - "`tpos: t0100101"
+    - "342400000 CHF"
+  graph0010:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t1000001"
+    - "`tpos: t0111110"
+    - "349000000 CHF"
+  graph0011:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t1010100"
+    - "`tpos: t0101011"
+    - "333400000 CHF"
+  graph0012:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t1100110"
+    - "`tpos: t0001001"
+    - "377200000 CHF"
+  graph0013:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t1100100"
+    - "`tpos: t0011011"
+    - "359200000 CHF"
+  graph0014:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t1110000"
+    - "`tpos: t0001101"
+    - "342400000 CHF"
+  graph0015:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+    r_min:
+    - "`tpos: t1111101"
+    - "`tpos: t0000010"
+    - "549400000 CHF"
+  graph0016:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t0000001"
+    - "`tpos: t1111110"
+    - "312400000 CHF"
+  graph0017:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t0010100"
+    - "`tpos: t1101011"
+    - "296800000 CHF"
+  graph0018:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t0011010"
+    - "`tpos: t1100100"
+    - "335800000 CHF"
+  graph0019:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t0100100"
+    - "`tpos: t1011011"
+    - "322600000 CHF"
+  graph0020:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t0101010"
+    - "`tpos: t1010100"
+    - "361600000 CHF"
+  graph0021:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t0110000"
+    - "`tpos: t1001101"
+    - "305800000 CHF"
+  graph0022:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t0111101"
+    - "`tpos: t1000010"
+    - "512800000 CHF"
+  graph0023:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t1000000"
+    - "`tpos: t0111101"
+    - "256600000 CHF"
+  graph0024:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t1001101"
+    - "`tpos: t0110010"
+    - "463600000 CHF"
+  graph0025:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t1010100"
+    - "`tpos: t0101000"
+    - "333400000 CHF"
+  graph0026:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t1011001"
+    - "`tpos: t0100100"
+    - "446800000 CHF"
+  graph0027:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t1100100"
+    - "`tpos: t0011000"
+    - "359200000 CHF"
+  graph0028:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t1101001"
+    - "`tpos: t0010100"
+    - "472600000 CHF"
+  graph0029:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t1110111"
+    - "`tpos: t0001000"
+    - "499600000 CHF"
+  graph0030:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357035"
+    r_min:
+    - "`tpos: t1111100"
+    - "`tpos: t0000001"
+    - "457000000 CHF"
+  graph0031:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax0808080808080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0000011"
+    - "`tpos: t0111100"
+    - "370400000 CHF"
+  graph0032:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax080808080080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0001100"
+    - "`tpos: t0110001"
+    - "374600000 CHF"
+  graph0033:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax08080808000"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0010000"
+    - "`tpos: t0101100"
+    - "290000000 CHF"
+  graph0034:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax080808080080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0011001"
+    - "`tpos: t0100100"
+    - "450200000 CHF"
+  graph0035:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax08080808000"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0100000"
+    - "`tpos: t0011100"
+    - "315800000 CHF"
+  graph0036:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax080808080080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0101001"
+    - "`tpos: t0010100"
+    - "476000000 CHF"
+  graph0037:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax080808080800"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0110100"
+    - "`tpos: t0001010"
+    - "392600000 CHF"
+  graph0038:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax0808080808080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0111101"
+    - "`tpos: t0000010"
+    - "552800000 CHF"
+  graph0039:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008080800"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0001000"
+    - "`tpos: t1100110"
+    - "327800000 CHF"
+  graph0040:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0000000"
+    - "`tpos: t1111101"
+    - "260000000 CHF"
+  graph0041:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0001101"
+    - "`tpos: t1110010"
+    - "467000000 CHF"
+  graph0042:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0010100"
+    - "`tpos: t1101000"
+    - "336800000 CHF"
+  graph0043:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0011001"
+    - "`tpos: t1100100"
+    - "450200000 CHF"
+  graph0044:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008080800"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0100100"
+    - "`tpos: t1001010"
+    - "362600000 CHF"
+  graph0045:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0101101"
+    - "`tpos: t1000010"
+    - "522800000 CHF"
+  graph0046:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0100100"
+    - "`tpos: t1011000"
+    - "362600000 CHF"
+  graph0047:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0101001"
+    - "`tpos: t1010100"
+    - "476000000 CHF"
+  graph0048:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0110111"
+    - "`tpos: t1001000"
+    - "503000000 CHF"
+  graph0049:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t0111100"
+    - "`tpos: t1000001"
+    - "460400000 CHF"
+  graph0050:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t1000111"
+    - "`tpos: t0111000"
+    - "453800000 CHF"
+  graph0051:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t1001100"
+    - "`tpos: t0110001"
+    - "411200000 CHF"
+  graph0052:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t1010001"
+    - "`tpos: t0101110"
+    - "419000000 CHF"
+  graph0053:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t1100001"
+    - "`tpos: t0001110"
+    - "444800000 CHF"
+  graph0054:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t1101010"
+    - "`tpos: t0000101"
+    - "438200000 CHF"
+  graph0055:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t1100001"
+    - "`tpos: t0011110"
+    - "444800000 CHF"
+  graph0056:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t1110100"
+    - "`tpos: t0001011"
+    - "429200000 CHF"
+  graph0057:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s357070"
+    r_min:
+    - "`tpos: t1111010"
+    - "`tpos: t0000100"
+    - "468200000 CHF"
+  graph0058:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t0001001"
+    - "`tpos: t1100010"
+    - "360200000 CHF"
+  graph0059:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080008080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t0000010"
+    - "`tpos: t1110001"
+    - "218000000 CHF"
+  graph0060:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t0000111"
+    - "`tpos: t1111000"
+    - "357200000 CHF"
+  graph0061:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t0010001"
+    - "`tpos: t1101110"
+    - "322400000 CHF"
+  graph0062:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t0011010"
+    - "`tpos: t1100001"
+    - "315800000 CHF"
+  graph0063:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80800008080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t0100000"
+    - "`tpos: t1000011"
+    - "255800000 CHF"
+  graph0064:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t0100001"
+    - "`tpos: t1001110"
+    - "348200000 CHF"
+  graph0065:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t0101010"
+    - "`tpos: t1000101"
+    - "341600000 CHF"
+  graph0066:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t0100001"
+    - "`tpos: t1011110"
+    - "348200000 CHF"
+  graph0067:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t0101010"
+    - "`tpos: t1010001"
+    - "341600000 CHF"
+  graph0068:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t0110100"
+    - "`tpos: t1001011"
+    - "332600000 CHF"
+  graph0069:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808000808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t1000100"
+    - "`tpos: t0100011"
+    - "283400000 CHF"
+  graph0070:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t1000110"
+    - "`tpos: t0101001"
+    - "301400000 CHF"
+  graph0071:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t1000100"
+    - "`tpos: t0111011"
+    - "283400000 CHF"
+  graph0072:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t1010000"
+    - "`tpos: t0100111"
+    - "266600000 CHF"
+  graph0073:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t1011101"
+    - "`tpos: t0100010"
+    - "473600000 CHF"
+  graph0074:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t1100010"
+    - "`tpos: t0001001"
+    - "310400000 CHF"
+  graph0075:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t1100000"
+    - "`tpos: t0010111"
+    - "292400000 CHF"
+  graph0076:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t1101101"
+    - "`tpos: t0010010"
+    - "499400000 CHF"
+  graph0077:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s70070"
+    r_min:
+    - "`tpos: t1110110"
+    - "`tpos: t0000001"
+    - "387200000 CHF"
+  graph0078:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t0000110"
+    - "`tpos: t1101001"
+    - "284800000 CHF"
+  graph0079:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t0000001"
+    - "`tpos: t1111000"
+    - "312400000 CHF"
+  graph0080:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t0000100"
+    - "`tpos: t1111011"
+    - "266800000 CHF"
+  graph0081:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t0010000"
+    - "`tpos: t1101101"
+    - "250000000 CHF"
+  graph0082:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t0011101"
+    - "`tpos: t1100010"
+    - "457000000 CHF"
+  graph0083:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t0100010"
+    - "`tpos: t1001001"
+    - "293800000 CHF"
+  graph0084:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t0100000"
+    - "`tpos: t1011101"
+    - "275800000 CHF"
+  graph0085:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t0101101"
+    - "`tpos: t1010010"
+    - "482800000 CHF"
+  graph0086:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t0111001"
+    - "`tpos: t1000100"
+    - "466000000 CHF"
+  graph0087:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t1001101"
+    - "`tpos: t0100010"
+    - "463600000 CHF"
+  graph0088:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t1001001"
+    - "`tpos: t0110100"
+    - "416800000 CHF"
+  graph0089:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t1010111"
+    - "`tpos: t0101000"
+    - "443800000 CHF"
+  graph0090:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t1011100"
+    - "`tpos: t0100001"
+    - "401200000 CHF"
+  graph0091:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t1101001"
+    - "`tpos: t0000010"
+    - "472600000 CHF"
+  graph0092:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t1100111"
+    - "`tpos: t0011000"
+    - "469600000 CHF"
+  graph0093:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t1101100"
+    - "`tpos: t0010001"
+    - "427000000 CHF"
+  graph0094:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t1110001"
+    - "`tpos: t0001110"
+    - "434800000 CHF"
+  graph0095:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s703535"
+    r_min:
+    - "`tpos: t1111010"
+    - "`tpos: t0000001"
+    - "428200000 CHF"
+  graph0096:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808000808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0000000"
+    - "`tpos: t1100111"
+    - "260000000 CHF"
+  graph0097:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0001101"
+    - "`tpos: t1100010"
+    - "467000000 CHF"
+  graph0098:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0000110"
+    - "`tpos: t1110001"
+    - "324800000 CHF"
+  graph0099:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0001001"
+    - "`tpos: t1110100"
+    - "420200000 CHF"
+  graph0100:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080008080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0010010"
+    - "`tpos: t1100001"
+    - "308000000 CHF"
+  graph0101:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0010111"
+    - "`tpos: t1101000"
+    - "447200000 CHF"
+  graph0102:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0011100"
+    - "`tpos: t1100001"
+    - "404600000 CHF"
+  graph0103:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0101001"
+    - "`tpos: t1000010"
+    - "476000000 CHF"
+  graph0104:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080008080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0100010"
+    - "`tpos: t1010001"
+    - "333800000 CHF"
+  graph0105:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0100111"
+    - "`tpos: t1011000"
+    - "473000000 CHF"
+  graph0106:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0101100"
+    - "`tpos: t1010001"
+    - "430400000 CHF"
+  graph0107:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080080080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0110100"
+    - "`tpos: t1000001"
+    - "392600000 CHF"
+  graph0108:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0110001"
+    - "`tpos: t1001110"
+    - "438200000 CHF"
+  graph0109:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t0111010"
+    - "`tpos: t1000001"
+    - "431600000 CHF"
+  graph0110:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80800008080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1000000"
+    - "`tpos: t0100011"
+    - "296600000 CHF"
+  graph0111:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1000001"
+    - "`tpos: t0101110"
+    - "389000000 CHF"
+  graph0112:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1001010"
+    - "`tpos: t0100101"
+    - "382400000 CHF"
+  graph0113:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080080080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1000100"
+    - "`tpos: t0110001"
+    - "343400000 CHF"
+  graph0114:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1000001"
+    - "`tpos: t0111110"
+    - "389000000 CHF"
+  graph0115:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1001010"
+    - "`tpos: t0110001"
+    - "382400000 CHF"
+  graph0116:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808000080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1010000"
+    - "`tpos: t0100001"
+    - "326600000 CHF"
+  graph0117:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1010001"
+    - "`tpos: t0101000"
+    - "419000000 CHF"
+  graph0118:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1010100"
+    - "`tpos: t0101011"
+    - "373400000 CHF"
+  graph0119:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808000808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1100100"
+    - "`tpos: t0000011"
+    - "399200000 CHF"
+  graph0120:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1100110"
+    - "`tpos: t0001001"
+    - "417200000 CHF"
+  graph0121:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808000080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1100000"
+    - "`tpos: t0010001"
+    - "352400000 CHF"
+  graph0122:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1100001"
+    - "`tpos: t0011000"
+    - "444800000 CHF"
+  graph0123:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1100100"
+    - "`tpos: t0011011"
+    - "399200000 CHF"
+  graph0124:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1110000"
+    - "`tpos: t0000111"
+    - "382400000 CHF"
+  graph0125:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1110000"
+    - "`tpos: t0001101"
+    - "382400000 CHF"
+  graph0126:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+    r_min:
+    - "`tpos: t1111101"
+    - "`tpos: t0000010"
+    - "589400000 CHF"
+  graph0127:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t0000001"
+    - "`tpos: t1111110"
+    - "292400000 CHF"
+  graph0128:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t0001010"
+    - "`tpos: t1110001"
+    - "285800000 CHF"
+  graph0129:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t0010001"
+    - "`tpos: t1101000"
+    - "322400000 CHF"
+  graph0130:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t0010100"
+    - "`tpos: t1101011"
+    - "276800000 CHF"
+  graph0131:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t0011010"
+    - "`tpos: t1100100"
+    - "315800000 CHF"
+  graph0132:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t0100001"
+    - "`tpos: t1011000"
+    - "348200000 CHF"
+  graph0133:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t0100100"
+    - "`tpos: t1011011"
+    - "302600000 CHF"
+  graph0134:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t0101010"
+    - "`tpos: t1010100"
+    - "341600000 CHF"
+  graph0135:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t0110000"
+    - "`tpos: t1001101"
+    - "285800000 CHF"
+  graph0136:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t0111000"
+    - "`tpos: t1000010"
+    - "353600000 CHF"
+  graph0137:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t0111101"
+    - "`tpos: t1000010"
+    - "492800000 CHF"
+  graph0138:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t1000000"
+    - "`tpos: t0111101"
+    - "236600000 CHF"
+  graph0139:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t1001000"
+    - "`tpos: t0110010"
+    - "304400000 CHF"
+  graph0140:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t1001101"
+    - "`tpos: t0110010"
+    - "443600000 CHF"
+  graph0141:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t1010100"
+    - "`tpos: t0101000"
+    - "313400000 CHF"
+  graph0142:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t1011001"
+    - "`tpos: t0100100"
+    - "426800000 CHF"
+  graph0143:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t1100100"
+    - "`tpos: t0011000"
+    - "339200000 CHF"
+  graph0144:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t1101001"
+    - "`tpos: t0010100"
+    - "452600000 CHF"
+  graph0145:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t1110010"
+    - "`tpos: t0001000"
+    - "340400000 CHF"
+  graph0146:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t1110111"
+    - "`tpos: t0001000"
+    - "479600000 CHF"
+  graph0147:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s70700"
+    r_min:
+    - "`tpos: t1111100"
+    - "`tpos: t0000001"
+    - "437000000 CHF"
+  graph0148:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0000010"
+    - "`tpos: t1101001"
+    - "278000000 CHF"
+  graph0149:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008080800"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0001000"
+    - "`tpos: t1100110"
+    - "327800000 CHF"
+  graph0150:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0000000"
+    - "`tpos: t1111101"
+    - "260000000 CHF"
+  graph0151:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0001000"
+    - "`tpos: t1110010"
+    - "327800000 CHF"
+  graph0152:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0001101"
+    - "`tpos: t1110010"
+    - "467000000 CHF"
+  graph0153:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0010100"
+    - "`tpos: t1101000"
+    - "336800000 CHF"
+  graph0154:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0011001"
+    - "`tpos: t1100100"
+    - "450200000 CHF"
+  graph0155:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008080800"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0100100"
+    - "`tpos: t1001010"
+    - "362600000 CHF"
+  graph0156:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0101101"
+    - "`tpos: t1000010"
+    - "522800000 CHF"
+  graph0157:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0100100"
+    - "`tpos: t1011000"
+    - "362600000 CHF"
+  graph0158:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0101001"
+    - "`tpos: t1010100"
+    - "476000000 CHF"
+  graph0159:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0110010"
+    - "`tpos: t1001000"
+    - "363800000 CHF"
+  graph0160:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0110111"
+    - "`tpos: t1001000"
+    - "503000000 CHF"
+  graph0161:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t0111100"
+    - "`tpos: t1000001"
+    - "460400000 CHF"
+  graph0162:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80800800800"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1000000"
+    - "`tpos: t0101010"
+    - "296600000 CHF"
+  graph0163:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1001001"
+    - "`tpos: t0100010"
+    - "456800000 CHF"
+  graph0164:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1000010"
+    - "`tpos: t0111000"
+    - "314600000 CHF"
+  graph0165:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1000111"
+    - "`tpos: t0111000"
+    - "453800000 CHF"
+  graph0166:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1001100"
+    - "`tpos: t0110001"
+    - "411200000 CHF"
+  graph0167:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1010001"
+    - "`tpos: t0101110"
+    - "419000000 CHF"
+  graph0168:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1011010"
+    - "`tpos: t0100001"
+    - "412400000 CHF"
+  graph0169:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1100001"
+    - "`tpos: t0001110"
+    - "444800000 CHF"
+  graph0170:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1101010"
+    - "`tpos: t0000101"
+    - "438200000 CHF"
+  graph0171:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1100001"
+    - "`tpos: t0011110"
+    - "444800000 CHF"
+  graph0172:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1101010"
+    - "`tpos: t0010001"
+    - "438200000 CHF"
+  graph0173:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1110001"
+    - "`tpos: t0001000"
+    - "474800000 CHF"
+  graph0174:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1110100"
+    - "`tpos: t0001011"
+    - "429200000 CHF"
+  graph0175:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s707035"
+    r_min:
+    - "`tpos: t1111010"
+    - "`tpos: t0000100"
+    - "468200000 CHF"
+  graph0176:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax0808080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0000000"
+    - "`tpos: t0111111"
+    - "300000000 CHF"
+  graph0177:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax080808080800"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0001010"
+    - "`tpos: t0110100"
+    - "385800000 CHF"
+  graph0178:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax0808080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0010110"
+    - "`tpos: t0101001"
+    - "394800000 CHF"
+  graph0179:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax0808080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0100110"
+    - "`tpos: t0011001"
+    - "420600000 CHF"
+  graph0180:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax0808080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0110011"
+    - "`tpos: t0001100"
+    - "496200000 CHF"
+  graph0181:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax080808080080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0111100"
+    - "`tpos: t0000001"
+    - "500400000 CHF"
+  graph0182:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80800800800"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0000000"
+    - "`tpos: t1101010"
+    - "300000000 CHF"
+  graph0183:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0001001"
+    - "`tpos: t1100010"
+    - "460200000 CHF"
+  graph0184:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080008080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0000010"
+    - "`tpos: t1110001"
+    - "318000000 CHF"
+  graph0185:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0000010"
+    - "`tpos: t1111000"
+    - "318000000 CHF"
+  graph0186:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0000111"
+    - "`tpos: t1111000"
+    - "457200000 CHF"
+  graph0187:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0001100"
+    - "`tpos: t1110001"
+    - "414600000 CHF"
+  graph0188:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080080080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0010100"
+    - "`tpos: t1100001"
+    - "376800000 CHF"
+  graph0189:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0010001"
+    - "`tpos: t1101110"
+    - "422400000 CHF"
+  graph0190:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0011010"
+    - "`tpos: t1100001"
+    - "415800000 CHF"
+  graph0191:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80800008080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0100000"
+    - "`tpos: t1000011"
+    - "355800000 CHF"
+  graph0192:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0100001"
+    - "`tpos: t1001110"
+    - "448200000 CHF"
+  graph0193:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0101010"
+    - "`tpos: t1000101"
+    - "441600000 CHF"
+  graph0194:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080080080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0100100"
+    - "`tpos: t1010001"
+    - "402600000 CHF"
+  graph0195:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0100001"
+    - "`tpos: t1011110"
+    - "448200000 CHF"
+  graph0196:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0101010"
+    - "`tpos: t1010001"
+    - "441600000 CHF"
+  graph0197:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808000080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0110000"
+    - "`tpos: t1000001"
+    - "385800000 CHF"
+  graph0198:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0110001"
+    - "`tpos: t1001000"
+    - "478200000 CHF"
+  graph0199:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0110100"
+    - "`tpos: t1001011"
+    - "432600000 CHF"
+  graph0200:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t0111010"
+    - "`tpos: t1000100"
+    - "471600000 CHF"
+  graph0201:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808000808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1000100"
+    - "`tpos: t0100011"
+    - "383400000 CHF"
+  graph0202:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1000110"
+    - "`tpos: t0101001"
+    - "401400000 CHF"
+  graph0203:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808000080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1000000"
+    - "`tpos: t0110001"
+    - "336600000 CHF"
+  graph0204:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1000001"
+    - "`tpos: t0111000"
+    - "429000000 CHF"
+  graph0205:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1000100"
+    - "`tpos: t0111011"
+    - "383400000 CHF"
+  graph0206:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1001010"
+    - "`tpos: t0110100"
+    - "422400000 CHF"
+  graph0207:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1010000"
+    - "`tpos: t0100111"
+    - "366600000 CHF"
+  graph0208:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1010000"
+    - "`tpos: t0101101"
+    - "366600000 CHF"
+  graph0209:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1011000"
+    - "`tpos: t0100010"
+    - "434400000 CHF"
+  graph0210:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1011101"
+    - "`tpos: t0100010"
+    - "573600000 CHF"
+  graph0211:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1100010"
+    - "`tpos: t0001001"
+    - "410400000 CHF"
+  graph0212:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808008080800"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1101000"
+    - "`tpos: t0000110"
+    - "460200000 CHF"
+  graph0213:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1100000"
+    - "`tpos: t0010111"
+    - "392400000 CHF"
+  graph0214:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1100000"
+    - "`tpos: t0011101"
+    - "392400000 CHF"
+  graph0215:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1101000"
+    - "`tpos: t0010010"
+    - "460200000 CHF"
+  graph0216:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1101101"
+    - "`tpos: t0010010"
+    - "599400000 CHF"
+  graph0217:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1110110"
+    - "`tpos: t0000001"
+    - "487200000 CHF"
+  graph0218:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1110100"
+    - "`tpos: t0001000"
+    - "469200000 CHF"
+  graph0219:
+    f_max:
+    - "`dpos: d55301540"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707070"
+    r_min:
+    - "`tpos: t1111001"
+    - "`tpos: t0000100"
+    - "582600000 CHF"

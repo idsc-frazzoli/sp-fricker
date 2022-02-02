@@ -14,6 +14,6 @@ dp {
         # investment cost for pipeline construction and supply center construction
         requires investment_graph [CHF]       
     
-    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPgraphConstruction_small_sh.yaml")
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPgraphConstruction_small_test.yaml")
     #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPgraphConstruction_small.yaml")
 }

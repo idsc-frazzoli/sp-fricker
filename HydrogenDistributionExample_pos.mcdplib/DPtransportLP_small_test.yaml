@@ -1,0 +1,1980 @@
+F:
+- "`dpos"
+- "`cpos"
+R:
+- "CHF/day"
+- "`xpos"
+- "`xmaxpos"
+- "`spos"
+implementations:
+  model0001:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729680100100336100"
+    r_min:
+    - "45540 CHF/day"
+    - "`xpos: x200150035035030050"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s353570"
+  model0002:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729685441007680100"
+    r_min:
+    - "75160 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s353570"
+  model0003:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729681001136100100100"
+    r_min:
+    - "43640 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+  model0004:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296810010010001472"
+    r_min:
+    - "86480 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s353570"
+  model0005:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721005441136100100100"
+    r_min:
+    - "43940 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+  model0006:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210054410010001472"
+    r_min:
+    - "86780 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s353570"
+  model0007:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721001001136768336100"
+    r_min:
+    - "54000 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+  model0008:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096801136768336100"
+    r_min:
+    - "93740 CHF/day"
+    - "`xpos: x200150035035030050"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s353570"
+  model0009:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096801007681001472"
+    r_min:
+    - "57260 CHF/day"
+    - "`xpos: x200150035035030050"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s353570"
+  model0010:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009685441136768336100"
+    r_min:
+    - "68900 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+  model0011:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096810011361003361472"
+    r_min:
+    - "77220 CHF/day"
+    - "`xpos: x200150035035030050"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+  model0012:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100011361001001472"
+    r_min:
+    - "57120 CHF/day"
+    - "`xpos: x200150035035030050"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s353570"
+  model0013:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010054411361003361472"
+    r_min:
+    - "64200 CHF/day"
+    - "`xpos: x200150035035030050"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+  model0014:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100100113676801472"
+    r_min:
+    - "90580 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s353570"
+  model0015:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100100100100336100"
+    r_min:
+    - "14000 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s353570"
+  model0016:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729685441136768336100"
+    r_min:
+    - "116600 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357035"
+  model0017:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296810011361003361472"
+    r_min:
+    - "79900 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357035"
+  model0018:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729681001007681000"
+    r_min:
+    - "61840 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s357035"
+  model0019:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210054411361003361472"
+    r_min:
+    - "80200 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357035"
+  model0020:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721005441007681000"
+    r_min:
+    - "62140 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s357035"
+  model0021:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100100113676801472"
+    r_min:
+    - "90260 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357035"
+  model0022:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100100100100336100"
+    r_min:
+    - "25440 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357035"
+  model0023:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968544113676801472"
+    r_min:
+    - "105160 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357035"
+  model0024:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968544100100336100"
+    r_min:
+    - "40340 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357035"
+  model0025:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968100113610000"
+    r_min:
+    - "68460 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s357035"
+  model0026:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009681001007680100"
+    r_min:
+    - "50400 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357035"
+  model0027:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100544113610000"
+    r_min:
+    - "68760 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s357035"
+  model0028:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001005441007680100"
+    r_min:
+    - "50700 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357035"
+  model0029:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001001001136100100100"
+    r_min:
+    - "55440 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357035"
+  model0030:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010010010010001472"
+    r_min:
+    - "14000 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357035"
+  model0031:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c09685441136768100100"
+    r_min:
+    - "102980 CHF/day"
+    - "`xpos: x01503002505500150"
+    - "`xmaxpos: xmax0808080808080"
+    - "`spos: s357070"
+  model0032:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c096854410010001472"
+    r_min:
+    - "40340 CHF/day"
+    - "`xpos: x015030040055000"
+    - "`xmaxpos: xmax080808080080"
+    - "`spos: s357070"
+  model0033:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c0968100113676800"
+    r_min:
+    - "105200 CHF/day"
+    - "`xpos: x015030040055000"
+    - "`xmaxpos: xmax08080808000"
+    - "`spos: s357070"
+  model0034:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c09681001007680100"
+    r_min:
+    - "63760 CHF/day"
+    - "`xpos: x01503002695500131"
+    - "`xmaxpos: xmax080808080080"
+    - "`spos: s357070"
+  model0035:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c0100544113676800"
+    r_min:
+    - "105500 CHF/day"
+    - "`xpos: x015030040055000"
+    - "`xmaxpos: xmax08080808000"
+    - "`spos: s357070"
+  model0036:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c01005441007680100"
+    r_min:
+    - "64060 CHF/day"
+    - "`xpos: x01503002735500127"
+    - "`xmaxpos: xmax080808080080"
+    - "`spos: s357070"
+  model0037:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c010010011361003360"
+    r_min:
+    - "55440 CHF/day"
+    - "`xpos: x015030040055000"
+    - "`xmaxpos: xmax080808080800"
+    - "`spos: s357070"
+  model0038:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c0100100100100336100"
+    r_min:
+    - "14000 CHF/day"
+    - "`xpos: x0150300370550030"
+    - "`xmaxpos: xmax0808080808080"
+    - "`spos: s357070"
+  model0039:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296801007683360"
+    r_min:
+    - "68920 CHF/day"
+    - "`xpos: x20015004003503000"
+    - "`xmaxpos: xmax808008080800"
+    - "`spos: s357070"
+  model0040:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968544113676801472"
+    r_min:
+    - "116600 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357070"
+  model0041:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968544100100336100"
+    r_min:
+    - "37220 CHF/day"
+    - "`xpos: x01501504005501500"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357070"
+  model0042:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968100113610000"
+    r_min:
+    - "68460 CHF/day"
+    - "`xpos: x015030040055000"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s357070"
+  model0043:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729681001007680100"
+    r_min:
+    - "61840 CHF/day"
+    - "`xpos: x2001503002243500176"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357070"
+  model0044:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100011361003360"
+    r_min:
+    - "71100 CHF/day"
+    - "`xpos: x15015004004003000"
+    - "`xmaxpos: xmax808008080800"
+    - "`spos: s357070"
+  model0045:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721000100100336100"
+    r_min:
+    - "29660 CHF/day"
+    - "`xpos: x15015004004003000"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s357070"
+  model0046:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100544113610000"
+    r_min:
+    - "68760 CHF/day"
+    - "`xpos: x015030040055000"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s357070"
+  model0047:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721005441007680100"
+    r_min:
+    - "62140 CHF/day"
+    - "`xpos: x2001503001913500209"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357070"
+  model0048:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721001001136100100100"
+    r_min:
+    - "30620 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357070"
+  model0049:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210010010010001472"
+    r_min:
+    - "14000 CHF/day"
+    - "`xpos: x015030040055000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357070"
+  model0050:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009685441136100100100"
+    r_min:
+    - "45520 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357070"
+  model0051:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096854410010001472"
+    r_min:
+    - "40340 CHF/day"
+    - "`xpos: x17015030040038000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s357070"
+  model0052:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009681001136768336100"
+    r_min:
+    - "55580 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357070"
+  model0053:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010001136768336100"
+    r_min:
+    - "80720 CHF/day"
+    - "`xpos: x200150035035030050"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s357070"
+  model0054:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010001007681001472"
+    r_min:
+    - "37380 CHF/day"
+    - "`xpos: x20015004003503000"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s357070"
+  model0055:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001005441136768336100"
+    r_min:
+    - "55880 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357070"
+  model0056:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010010011361003361472"
+    r_min:
+    - "55440 CHF/day"
+    - "`xpos: x16415030040038600"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s357070"
+  model0057:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001001001007681000"
+    r_min:
+    - "37380 CHF/day"
+    - "`xpos: x2001501494003501510"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s357070"
+  model0058:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296801000336100"
+    r_min:
+    - "65560 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s70070"
+  model0059:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968544001001472"
+    r_min:
+    - "113360 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax808080008080"
+    - "`spos: s70070"
+  model0060:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729685441136100100100"
+    r_min:
+    - "58480 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+  model0061:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729681001136768336100"
+    r_min:
+    - "65560 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+  model0062:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296810010001001472"
+    r_min:
+    - "113360 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s70070"
+  model0063:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721000003361472"
+    r_min:
+    - "107420 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax80800008080"
+    - "`spos: s70070"
+  model0064:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210001136768336100"
+    r_min:
+    - "52540 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s70070"
+  model0065:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210001007681001472"
+    r_min:
+    - "100340 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s70070"
+  model0066:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721005441136768336100"
+    r_min:
+    - "52540 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+  model0067:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210054410001001472"
+    r_min:
+    - "100340 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s70070"
+  model0068:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210010011361003361472"
+    r_min:
+    - "107420 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+  model0069:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968001003361472"
+    r_min:
+    - "88980 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax808000808080"
+    - "`spos: s70070"
+  model0070:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968011361001001472"
+    r_min:
+    - "81900 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s70070"
+  model0071:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096854411361003361472"
+    r_min:
+    - "88980 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+  model0072:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096810007683361472"
+    r_min:
+    - "88980 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s70070"
+  model0073:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968100100100336100"
+    r_min:
+    - "34100 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+  model0074:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001000113601001472"
+    r_min:
+    - "68880 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s70070"
+  model0075:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010054407683361472"
+    r_min:
+    - "75960 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s70070"
+  model0076:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100544100100336100"
+    r_min:
+    - "21080 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70070"
+  model0077:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010010001001001472"
+    r_min:
+    - "68880 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s70070"
+  model0078:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968011361001001472"
+    r_min:
+    - "101600 CHF/day"
+    - "`xpos: x5501500350030050"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s703535"
+  model0079:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968544113600100"
+    r_min:
+    - "76980 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s703535"
+  model0080:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296854411361003361472"
+    r_min:
+    - "108680 CHF/day"
+    - "`xpos: x5501500350030050"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703535"
+  model0081:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968100113676801472"
+    r_min:
+    - "111680 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703535"
+  model0082:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968100100100336100"
+    r_min:
+    - "58480 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703535"
+  model0083:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721000113601001472"
+    r_min:
+    - "88580 CHF/day"
+    - "`xpos: x5501500350030050"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s703535"
+  model0084:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100544113676801472"
+    r_min:
+    - "111980 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703535"
+  model0085:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100544100100336100"
+    r_min:
+    - "52540 CHF/day"
+    - "`xpos: x5501500350030050"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703535"
+  model0086:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721001001007680100"
+    r_min:
+    - "45460 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703535"
+  model0087:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009680100100336100"
+    r_min:
+    - "34100 CHF/day"
+    - "`xpos: x5501500350030050"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s703535"
+  model0088:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009685441007680100"
+    r_min:
+    - "40340 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703535"
+  model0089:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009681001136100100100"
+    r_min:
+    - "32200 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703535"
+  model0090:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096810010010001472"
+    r_min:
+    - "75040 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703535"
+  model0091:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010001000336100"
+    r_min:
+    - "21080 CHF/day"
+    - "`xpos: x5501500350030050"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s703535"
+  model0092:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001005441136100100100"
+    r_min:
+    - "32500 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703535"
+  model0093:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010054410010001472"
+    r_min:
+    - "75340 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703535"
+  model0094:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001001001136768336100"
+    r_min:
+    - "19180 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703535"
+  model0095:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010010010001001472"
+    r_min:
+    - "20860 CHF/day"
+    - "`xpos: x5501500350030050"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s703535"
+  model0096:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968007683361472"
+    r_min:
+    - "120440 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax808000808080"
+    - "`spos: s703570"
+  model0097:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729680100100336100"
+    r_min:
+    - "45540 CHF/day"
+    - "`xpos: x200150035035030050"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s703570"
+  model0098:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296854401001001472"
+    r_min:
+    - "109520 CHF/day"
+    - "`xpos: x25015030003000400"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s703570"
+  model0099:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729685441007680100"
+    r_min:
+    - "71800 CHF/day"
+    - "`xpos: x5501503002800372"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703570"
+  model0100:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968100001001472"
+    r_min:
+    - "113360 CHF/day"
+    - "`xpos: x55015015500145400"
+    - "`xmaxpos: xmax808080008080"
+    - "`spos: s703570"
+  model0101:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729681001136100100100"
+    r_min:
+    - "41320 CHF/day"
+    - "`xpos: x25015030003000400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+  model0102:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296810010010001472"
+    r_min:
+    - "86480 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703570"
+  model0103:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210001000336100"
+    r_min:
+    - "52540 CHF/day"
+    - "`xpos: x55015001860300214"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s703570"
+  model0104:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100544001001472"
+    r_min:
+    - "100340 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax808080008080"
+    - "`spos: s703570"
+  model0105:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721005441136100100100"
+    r_min:
+    - "41620 CHF/day"
+    - "`xpos: x25015030003000400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+  model0106:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210054410010001472"
+    r_min:
+    - "86780 CHF/day"
+    - "`xpos: x200150300503500350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703570"
+  model0107:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100100010001472"
+    r_min:
+    - "83180 CHF/day"
+    - "`xpos: x25015030003000400"
+    - "`xmaxpos: xmax808080080080"
+    - "`spos: s703570"
+  model0108:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721001001136768336100"
+    r_min:
+    - "45460 CHF/day"
+    - "`xpos: x550150300000400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+  model0109:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210010010001001472"
+    r_min:
+    - "52320 CHF/day"
+    - "`xpos: x5501500350030050"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s703570"
+  model0110:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009680003361472"
+    r_min:
+    - "88980 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax80800008080"
+    - "`spos: s703570"
+  model0111:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096801136768336100"
+    r_min:
+    - "34100 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s703570"
+  model0112:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096801007681001472"
+    r_min:
+    - "33880 CHF/day"
+    - "`xpos: x5501500350030050"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s703570"
+  model0113:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968544010001472"
+    r_min:
+    - "95220 CHF/day"
+    - "`xpos: x32515030002250400"
+    - "`xmaxpos: xmax808080080080"
+    - "`spos: s703570"
+  model0114:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009685441136768336100"
+    r_min:
+    - "34100 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+  model0115:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096854410001001472"
+    r_min:
+    - "33880 CHF/day"
+    - "`xpos: x5501500350030050"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s703570"
+  model0116:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009681000001472"
+    r_min:
+    - "81900 CHF/day"
+    - "`xpos: x550150300000400"
+    - "`xmaxpos: xmax80808000080"
+    - "`spos: s703570"
+  model0117:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968100113600100"
+    r_min:
+    - "27020 CHF/day"
+    - "`xpos: x550150300000400"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s703570"
+  model0118:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096810011361003361472"
+    r_min:
+    - "77220 CHF/day"
+    - "`xpos: x379150035017130050"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+  model0119:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100001003361472"
+    r_min:
+    - "75960 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax808000808080"
+    - "`spos: s703570"
+  model0120:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100011361001001472"
+    r_min:
+    - "57120 CHF/day"
+    - "`xpos: x283150035026730050"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s703570"
+  model0121:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001005440001472"
+    r_min:
+    - "82200 CHF/day"
+    - "`xpos: x550150300000400"
+    - "`xmaxpos: xmax80808000080"
+    - "`spos: s703570"
+  model0122:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100544113600100"
+    r_min:
+    - "27320 CHF/day"
+    - "`xpos: x550150300000400"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s703570"
+  model0123:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010054411361003361472"
+    r_min:
+    - "64200 CHF/day"
+    - "`xpos: x310150035024030050"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+  model0124:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010010007683361472"
+    r_min:
+    - "68880 CHF/day"
+    - "`xpos: x550150300000400"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s703570"
+  model0125:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100100113676801472"
+    r_min:
+    - "67200 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s703570"
+  model0126:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100100100100336100"
+    r_min:
+    - "14000 CHF/day"
+    - "`xpos: x47515030030750370"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s703570"
+  model0127:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729685441136768336100"
+    r_min:
+    - "113240 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70700"
+  model0128:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296854410001001472"
+    r_min:
+    - "71800 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s70700"
+  model0129:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968100113600100"
+    r_min:
+    - "99920 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s70700"
+  model0130:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296810011361003361472"
+    r_min:
+    - "99920 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70700"
+  model0131:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729681001007681000"
+    r_min:
+    - "58480 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s70700"
+  model0132:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100544113600100"
+    r_min:
+    - "100220 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s70700"
+  model0133:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210054411361003361472"
+    r_min:
+    - "100220 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70700"
+  model0134:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721005441007681000"
+    r_min:
+    - "58780 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s70700"
+  model0135:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100100113676801472"
+    r_min:
+    - "86900 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s70700"
+  model0136:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210010010003360"
+    r_min:
+    - "45460 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s70700"
+  model0137:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100100100100336100"
+    r_min:
+    - "45460 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70700"
+  model0138:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968544113676801472"
+    r_min:
+    - "81780 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s70700"
+  model0139:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096854410003360"
+    r_min:
+    - "40340 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s70700"
+  model0140:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968544100100336100"
+    r_min:
+    - "40340 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70700"
+  model0141:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968100113610000"
+    r_min:
+    - "68460 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s70700"
+  model0142:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009681001007680100"
+    r_min:
+    - "27020 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s70700"
+  model0143:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100544113610000"
+    r_min:
+    - "68760 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s70700"
+  model0144:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001005441007680100"
+    r_min:
+    - "27320 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s70700"
+  model0145:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100100113601000"
+    r_min:
+    - "55440 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s70700"
+  model0146:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001001001136100100100"
+    r_min:
+    - "55440 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s70700"
+  model0147:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010010010010001472"
+    r_min:
+    - "14000 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s70700"
+  model0148:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729680113601001472"
+    r_min:
+    - "99920 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s707035"
+  model0149:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296801007683360"
+    r_min:
+    - "65560 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax808008080800"
+    - "`spos: s707035"
+  model0150:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968544113676801472"
+    r_min:
+    - "113240 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707035"
+  model0151:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296854410003360"
+    r_min:
+    - "65560 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s707035"
+  model0152:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968544100100336100"
+    r_min:
+    - "51780 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707035"
+  model0153:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968100113610000"
+    r_min:
+    - "79900 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s707035"
+  model0154:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729681001007680100"
+    r_min:
+    - "58480 CHF/day"
+    - "`xpos: x55015030025400146"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707035"
+  model0155:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100011361003360"
+    r_min:
+    - "91120 CHF/day"
+    - "`xpos: x5001500400503000"
+    - "`xmaxpos: xmax808008080800"
+    - "`spos: s707035"
+  model0156:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721000100100336100"
+    r_min:
+    - "49680 CHF/day"
+    - "`xpos: x5001500400503000"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s707035"
+  model0157:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100544113610000"
+    r_min:
+    - "80200 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s707035"
+  model0158:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721005441007680100"
+    r_min:
+    - "58780 CHF/day"
+    - "`xpos: x55015030024200158"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707035"
+  model0159:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100100113601000"
+    r_min:
+    - "86900 CHF/day"
+    - "`xpos: x55015014040001600"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s707035"
+  model0160:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721001001136100100100"
+    r_min:
+    - "50640 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707035"
+  model0161:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210010010010001472"
+    r_min:
+    - "25440 CHF/day"
+    - "`xpos: x20015030040035000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707035"
+  model0162:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009680113603360"
+    r_min:
+    - "75540 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax80800800800"
+    - "`spos: s707035"
+  model0163:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096801000336100"
+    r_min:
+    - "34100 CHF/day"
+    - "`xpos: x5501500363030037"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s707035"
+  model0164:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968544113601000"
+    r_min:
+    - "68460 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s707035"
+  model0165:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009685441136100100100"
+    r_min:
+    - "45520 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707035"
+  model0166:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096854410010001472"
+    r_min:
+    - "40340 CHF/day"
+    - "`xpos: x29315030040025700"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707035"
+  model0167:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009681001136768336100"
+    r_min:
+    - "32200 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707035"
+  model0168:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096810010001001472"
+    r_min:
+    - "27020 CHF/day"
+    - "`xpos: x55015011040001900"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s707035"
+  model0169:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010001136768336100"
+    r_min:
+    - "57340 CHF/day"
+    - "`xpos: x5501500350030050"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s707035"
+  model0170:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010001007681001472"
+    r_min:
+    - "14000 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s707035"
+  model0171:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001005441136768336100"
+    r_min:
+    - "32500 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707035"
+  model0172:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010054410001001472"
+    r_min:
+    - "14000 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s707035"
+  model0173:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100100113600100"
+    r_min:
+    - "19180 CHF/day"
+    - "`xpos: x5501503005000350"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s707035"
+  model0174:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010010011361003361472"
+    r_min:
+    - "55440 CHF/day"
+    - "`xpos: x33715030040021300"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707035"
+  model0175:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001001001007681000"
+    r_min:
+    - "14000 CHF/day"
+    - "`xpos: x55015014140001590"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s707035"
+  model0176:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c096854411367683361472"
+    r_min:
+    - "115400 CHF/day"
+    - "`xpos: x01501504005501500"
+    - "`xmaxpos: xmax0808080808080"
+    - "`spos: s707070"
+  model0177:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c09685441007681000"
+    r_min:
+    - "70420 CHF/day"
+    - "`xpos: x01501504005501500"
+    - "`xmaxpos: xmax080808080800"
+    - "`spos: s707070"
+  model0178:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c096810011361001001472"
+    r_min:
+    - "68460 CHF/day"
+    - "`xpos: x0150250400550500"
+    - "`xmaxpos: xmax0808080808080"
+    - "`spos: s707070"
+  model0179:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c010054411361001001472"
+    r_min:
+    - "62100 CHF/day"
+    - "`xpos: x01501504005501500"
+    - "`xmaxpos: xmax0808080808080"
+    - "`spos: s707070"
+  model0180:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c01001001136768100100"
+    r_min:
+    - "76640 CHF/day"
+    - "`xpos: x01503002505500150"
+    - "`xmaxpos: xmax0808080808080"
+    - "`spos: s707070"
+  model0181:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c010010010010001472"
+    r_min:
+    - "14000 CHF/day"
+    - "`xpos: x015030040055000"
+    - "`xmaxpos: xmax080808080080"
+    - "`spos: s707070"
+  model0182:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729680113603360"
+    r_min:
+    - "107000 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax80800800800"
+    - "`spos: s707070"
+  model0183:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296801000336100"
+    r_min:
+    - "65560 CHF/day"
+    - "`xpos: x55015002340300166"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s707070"
+  model0184:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968544001001472"
+    r_min:
+    - "113360 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax808080008080"
+    - "`spos: s707070"
+  model0185:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968544113601000"
+    r_min:
+    - "99920 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s707070"
+  model0186:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729685441136100100100"
+    r_min:
+    - "54640 CHF/day"
+    - "`xpos: x25015030003000400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+  model0187:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296854410010001472"
+    r_min:
+    - "40340 CHF/day"
+    - "`xpos: x015030040055000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707070"
+  model0188:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672968100010001472"
+    r_min:
+    - "96200 CHF/day"
+    - "`xpos: x25015030003000400"
+    - "`xmaxpos: xmax808080080080"
+    - "`spos: s707070"
+  model0189:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6729681001136768336100"
+    r_min:
+    - "58480 CHF/day"
+    - "`xpos: x550150300000400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+  model0190:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67296810010001001472"
+    r_min:
+    - "58480 CHF/day"
+    - "`xpos: x55015012240001780"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s707070"
+  model0191:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721000003361472"
+    r_min:
+    - "107420 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax80800008080"
+    - "`spos: s707070"
+  model0192:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210001136768336100"
+    r_min:
+    - "52540 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s707070"
+  model0193:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210001007681001472"
+    r_min:
+    - "45460 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s707070"
+  model0194:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100544010001472"
+    r_min:
+    - "96500 CHF/day"
+    - "`xpos: x25015030003000400"
+    - "`xmaxpos: xmax808080080080"
+    - "`spos: s707070"
+  model0195:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721005441136768336100"
+    r_min:
+    - "52540 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+  model0196:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210054410001001472"
+    r_min:
+    - "45460 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax8080808008080"
+    - "`spos: s707070"
+  model0197:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721001000001472"
+    r_min:
+    - "100340 CHF/day"
+    - "`xpos: x550150300000400"
+    - "`xmaxpos: xmax80808000080"
+    - "`spos: s707070"
+  model0198:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c672100100113600100"
+    r_min:
+    - "45460 CHF/day"
+    - "`xpos: x550150300000400"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s707070"
+  model0199:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c67210010011361003361472"
+    r_min:
+    - "55440 CHF/day"
+    - "`xpos: x015030040055000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+  model0200:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c6721001001007681000"
+    r_min:
+    - "45460 CHF/day"
+    - "`xpos: x55015013940001610"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s707070"
+  model0201:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968001003361472"
+    r_min:
+    - "88980 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax808000808080"
+    - "`spos: s707070"
+  model0202:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968011361001001472"
+    r_min:
+    - "68460 CHF/day"
+    - "`xpos: x30215004002483000"
+    - "`xmaxpos: xmax8080080808080"
+    - "`spos: s707070"
+  model0203:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009685440001472"
+    r_min:
+    - "95220 CHF/day"
+    - "`xpos: x550150300000400"
+    - "`xmaxpos: xmax80808000080"
+    - "`spos: s707070"
+  model0204:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968544113600100"
+    r_min:
+    - "40340 CHF/day"
+    - "`xpos: x550150300000400"
+    - "`xmaxpos: xmax808080800080"
+    - "`spos: s707070"
+  model0205:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096854411361003361472"
+    r_min:
+    - "75540 CHF/day"
+    - "`xpos: x39315004001573000"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+  model0206:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1009685441007681000"
+    r_min:
+    - "27020 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax8080808080800"
+    - "`spos: s707070"
+  model0207:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096810007683361472"
+    r_min:
+    - "81900 CHF/day"
+    - "`xpos: x550150300000400"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s707070"
+  model0208:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968100113676801472"
+    r_min:
+    - "68460 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707070"
+  model0209:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10096810010003360"
+    r_min:
+    - "27020 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s707070"
+  model0210:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100968100100100336100"
+    r_min:
+    - "27020 CHF/day"
+    - "`xpos: x2351503002003150200"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+  model0211:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001000113601001472"
+    r_min:
+    - "55440 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax808008008080"
+    - "`spos: s707070"
+  model0212:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010001007683360"
+    r_min:
+    - "21080 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax808008080800"
+    - "`spos: s707070"
+  model0213:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010054407683361472"
+    r_min:
+    - "75960 CHF/day"
+    - "`xpos: x550150000300400"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s707070"
+  model0214:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100544113676801472"
+    r_min:
+    - "68760 CHF/day"
+    - "`xpos: x550150300400000"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707070"
+  model0215:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010054410003360"
+    r_min:
+    - "21080 CHF/day"
+    - "`xpos: x550150040003000"
+    - "`xmaxpos: xmax808080800800"
+    - "`spos: s707070"
+  model0216:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100544100100336100"
+    r_min:
+    - "21080 CHF/day"
+    - "`xpos: x3931500275157300125"
+    - "`xmaxpos: xmax80808080808080"
+    - "`spos: s707070"
+  model0217:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c10010010001001001472"
+    r_min:
+    - "68880 CHF/day"
+    - "`xpos: x425150285012515400"
+    - "`xmaxpos: xmax8080800808080"
+    - "`spos: s707070"
+  model0218:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c100100100113610000"
+    r_min:
+    - "55440 CHF/day"
+    - "`xpos: x22715030040032300"
+    - "`xmaxpos: xmax808080808000"
+    - "`spos: s707070"
+  model0219:
+    f_max:
+    - "`dpos: d55301540"
+    - "`cpos: c1001001001007680100"
+    r_min:
+    - "14000 CHF/day"
+    - "`xpos: x55015030017600224"
+    - "`xmaxpos: xmax8080808080080"
+    - "`spos: s707070"

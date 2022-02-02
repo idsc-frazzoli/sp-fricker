@@ -8,6 +8,6 @@ dp {
         # transportation cost for every connection [CHF/t], vector of dim = number of conncections
         requires transport_cost [`c_pos]
     
-    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPtransportCost_small_sh.yaml")
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPtransportCost_small_test.yaml")
     #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample_pos.mcdplib/DPtransportCost_small.yaml")
 }

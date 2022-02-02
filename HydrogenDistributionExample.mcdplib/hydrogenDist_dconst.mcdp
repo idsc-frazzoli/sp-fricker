@@ -29,6 +29,7 @@ mcdp {
     #demand = demand0 provided by transport_lp + demand1 provided by transport_lp + demand2 provided by transport_lp + demand3 provided by transport_lp
     # demand >= total_demand required by revenues_dp
     # revenues_dp: demand * price * time - profit
+    
     days_per_year = 350 days/year
     
     ## Expences

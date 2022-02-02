@@ -1,0 +1,510 @@
+F:
+- "`xpos"
+- "`tpos"
+R:
+- "CHF"
+implementations:
+  trucks0001:
+    f_max:
+    - "`xpos: x200150035035030050"
+    - "`tpos: t1100010"
+    r_min:
+    - "6300000 CHF"
+  trucks0002:
+    f_max:
+    - "`xpos: x200150300503500350"
+    - "`tpos: t1110100"
+    r_min:
+    - "11400000 CHF"
+  trucks0003:
+    f_max:
+    - "`xpos: x200150300503500350"
+    - "`tpos: t1101000"
+    r_min:
+    - "5400000 CHF"
+  trucks0004:
+    f_max:
+    - "`xpos: x200150300503500350"
+    - "`tpos: t1100001"
+    r_min:
+    - "12300000 CHF"
+  trucks0005:
+    f_max:
+    - "`xpos: x200150300503500350"
+    - "`tpos: t1011000"
+    r_min:
+    - "5700000 CHF"
+  trucks0006:
+    f_max:
+    - "`xpos: x200150300503500350"
+    - "`tpos: t1010001"
+    r_min:
+    - "12600000 CHF"
+  trucks0008:
+    f_max:
+    - "`xpos: x200150035035030050"
+    - "`tpos: t0101110"
+    r_min:
+    - "14400000 CHF"
+  trucks0009:
+    f_max:
+    - "`xpos: x200150035035030050"
+    - "`tpos: t0100101"
+    r_min:
+    - "7800000 CHF"
+  trucks0011:
+    f_max:
+    - "`xpos: x200150035035030050"
+    - "`tpos: t0101011"
+    r_min:
+    - "11400000 CHF"
+  trucks0012:
+    f_max:
+    - "`xpos: x200150035035030050"
+    - "`tpos: t0001001"
+    r_min:
+    - "7200000 CHF"
+  trucks0014:
+    f_max:
+    - "`xpos: x200150300503500350"
+    - "`tpos: t0001101"
+    r_min:
+    - "12900000 CHF"
+  trucks0018:
+    f_max:
+    - "`xpos: x20015030040035000"
+    - "`tpos: t1100100"
+    r_min:
+    - "8700000 CHF"
+  trucks0020:
+    f_max:
+    - "`xpos: x20015030040035000"
+    - "`tpos: t1010100"
+    r_min:
+    - "9000000 CHF"
+  trucks0025:
+    f_max:
+    - "`xpos: x20015030040035000"
+    - "`tpos: t0101000"
+    r_min:
+    - "9300000 CHF"
+  trucks0026:
+    f_max:
+    - "`xpos: x20015030040035000"
+    - "`tpos: t0100100"
+    r_min:
+    - "6600000 CHF"
+  trucks0027:
+    f_max:
+    - "`xpos: x20015030040035000"
+    - "`tpos: t0011000"
+    r_min:
+    - "9600000 CHF"
+  trucks0028:
+    f_max:
+    - "`xpos: x20015030040035000"
+    - "`tpos: t0010100"
+    r_min:
+    - "6900000 CHF"
+  trucks0029:
+    f_max:
+    - "`xpos: x20015030040035000"
+    - "`tpos: t0001000"
+    r_min:
+    - "6900000 CHF"
+  trucks0031:
+    f_max:
+    - "`xpos: x01503002505500150"
+    - "`tpos: t0111100"
+    r_min:
+    - "16200000 CHF"
+  trucks0033:
+    f_max:
+    - "`xpos: x015030040055000"
+    - "`tpos: t0101100"
+    r_min:
+    - "15900000 CHF"
+  trucks0034:
+    f_max:
+    - "`xpos: x01503002695500131"
+    - "`tpos: t0100100"
+    r_min:
+    - "9000000 CHF"
+  trucks0035:
+    f_max:
+    - "`xpos: x015030040055000"
+    - "`tpos: t0011100"
+    r_min:
+    - "16200000 CHF"
+  trucks0036:
+    f_max:
+    - "`xpos: x01503002735500127"
+    - "`tpos: t0010100"
+    r_min:
+    - "9300000 CHF"
+  trucks0039:
+    f_max:
+    - "`xpos: x20015004003503000"
+    - "`tpos: t1100110"
+    r_min:
+    - "10500000 CHF"
+  trucks0043:
+    f_max:
+    - "`xpos: x2001503002243500176"
+    - "`tpos: t1100100"
+    r_min:
+    - "8700000 CHF"
+  trucks0044:
+    f_max:
+    - "`xpos: x15015004004003000"
+    - "`tpos: t1001010"
+    r_min:
+    - "10500000 CHF"
+  trucks0045:
+    f_max:
+    - "`xpos: x15015004004003000"
+    - "`tpos: t1000010"
+    r_min:
+    - "3600000 CHF"
+  trucks0047:
+    f_max:
+    - "`xpos: x2001503001913500209"
+    - "`tpos: t1010100"
+    r_min:
+    - "9000000 CHF"
+  trucks0048:
+    f_max:
+    - "`xpos: x200150300503500350"
+    - "`tpos: t1001000"
+    r_min:
+    - "3000000 CHF"
+  trucks0050:
+    f_max:
+    - "`xpos: x200150300503500350"
+    - "`tpos: t0111000"
+    r_min:
+    - "6000000 CHF"
+  trucks0053:
+    f_max:
+    - "`xpos: x200150035035030050"
+    - "`tpos: t0001110"
+    r_min:
+    - "12000000 CHF"
+  trucks0057:
+    f_max:
+    - "`xpos: x2001501494003501510"
+    - "`tpos: t0000100"
+    r_min:
+    - "4200000 CHF"
+  trucks0058:
+    f_max:
+    - "`xpos: x550150000300400"
+    - "`tpos: t1100010"
+    r_min:
+    - "9900000 CHF"
+  trucks0062:
+    f_max:
+    - "`xpos: x550150000300400"
+    - "`tpos: t1100001"
+    r_min:
+    - "17100000 CHF"
+  trucks0063:
+    f_max:
+    - "`xpos: x550150000300400"
+    - "`tpos: t1000011"
+    r_min:
+    - "16500000 CHF"
+  trucks0069:
+    f_max:
+    - "`xpos: x550150000300400"
+    - "`tpos: t0100011"
+    r_min:
+    - "13200000 CHF"
+  trucks0073:
+    f_max:
+    - "`xpos: x550150000300400"
+    - "`tpos: t0100010"
+    r_min:
+    - "4200000 CHF"
+  trucks0077:
+    f_max:
+    - "`xpos: x550150000300400"
+    - "`tpos: t0000001"
+    r_min:
+    - "9000000 CHF"
+  trucks0078:
+    f_max:
+    - "`xpos: x5501500350030050"
+    - "`tpos: t1101001"
+    r_min:
+    - "15300000 CHF"
+  trucks0079:
+    f_max:
+    - "`xpos: x5501503005000350"
+    - "`tpos: t1111000"
+    r_min:
+    - "11700000 CHF"
+  trucks0083:
+    f_max:
+    - "`xpos: x5501500350030050"
+    - "`tpos: t1001001"
+    r_min:
+    - "12900000 CHF"
+  trucks0087:
+    f_max:
+    - "`xpos: x5501500350030050"
+    - "`tpos: t0100010"
+    r_min:
+    - "4200000 CHF"
+  trucks0089:
+    f_max:
+    - "`xpos: x5501503005000350"
+    - "`tpos: t0101000"
+    r_min:
+    - "3300000 CHF"
+  trucks0090:
+    f_max:
+    - "`xpos: x5501503005000350"
+    - "`tpos: t0100001"
+    r_min:
+    - "10200000 CHF"
+  trucks0091:
+    f_max:
+    - "`xpos: x5501500350030050"
+    - "`tpos: t0000010"
+    r_min:
+    - "1800000 CHF"
+  trucks0092:
+    f_max:
+    - "`xpos: x5501503005000350"
+    - "`tpos: t0011000"
+    r_min:
+    - "3600000 CHF"
+  trucks0093:
+    f_max:
+    - "`xpos: x5501503005000350"
+    - "`tpos: t0010001"
+    r_min:
+    - "10500000 CHF"
+  trucks0095:
+    f_max:
+    - "`xpos: x5501500350030050"
+    - "`tpos: t0000001"
+    r_min:
+    - "1200000 CHF"
+  trucks0098:
+    f_max:
+    - "`xpos: x25015030003000400"
+    - "`tpos: t1110001"
+    r_min:
+    - "16800000 CHF"
+  trucks0100:
+    f_max:
+    - "`xpos: x55015015500145400"
+    - "`tpos: t1100001"
+    r_min:
+    - "17100000 CHF"
+  trucks0103:
+    f_max:
+    - "`xpos: x55015001860300214"
+    - "`tpos: t1000010"
+    r_min:
+    - "7500000 CHF"
+  trucks0107:
+    f_max:
+    - "`xpos: x25015030003000400"
+    - "`tpos: t1000001"
+    r_min:
+    - "11700000 CHF"
+  trucks0109:
+    f_max:
+    - "`xpos: x5501500350030050"
+    - "`tpos: t1000001"
+    r_min:
+    - "6900000 CHF"
+  trucks0113:
+    f_max:
+    - "`xpos: x32515030002250400"
+    - "`tpos: t0110001"
+    r_min:
+    - "14100000 CHF"
+  trucks0116:
+    f_max:
+    - "`xpos: x550150300000400"
+    - "`tpos: t0100001"
+    r_min:
+    - "11400000 CHF"
+  trucks0118:
+    f_max:
+    - "`xpos: x379150035017130050"
+    - "`tpos: t0101011"
+    r_min:
+    - "11400000 CHF"
+  trucks0119:
+    f_max:
+    - "`xpos: x550150000300400"
+    - "`tpos: t0000011"
+    r_min:
+    - "10800000 CHF"
+  trucks0120:
+    f_max:
+    - "`xpos: x283150035026730050"
+    - "`tpos: t0001001"
+    r_min:
+    - "7200000 CHF"
+  trucks0121:
+    f_max:
+    - "`xpos: x550150300000400"
+    - "`tpos: t0010001"
+    r_min:
+    - "11700000 CHF"
+  trucks0129:
+    f_max:
+    - "`xpos: x550150300400000"
+    - "`tpos: t1101000"
+    r_min:
+    - "15000000 CHF"
+  trucks0132:
+    f_max:
+    - "`xpos: x550150300400000"
+    - "`tpos: t1011000"
+    r_min:
+    - "15300000 CHF"
+  trucks0141:
+    f_max:
+    - "`xpos: x550150300400000"
+    - "`tpos: t0101000"
+    r_min:
+    - "9300000 CHF"
+  trucks0143:
+    f_max:
+    - "`xpos: x550150300400000"
+    - "`tpos: t0011000"
+    r_min:
+    - "9600000 CHF"
+  trucks0145:
+    f_max:
+    - "`xpos: x550150300400000"
+    - "`tpos: t0001000"
+    r_min:
+    - "6900000 CHF"
+  trucks0153:
+    f_max:
+    - "`xpos: x20015030040035000"
+    - "`tpos: t1101000"
+    r_min:
+    - "11400000 CHF"
+  trucks0155:
+    f_max:
+    - "`xpos: x5001500400503000"
+    - "`tpos: t1001010"
+    r_min:
+    - "13800000 CHF"
+  trucks0156:
+    f_max:
+    - "`xpos: x5001500400503000"
+    - "`tpos: t1000010"
+    r_min:
+    - "6900000 CHF"
+  trucks0157:
+    f_max:
+    - "`xpos: x20015030040035000"
+    - "`tpos: t1011000"
+    r_min:
+    - "11700000 CHF"
+  trucks0159:
+    f_max:
+    - "`xpos: x55015014040001600"
+    - "`tpos: t1001000"
+    r_min:
+    - "12600000 CHF"
+  trucks0160:
+    f_max:
+    - "`xpos: x5501503005000350"
+    - "`tpos: t1001000"
+    r_min:
+    - "6600000 CHF"
+  trucks0162:
+    f_max:
+    - "`xpos: x550150040003000"
+    - "`tpos: t0101010"
+    r_min:
+    - "11100000 CHF"
+  trucks0163:
+    f_max:
+    - "`xpos: x5501500363030037"
+    - "`tpos: t0100010"
+    r_min:
+    - "4200000 CHF"
+  trucks0165:
+    f_max:
+    - "`xpos: x5501503005000350"
+    - "`tpos: t0111000"
+    r_min:
+    - "6000000 CHF"
+  trucks0173:
+    f_max:
+    - "`xpos: x5501503005000350"
+    - "`tpos: t0001000"
+    r_min:
+    - "900000 CHF"
+  trucks0177:
+    f_max:
+    - "`xpos: x01501504005501500"
+    - "`tpos: t0110100"
+    r_min:
+    - "10500000 CHF"
+  trucks0180:
+    f_max:
+    - "`xpos: x01503002505500150"
+    - "`tpos: t0001100"
+    r_min:
+    - "11100000 CHF"
+  trucks0182:
+    f_max:
+    - "`xpos: x550150040003000"
+    - "`tpos: t1101010"
+    r_min:
+    - "16800000 CHF"
+  trucks0183:
+    f_max:
+    - "`xpos: x55015002340300166"
+    - "`tpos: t1100010"
+    r_min:
+    - "9900000 CHF"
+  trucks0188:
+    f_max:
+    - "`xpos: x25015030003000400"
+    - "`tpos: t1100001"
+    r_min:
+    - "14100000 CHF"
+  trucks0194:
+    f_max:
+    - "`xpos: x25015030003000400"
+    - "`tpos: t1010001"
+    r_min:
+    - "14400000 CHF"
+  trucks0197:
+    f_max:
+    - "`xpos: x550150300000400"
+    - "`tpos: t1000001"
+    r_min:
+    - "14700000 CHF"
+  trucks0203:
+    f_max:
+    - "`xpos: x550150300000400"
+    - "`tpos: t0110001"
+    r_min:
+    - "14100000 CHF"
+  trucks0217:
+    f_max:
+    - "`xpos: x425150285012515400"
+    - "`tpos: t0000001"
+    r_min:
+    - "9000000 CHF"
+  trucks0218:
+    f_max:
+    - "`xpos: x22715030040032300"
+    - "`tpos: t0001000"
+    r_min:
+    - "6900000 CHF"
