@@ -1,0 +1,40 @@
+# transportation cost Design Problem
+dp {
+        # Pipe transport on connection, vector of dim = number of connections
+        provides pipe_transport0 [dimensionless]
+        provides pipe_transport1 [dimensionless]
+        provides pipe_transport2 [dimensionless]
+        provides pipe_transport3 [dimensionless]
+        provides pipe_transport4 [dimensionless]
+        provides pipe_transport5 [dimensionless]
+        provides pipe_transport6 [dimensionless]
+        provides pipe_transport7 [dimensionless]
+        provides pipe_transport8 [dimensionless]
+        provides pipe_transport9 [dimensionless]
+        # Truck transport on connection, vector of dim = number of connections
+        provides truck_transport0 [dimensionless]
+        provides truck_transport1 [dimensionless]
+        provides truck_transport2 [dimensionless]
+        provides truck_transport3 [dimensionless]
+        provides truck_transport4 [dimensionless]
+        provides truck_transport5 [dimensionless]
+        provides truck_transport6 [dimensionless]
+        provides truck_transport7 [dimensionless]
+        provides truck_transport8 [dimensionless]
+        provides truck_transport9 [dimensionless]
+        
+        # transportation cost for every connection, vector of dim = number of conncections
+        requires transport_cost0 [CHF/t]
+        requires transport_cost1 [CHF/t]
+        requires transport_cost2 [CHF/t]
+        requires transport_cost3 [CHF/t]
+        requires transport_cost4 [CHF/t]
+        requires transport_cost5 [CHF/t]
+        requires transport_cost6 [CHF/t]
+        requires transport_cost7 [CHF/t]
+        requires transport_cost8 [CHF/t]
+        requires transport_cost9 [CHF/t]
+    
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtransportCost_normal_test.yaml")
+    #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtransportCost_normal.yaml")
+}

@@ -1,0 +1,54 @@
+# graph construction Design Problem
+dp {
+        # fixed demand for every location, vector of dim = number of demand locations
+        provides demand0 [t/day]
+        provides demand1 [t/day]
+        provides demand2 [t/day]
+        provides demand3 [t/day]
+        provides demand4 [t/day]
+        # maximal transportation capacity for every connection, vecotr of dim = number of connections
+        provides max_transport0 [t/day]
+        provides max_transport1 [t/day]
+        provides max_transport2 [t/day]
+        provides max_transport3 [t/day]
+        provides max_transport4 [t/day]
+        provides max_transport5 [t/day]
+        provides max_transport6 [t/day]
+        provides max_transport7 [t/day]
+        provides max_transport8 [t/day]
+        provides max_transport9 [t/day]
+        # supply of every location, vector of dim = number of supply locations
+        provides supply0 [t/day]
+        provides supply1 [t/day]
+        provides supply2 [t/day]
+        provides supply3 [t/day]
+        provides supply4 [t/day]
+        
+        # Pipe transport on connection, vector of dim = number of connections
+        requires pipe_transport0 [dimensionless]
+        requires pipe_transport1 [dimensionless]
+        requires pipe_transport2 [dimensionless]
+        requires pipe_transport3 [dimensionless]
+        requires pipe_transport4 [dimensionless]
+        requires pipe_transport5 [dimensionless]
+        requires pipe_transport6 [dimensionless]
+        requires pipe_transport7 [dimensionless]
+        requires pipe_transport8 [dimensionless]
+        requires pipe_transport9 [dimensionless]
+        # Truck transport on connection, vector of dim = number of connections
+        requires truck_transport0 [dimensionless]
+        requires truck_transport1 [dimensionless]
+        requires truck_transport2 [dimensionless]
+        requires truck_transport3 [dimensionless]
+        requires truck_transport4 [dimensionless]
+        requires truck_transport5 [dimensionless]
+        requires truck_transport6 [dimensionless]
+        requires truck_transport7 [dimensionless]
+        requires truck_transport8 [dimensionless]
+        requires truck_transport9 [dimensionless]
+        # investment cost for pipeline construction and supply center construction
+        requires investment_graph [CHF]       
+    
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPgraphConstruction_normal_test.yaml")
+    #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPgraphConstruction_normal.yaml")
+}

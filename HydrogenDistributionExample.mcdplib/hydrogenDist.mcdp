@@ -1,11 +1,11 @@
 # high level Co-Design Problem
 mcdp {
     # import DPs
-    transport_lp = instance` DPtransportLP_small
-    graph_dp = instance` DPgraphConstruction_small
-    cost_dp = instance` DPtransportCost_small
-    emissions_dp = instance` DPtransportEmissions_small
-    trucks_dp = instance` DPtruckInvestment_small
+    transport_lp = instance` DPtransportLP
+    graph_dp = instance` DPgraphConstruction
+    cost_dp = instance` DPtransportCost
+    emissions_dp = instance` DPtransportEmissions
+    trucks_dp = instance` DPtruckInvestment
     revenues_dp = instance` DPrevenues
     expences_dp = instance` DPexpences
     
@@ -15,6 +15,7 @@ mcdp {
     provides demand1_mcdp [t/day]
     provides demand2_mcdp [t/day]
     provides demand3_mcdp [t/day]
+    provides demand4_mcdp [t/day]
     # profit over entire time horizon
     provides profit_mcdp [CHF]
     
@@ -54,6 +55,9 @@ mcdp {
     pipe_transport4 required by graph_dp <= pipe_transport4 provided by cost_dp
     pipe_transport5 required by graph_dp <= pipe_transport5 provided by cost_dp
     pipe_transport6 required by graph_dp <= pipe_transport6 provided by cost_dp
+    pipe_transport7 required by graph_dp <= pipe_transport7 provided by cost_dp
+    pipe_transport8 required by graph_dp <= pipe_transport8 provided by cost_dp
+    pipe_transport9 required by graph_dp <= pipe_transport9 provided by cost_dp
     # connections truck transport from graph_dp to cost_dp
     truck_transport0 required by graph_dp <= truck_transport0 provided by cost_dp
     truck_transport1 required by graph_dp <= truck_transport1 provided by cost_dp
@@ -62,6 +66,9 @@ mcdp {
     truck_transport4 required by graph_dp <= truck_transport4 provided by cost_dp
     truck_transport5 required by graph_dp <= truck_transport5 provided by cost_dp
     truck_transport6 required by graph_dp <= truck_transport6 provided by cost_dp
+    truck_transport7 required by graph_dp <= truck_transport7 provided by cost_dp
+    truck_transport8 required by graph_dp <= truck_transport8 provided by cost_dp
+    truck_transport9 required by graph_dp <= truck_transport9 provided by cost_dp
     # connections truck transport from graph_dp to emissions_dp
     truck_transport0 required by graph_dp <= truck_transport0 provided by emissions_dp
     truck_transport1 required by graph_dp <= truck_transport1 provided by emissions_dp
@@ -70,6 +77,9 @@ mcdp {
     truck_transport4 required by graph_dp <= truck_transport4 provided by emissions_dp
     truck_transport5 required by graph_dp <= truck_transport5 provided by emissions_dp
     truck_transport6 required by graph_dp <= truck_transport6 provided by emissions_dp
+    truck_transport7 required by graph_dp <= truck_transport7 provided by emissions_dp
+    truck_transport8 required by graph_dp <= truck_transport8 provided by emissions_dp
+    truck_transport9 required by graph_dp <= truck_transport9 provided by emissions_dp
     # connection transport cost from transport_lp to graph_dp
     transport_cost0 required by cost_dp <= transport_cost0 provided by transport_lp
     transport_cost1 required by cost_dp <= transport_cost1 provided by transport_lp
@@ -78,6 +88,9 @@ mcdp {
     transport_cost4 required by cost_dp <= transport_cost4 provided by transport_lp
     transport_cost5 required by cost_dp <= transport_cost5 provided by transport_lp
     transport_cost6 required by cost_dp <= transport_cost6 provided by transport_lp
+    transport_cost7 required by cost_dp <= transport_cost7 provided by transport_lp
+    transport_cost8 required by cost_dp <= transport_cost8 provided by transport_lp
+    transport_cost9 required by cost_dp <= transport_cost9 provided by transport_lp
     # connections max transport from graph_dp to transport_lp
     max_transport0 required by transport_lp <= max_transport0 provided by graph_dp
     max_transport1 required by transport_lp <= max_transport1 provided by graph_dp
@@ -86,10 +99,15 @@ mcdp {
     max_transport4 required by transport_lp <= max_transport4 provided by graph_dp
     max_transport5 required by transport_lp <= max_transport5 provided by graph_dp
     max_transport6 required by transport_lp <= max_transport6 provided by graph_dp
+    max_transport7 required by transport_lp <= max_transport7 provided by graph_dp
+    max_transport8 required by transport_lp <= max_transport8 provided by graph_dp
+    max_transport9 required by transport_lp <= max_transport9 provided by graph_dp
     # connection supply from graph_dp to transport_lp
     supply0 required by transport_lp <= supply0 provided by graph_dp
     supply1 required by transport_lp <= supply1 provided by graph_dp
     supply2 required by transport_lp <= supply2 provided by graph_dp
+    supply3 required by transport_lp <= supply3 provided by graph_dp
+    supply4 required by transport_lp <= supply4 provided by graph_dp
     # connection is truck transport from trucks_dp to graph_dp
     truck_transport0 required by graph_dp <= truck_transport0 provided by trucks_dp
     truck_transport1 required by graph_dp <= truck_transport1 provided by trucks_dp
@@ -98,6 +116,9 @@ mcdp {
     truck_transport4 required by graph_dp <= truck_transport4 provided by trucks_dp
     truck_transport5 required by graph_dp <= truck_transport5 provided by trucks_dp
     truck_transport6 required by graph_dp <= truck_transport6 provided by trucks_dp
+    truck_transport7 required by graph_dp <= truck_transport7 provided by trucks_dp
+    truck_transport8 required by graph_dp <= truck_transport8 provided by trucks_dp
+    truck_transport9 required by graph_dp <= truck_transport9 provided by trucks_dp
     # connection optimal transport from trucks_dp to transport_lp
     optimal_transport0 required by transport_lp <= optimal_transport0 provided by trucks_dp
     optimal_transport1 required by transport_lp <= optimal_transport1 provided by trucks_dp
@@ -106,6 +127,9 @@ mcdp {
     optimal_transport4 required by transport_lp <= optimal_transport4 provided by trucks_dp
     optimal_transport5 required by transport_lp <= optimal_transport5 provided by trucks_dp
     optimal_transport6 required by transport_lp <= optimal_transport6 provided by trucks_dp
+    optimal_transport7 required by transport_lp <= optimal_transport7 provided by trucks_dp
+    optimal_transport8 required by transport_lp <= optimal_transport8 provided by trucks_dp
+    optimal_transport9 required by transport_lp <= optimal_transport9 provided by trucks_dp
     # connection optimal transport from emissions_dp to transport_lp
     optimal_transport0 required by transport_lp <= optimal_transport0 provided by emissions_dp
     optimal_transport1 required by transport_lp <= optimal_transport1 provided by emissions_dp
@@ -114,6 +138,9 @@ mcdp {
     optimal_transport4 required by transport_lp <= optimal_transport4 provided by emissions_dp
     optimal_transport5 required by transport_lp <= optimal_transport5 provided by emissions_dp
     optimal_transport6 required by transport_lp <= optimal_transport6 provided by emissions_dp
+    optimal_transport7 required by transport_lp <= optimal_transport7 provided by emissions_dp
+    optimal_transport8 required by transport_lp <= optimal_transport8 provided by emissions_dp
+    optimal_transport9 required by transport_lp <= optimal_transport9 provided by emissions_dp
     
     # connections total demand to revenues_dp
     #demand >= total_demand required by revenues_dp
@@ -137,11 +164,14 @@ mcdp {
     provided demand1_mcdp <= demand1 provided by transport_lp
     provided demand2_mcdp <= demand2 provided by transport_lp
     provided demand3_mcdp <= demand3 provided by transport_lp
+    provided demand4_mcdp <= demand4 provided by transport_lp
     # demand - graphDP
     provided demand0_mcdp <= demand0 provided by graph_dp
     provided demand1_mcdp <= demand1 provided by graph_dp
     provided demand2_mcdp <= demand2 provided by graph_dp
     provided demand3_mcdp <= demand3 provided by graph_dp
+    provided demand4_mcdp <= demand4 provided by graph_dp
+
     # profit
     provided profit_mcdp <= profit provided by expences_dp
 }

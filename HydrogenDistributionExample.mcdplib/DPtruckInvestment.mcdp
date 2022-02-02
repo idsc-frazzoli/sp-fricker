@@ -1,0 +1,31 @@
+# truck investement cost Design Problem
+dp {
+        # optimal transportation quantities for every connection, vector of dim = number of connections
+        provides optimal_transport0 [t/day]
+        provides optimal_transport1 [t/day]
+        provides optimal_transport2 [t/day]
+        provides optimal_transport3 [t/day]
+        provides optimal_transport4 [t/day]
+        provides optimal_transport5 [t/day]
+        provides optimal_transport6 [t/day]
+        provides optimal_transport7 [t/day]
+        provides optimal_transport8 [t/day]
+        provides optimal_transport9 [t/day]
+        # Truck transport on connection, vector of dim = number of connections
+        provides truck_transport0 [dimensionless]
+        provides truck_transport1 [dimensionless]
+        provides truck_transport2 [dimensionless]
+        provides truck_transport3 [dimensionless]
+        provides truck_transport4 [dimensionless]
+        provides truck_transport5 [dimensionless]
+        provides truck_transport6 [dimensionless]
+        provides truck_transport7 [dimensionless]
+        provides truck_transport8 [dimensionless]
+        provides truck_transport9 [dimensionless]
+        
+        # investment cost for total amount of trucks needed
+        requires investment_trucks [CHF]
+    
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtruckInvestment_normal_test.yaml")
+    #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtruckInvestment_normal.yaml")
+}

@@ -1,0 +1,54 @@
+# transportation LP Design Problem
+dp {
+        # fixed demand for every location, vector of dim = number of demand locations
+        provides demand0 [t/day]
+        provides demand1 [t/day]
+        provides demand2 [t/day]
+        provides demand3 [t/day]
+        provides demand4 [t/day]
+        # transportation cost for every connection, vector of dim = number of conncections
+        provides transport_cost0 [CHF/t]
+        provides transport_cost1 [CHF/t]
+        provides transport_cost2 [CHF/t]
+        provides transport_cost3 [CHF/t]
+        provides transport_cost4 [CHF/t]
+        provides transport_cost5 [CHF/t]
+        provides transport_cost6 [CHF/t]
+        provides transport_cost7 [CHF/t]
+        provides transport_cost8 [CHF/t]
+        provides transport_cost9 [CHF/t]
+        
+        # optimal total transportation cost
+        requires optimal_total_transport_cost [CHF/day]
+        # optimal transportation quantities for every connection, vector of dim = number of connections
+        requires optimal_transport0 [t/day]
+        requires optimal_transport1 [t/day]
+        requires optimal_transport2 [t/day]
+        requires optimal_transport3 [t/day]
+        requires optimal_transport4 [t/day]
+        requires optimal_transport5 [t/day]
+        requires optimal_transport6 [t/day]
+        requires optimal_transport7 [t/day]
+        requires optimal_transport8 [t/day]
+        requires optimal_transport9 [t/day]
+        # maximal transportation capacity for every connection, vecotr of dim = number of connections
+        requires max_transport0 [t/day]
+        requires max_transport1 [t/day]
+        requires max_transport2 [t/day]
+        requires max_transport3 [t/day]
+        requires max_transport4 [t/day]
+        requires max_transport5 [t/day]
+        requires max_transport6 [t/day]
+        requires max_transport7 [t/day]
+        requires max_transport8 [t/day]
+        requires max_transport9 [t/day]
+        # supply of every location, vector of dim = number of supply locations
+        requires supply0 [t/day]
+        requires supply1 [t/day]
+        requires supply2 [t/day]
+        requires supply3 [t/day]
+        requires supply4 [t/day]
+    
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtransportLP_normal_test.yaml")
+    #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtransportLP_normal.yaml")
+}
