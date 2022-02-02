@@ -9,13 +9,13 @@ dp {
         provides optimal_transport5 [t/day]
         provides optimal_transport6 [t/day]
         # Truck transport on connection, vector of dim = number of connections
-        provides truck_transport0 [`boolean]
-        provides truck_transport1 [`boolean]
-        provides truck_transport2 [`boolean]
-        provides truck_transport3 [`boolean]
-        provides truck_transport4 [`boolean]
-        provides truck_transport5 [`boolean]
-        provides truck_transport6 [`boolean]
+        provides truck_transport0 [dimensionless]
+        provides truck_transport1 [dimensionless]
+        provides truck_transport2 [dimensionless]
+        provides truck_transport3 [dimensionless]
+        provides truck_transport4 [dimensionless]
+        provides truck_transport5 [dimensionless]
+        provides truck_transport6 [dimensionless]
         
         # investment cost for total amount of trucks needed
         requires investment_trucks [CHF]

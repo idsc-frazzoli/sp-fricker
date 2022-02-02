@@ -7,6 +7,7 @@ mcdp {
     emissions_dp = instance` DPtransportEmissions_small
     trucks_dp = instance` DPtruckInvestment_small
     revenues_dp = instance` DPrevenues_small
+    expences_dp = instance` DPexpences
     
     ## Functionality
     # demand
@@ -24,18 +25,21 @@ mcdp {
     requires price_mcdp [CHF/t]
     # total C02 emissions from transport
     requires total_emissions_mcdp [kg]
+    # total investment costs
+    requires investment_mcdp [CHF]
     
     ## Revenues [t/day]*[CHF/t]*[day] = [CHF]
-    demand = demand0 provided by transport_lp + demand1 provided by transport_lp + demand2 provided by transport_lp + demand3 provided by transport_lp
+    #demand = demand0 provided by transport_lp + demand1 provided by transport_lp + demand2 provided by transport_lp + demand3 provided by transport_lp
     # demand >= total_demand required by revenues_dp
-    # revenues_dp: demand * price * time - profit
+    # revenues_dp: demand * price * time 
+    
     days_per_year = 350 days/year
     
     ## Expences
     # transport expences [CHF/day]*[days]
     total_transport_expences = optimal_total_transport_cost required by transport_lp * time required by revenues_dp * days_per_year
     # total expences, including investement
-    total_expences = total_transport_expences + investment_graph required by graph_dp + investment_trucks required by trucks_dp
+    total_investments =  investment_graph required by graph_dp + investment_trucks required by trucks_dp
    
     ## Emissions
     # total emissions [kg_CO2/day]*[day] = [kg_C02]
@@ -112,10 +116,12 @@ mcdp {
     optimal_transport6 required by transport_lp <= optimal_transport6 provided by emissions_dp
     
     # connections total demand to revenues_dp
-    demand >= total_demand required by revenues_dp
-    #1.0 t/day >= total_demand required by revenues_dp
+    #demand >= total_demand required by revenues_dp
     # connection revenues to expences
-    total_expences <= revenues provided by revenues_dp
+    total_expences required by expences_dp <= revenues provided by revenues_dp
+    # connection to expences
+    total_transport_expences <= total_transport_expences provided by expences_dp
+    total_investments <= total_investments provided by expences_dp
     
     ## Constraints on ressources and functionalities
     # emissions
@@ -124,6 +130,8 @@ mcdp {
     required time_mcdp >= time required by revenues_dp
     # price
     required price_mcdp >= price required by revenues_dp
+    # investment cost
+    required investment_mcdp >= total investments
     # demand - tranpsortLP
     provided demand0_mcdp <= demand0 provided by transport_lp
     provided demand1_mcdp <= demand1 provided by transport_lp
@@ -135,5 +143,5 @@ mcdp {
     provided demand2_mcdp <= demand2 provided by graph_dp
     provided demand3_mcdp <= demand3 provided by graph_dp
     # profit
-    provided profit_mcdp <= profit provided by revenues_dp
+    provided profit_mcdp <= profit provided by expences_dp
 }

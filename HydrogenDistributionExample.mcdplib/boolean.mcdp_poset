@@ -1,4 +1,0 @@
-poset {
-    False True
-    False <= True
-}

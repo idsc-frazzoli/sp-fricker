@@ -1,0 +1,14 @@
+# expences Design Problem
+mcdp {
+        # total expences from transport (time dependent)
+        provides total_transport_expences [CHF]
+        # total investment cost (time independent)
+        provides total_investments [CHF]
+        # profit over entire time horizon
+        provides profit [CHF]
+        
+        # total expences over time horizon
+        requires total_expences [CHF]
+    
+    required total_expences >= provided total_transport_expences + provided total_investments + provided profit
+}
