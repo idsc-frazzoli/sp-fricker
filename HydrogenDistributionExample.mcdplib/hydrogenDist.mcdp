@@ -6,7 +6,7 @@ mcdp {
     cost_dp = instance` DPtransportCost_small
     emissions_dp = instance` DPtransportEmissions_small
     trucks_dp = instance` DPtruckInvestment_small
-    revenues_dp = instance` DPrevenues_small
+    revenues_dp = instance` DPrevenues
     expences_dp = instance` DPexpences
     
     ## Functionality
@@ -131,7 +131,7 @@ mcdp {
     # price
     required price_mcdp >= price required by revenues_dp
     # investment cost
-    required investment_mcdp >= total investments
+    required investment_mcdp >= total_investments
     # demand - tranpsortLP
     provided demand0_mcdp <= demand0 provided by transport_lp
     provided demand1_mcdp <= demand1 provided by transport_lp

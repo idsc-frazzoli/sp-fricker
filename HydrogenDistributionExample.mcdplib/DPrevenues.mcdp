@@ -1,5 +1,5 @@
 # revenues Design Problem
-mcdp {
+dp {
         # revenues over entire time horizon
         provides revenues [CHF]
         # profit over entire time horizon
@@ -12,9 +12,6 @@ mcdp {
         # total demand
         #requires total_demand [t/day]
     
-    #total_demand = 140 [t/day]
-    #provided revenues <= required time * required price * total_demand 
-    
     implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPrevenues_test.yaml")
-    #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPrevenues_test.yaml")
+    #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPrevenues.yaml")
 }
