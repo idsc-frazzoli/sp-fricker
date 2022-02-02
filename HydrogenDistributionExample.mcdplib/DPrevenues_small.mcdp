@@ -13,7 +13,8 @@ mcdp {
         #requires total_demand [t/day]
     
     demand = 140 [t/day]
-    provided revenues + provided profit <= required time * required price * demand 
+    provided revenues <= required time * required price * demand 
+    provided profit <= 0.5 * required time * required price * demand 
     #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPrevenues_small_test.yaml")
     #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPrevenues_small.yaml")
 }
