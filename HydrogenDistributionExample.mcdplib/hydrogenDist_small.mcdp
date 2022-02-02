@@ -1,0 +1,147 @@
+# high level Co-Design Problem
+mcdp {
+    # import DPs
+    transport_lp = instance` DPtransportLP_small
+    graph_dp = instance` DPgraphConstruction_small
+    cost_dp = instance` DPtransportCost_small
+    emissions_dp = instance` DPtransportEmissions_small
+    trucks_dp = instance` DPtruckInvestment_small
+    revenues_dp = instance` DPrevenues_small
+    expences_dp = instance` DPexpences
+    
+    ## Functionality
+    # demand
+    provides demand0_mcdp [t/day]
+    provides demand1_mcdp [t/day]
+    provides demand2_mcdp [t/day]
+    provides demand3_mcdp [t/day]
+    # profit over entire time horizon
+    provides profit_mcdp [CHF]
+    
+    ## Requirements
+    # time horizon
+    requires time_mcdp [years]
+    # hydrogen selling price
+    requires price_mcdp [CHF/t]
+    # total C02 emissions from transport
+    requires total_emissions_mcdp [kg]
+    # total investment costs
+    requires investment_mcdp [CHF]
+    
+    ## Revenues [t/day]*[CHF/t]*[day] = [CHF]
+    #demand = demand0 provided by transport_lp + demand1 provided by transport_lp + demand2 provided by transport_lp + demand3 provided by transport_lp
+    # demand >= total_demand required by revenues_dp
+    # revenues_dp: demand * price * time 
+    
+    days_per_year = 350 days/year
+    
+    ## Expences
+    # transport expences [CHF/day]*[days]
+    total_transport_expences = optimal_total_transport_cost required by transport_lp * time required by revenues_dp * days_per_year
+    # total expences, including investement
+    total_investments =  investment_graph required by graph_dp + investment_trucks required by trucks_dp
+   
+    ## Emissions
+    # total emissions [kg_CO2/day]*[day] = [kg_C02]
+    total_emissions = transport_emissions required by emissions_dp * time required by revenues_dp * days_per_year
+    
+    ## Co-Design Contraints
+    # connections pipe transport from graph_dp to cost_dp
+    pipe_transport0 required by graph_dp <= pipe_transport0 provided by cost_dp
+    pipe_transport1 required by graph_dp <= pipe_transport1 provided by cost_dp
+    pipe_transport2 required by graph_dp <= pipe_transport2 provided by cost_dp
+    pipe_transport3 required by graph_dp <= pipe_transport3 provided by cost_dp
+    pipe_transport4 required by graph_dp <= pipe_transport4 provided by cost_dp
+    pipe_transport5 required by graph_dp <= pipe_transport5 provided by cost_dp
+    pipe_transport6 required by graph_dp <= pipe_transport6 provided by cost_dp
+    # connections truck transport from graph_dp to cost_dp
+    truck_transport0 required by graph_dp <= truck_transport0 provided by cost_dp
+    truck_transport1 required by graph_dp <= truck_transport1 provided by cost_dp
+    truck_transport2 required by graph_dp <= truck_transport2 provided by cost_dp
+    truck_transport3 required by graph_dp <= truck_transport3 provided by cost_dp
+    truck_transport4 required by graph_dp <= truck_transport4 provided by cost_dp
+    truck_transport5 required by graph_dp <= truck_transport5 provided by cost_dp
+    truck_transport6 required by graph_dp <= truck_transport6 provided by cost_dp
+    # connections truck transport from graph_dp to emissions_dp
+    truck_transport0 required by graph_dp <= truck_transport0 provided by emissions_dp
+    truck_transport1 required by graph_dp <= truck_transport1 provided by emissions_dp
+    truck_transport2 required by graph_dp <= truck_transport2 provided by emissions_dp
+    truck_transport3 required by graph_dp <= truck_transport3 provided by emissions_dp
+    truck_transport4 required by graph_dp <= truck_transport4 provided by emissions_dp
+    truck_transport5 required by graph_dp <= truck_transport5 provided by emissions_dp
+    truck_transport6 required by graph_dp <= truck_transport6 provided by emissions_dp
+    # connection transport cost from transport_lp to graph_dp
+    transport_cost0 required by cost_dp <= transport_cost0 provided by transport_lp
+    transport_cost1 required by cost_dp <= transport_cost1 provided by transport_lp
+    transport_cost2 required by cost_dp <= transport_cost2 provided by transport_lp
+    transport_cost3 required by cost_dp <= transport_cost3 provided by transport_lp
+    transport_cost4 required by cost_dp <= transport_cost4 provided by transport_lp
+    transport_cost5 required by cost_dp <= transport_cost5 provided by transport_lp
+    transport_cost6 required by cost_dp <= transport_cost6 provided by transport_lp
+    # connections max transport from graph_dp to transport_lp
+    max_transport0 required by transport_lp <= max_transport0 provided by graph_dp
+    max_transport1 required by transport_lp <= max_transport1 provided by graph_dp
+    max_transport2 required by transport_lp <= max_transport2 provided by graph_dp
+    max_transport3 required by transport_lp <= max_transport3 provided by graph_dp
+    max_transport4 required by transport_lp <= max_transport4 provided by graph_dp
+    max_transport5 required by transport_lp <= max_transport5 provided by graph_dp
+    max_transport6 required by transport_lp <= max_transport6 provided by graph_dp
+    # connection supply from graph_dp to transport_lp
+    supply0 required by transport_lp <= supply0 provided by graph_dp
+    supply1 required by transport_lp <= supply1 provided by graph_dp
+    supply2 required by transport_lp <= supply2 provided by graph_dp
+    # connection is truck transport from trucks_dp to graph_dp
+    truck_transport0 required by graph_dp <= truck_transport0 provided by trucks_dp
+    truck_transport1 required by graph_dp <= truck_transport1 provided by trucks_dp
+    truck_transport2 required by graph_dp <= truck_transport2 provided by trucks_dp
+    truck_transport3 required by graph_dp <= truck_transport3 provided by trucks_dp
+    truck_transport4 required by graph_dp <= truck_transport4 provided by trucks_dp
+    truck_transport5 required by graph_dp <= truck_transport5 provided by trucks_dp
+    truck_transport6 required by graph_dp <= truck_transport6 provided by trucks_dp
+    # connection optimal transport from trucks_dp to transport_lp
+    optimal_transport0 required by transport_lp <= optimal_transport0 provided by trucks_dp
+    optimal_transport1 required by transport_lp <= optimal_transport1 provided by trucks_dp
+    optimal_transport2 required by transport_lp <= optimal_transport2 provided by trucks_dp
+    optimal_transport3 required by transport_lp <= optimal_transport3 provided by trucks_dp
+    optimal_transport4 required by transport_lp <= optimal_transport4 provided by trucks_dp
+    optimal_transport5 required by transport_lp <= optimal_transport5 provided by trucks_dp
+    optimal_transport6 required by transport_lp <= optimal_transport6 provided by trucks_dp
+    # connection optimal transport from emissions_dp to transport_lp
+    optimal_transport0 required by transport_lp <= optimal_transport0 provided by emissions_dp
+    optimal_transport1 required by transport_lp <= optimal_transport1 provided by emissions_dp
+    optimal_transport2 required by transport_lp <= optimal_transport2 provided by emissions_dp
+    optimal_transport3 required by transport_lp <= optimal_transport3 provided by emissions_dp
+    optimal_transport4 required by transport_lp <= optimal_transport4 provided by emissions_dp
+    optimal_transport5 required by transport_lp <= optimal_transport5 provided by emissions_dp
+    optimal_transport6 required by transport_lp <= optimal_transport6 provided by emissions_dp
+    
+    # connections total demand to revenues_dp
+    #demand >= total_demand required by revenues_dp
+    # connection revenues to expences
+    total_expences required by expences_dp <= revenues provided by revenues_dp
+    # connection to expences
+    total_transport_expences <= total_transport_expences provided by expences_dp
+    total_investments <= total_investments provided by expences_dp
+    
+    ## Constraints on ressources and functionalities
+    # emissions
+    required total_emissions_mcdp >= total_emissions
+    # time
+    required time_mcdp >= time required by revenues_dp
+    # price
+    required price_mcdp >= price required by revenues_dp
+    # investment cost
+    required investment_mcdp >= total_investments
+    # demand - tranpsortLP
+    provided demand0_mcdp <= demand0 provided by transport_lp
+    provided demand1_mcdp <= demand1 provided by transport_lp
+    provided demand2_mcdp <= demand2 provided by transport_lp
+    provided demand3_mcdp <= demand3 provided by transport_lp
+    # demand - graphDP
+    provided demand0_mcdp <= demand0 provided by graph_dp
+    provided demand1_mcdp <= demand1 provided by graph_dp
+    provided demand2_mcdp <= demand2 provided by graph_dp
+    provided demand3_mcdp <= demand3 provided by graph_dp
+    # profit
+    provided profit_mcdp <= profit provided by expences_dp
+}
