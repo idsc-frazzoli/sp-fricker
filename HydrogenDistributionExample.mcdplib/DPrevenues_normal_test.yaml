@@ -4,97 +4,97 @@ R:
 - "years"
 - "CHF/kg"
 implementations:
-  model001:
+  revenue001:
     f_max:
     - "392000000 CHF"
     r_min:
     - "4 years"
     - "1.0 CHF/kg"
-  model002:
+  revenue002:
     f_max:
     - "784000000 CHF"
     r_min:
     - "8 years"
     - "1.0 CHF/kg"
-  model003:
+  revenue003:
     f_max:
     - "1176000000 CHF"
     r_min:
     - "12 years"
     - "1.0 CHF/kg"
-  model004:
+  revenue004:
     f_max:
     - "1568000000 CHF"
     r_min:
     - "16 years"
     - "1.0 CHF/kg"
-  model005:
+  revenue005:
     f_max:
     - "784000000 CHF"
     r_min:
     - "4 years"
     - "2.0 CHF/kg"
-  model006:
+  revenue006:
     f_max:
     - "1568000000 CHF"
     r_min:
     - "8 years"
     - "2.0 CHF/kg"
-  model007:
+  revenue007:
     f_max:
     - "2352000000 CHF"
     r_min:
     - "12 years"
     - "2.0 CHF/kg"
-  model008:
+  revenue008:
     f_max:
     - "3136000000 CHF"
     r_min:
     - "16 years"
     - "2.0 CHF/kg"
-  model009:
+  revenue009:
     f_max:
     - "1176000000 CHF"
     r_min:
     - "4 years"
     - "3.0 CHF/kg"
-  model010:
+  revenue010:
     f_max:
     - "2352000000 CHF"
     r_min:
     - "8 years"
     - "3.0 CHF/kg"
-  model011:
+  revenue011:
     f_max:
     - "3528000000 CHF"
     r_min:
     - "12 years"
     - "3.0 CHF/kg"
-  model012:
+  revenue012:
     f_max:
     - "4704000000 CHF"
     r_min:
     - "16 years"
     - "3.0 CHF/kg"
-  model013:
+  revenue013:
     f_max:
     - "1568000000 CHF"
     r_min:
     - "4 years"
     - "4.0 CHF/kg"
-  model014:
+  revenue014:
     f_max:
     - "3136000000 CHF"
     r_min:
     - "8 years"
     - "4.0 CHF/kg"
-  model015:
+  revenue015:
     f_max:
     - "4704000000 CHF"
     r_min:
     - "12 years"
     - "4.0 CHF/kg"
-  model016:
+  revenue016:
     f_max:
     - "6272000000 CHF"
     r_min:
