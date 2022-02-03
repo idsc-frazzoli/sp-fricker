@@ -26,6 +26,6 @@ dp {
         # investment cost for total amount of trucks needed
         requires investment_trucks [CHF]
     
-    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtruckInvestment_normal_test.yaml")
-    #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtruckInvestment_normal.yaml")
+    #implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtruckInvestment_normal_test.yaml")
+    implemented-by code mcdp_importers.read_yaml(fn="HydrogenDistributionExample.mcdplib/DPtruckInvestment_normal.yaml")
 }
