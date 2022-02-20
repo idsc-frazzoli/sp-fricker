@@ -39,13 +39,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0002:
     f_max:
     - "0 dimensionless"
@@ -63,13 +63,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
     - "672 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
   cost0003:
     f_max:
     - "0 dimensionless"
@@ -87,13 +87,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0004:
     f_max:
     - "0 dimensionless"
@@ -111,13 +111,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0005:
     f_max:
     - "0 dimensionless"
@@ -135,13 +135,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
     - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0006:
     f_max:
     - "0 dimensionless"
@@ -159,13 +159,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0007:
     f_max:
     - "1 dimensionless"
@@ -183,13 +183,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0008:
     f_max:
     - "1 dimensionless"
@@ -207,13 +207,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0009:
     f_max:
     - "1 dimensionless"
@@ -231,13 +231,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0010:
     f_max:
     - "1 dimensionless"
@@ -255,13 +255,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0011:
     f_max:
     - "1 dimensionless"
@@ -279,13 +279,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
   cost0012:
     f_max:
     - "1 dimensionless"
@@ -303,13 +303,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0013:
     f_max:
     - "0 dimensionless"
@@ -327,13 +327,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0014:
     f_max:
     - "0 dimensionless"
@@ -351,13 +351,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0015:
     f_max:
     - "0 dimensionless"
@@ -375,13 +375,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0016:
     f_max:
     - "0 dimensionless"
@@ -399,13 +399,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0017:
     f_max:
     - "0 dimensionless"
@@ -423,13 +423,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
     - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0018:
     f_max:
     - "0 dimensionless"
@@ -447,13 +447,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0019:
     f_max:
     - "1 dimensionless"
@@ -471,13 +471,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0020:
     f_max:
     - "1 dimensionless"
@@ -495,13 +495,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0021:
     f_max:
     - "1 dimensionless"
@@ -519,13 +519,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0022:
     f_max:
     - "1 dimensionless"
@@ -543,13 +543,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0023:
     f_max:
     - "0 dimensionless"
@@ -568,12 +568,12 @@ implementations:
     - "0 dimensionless"
     r_min:
     - "0 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0024:
     f_max:
     - "0 dimensionless"
@@ -592,12 +592,12 @@ implementations:
     - "0 dimensionless"
     r_min:
     - "0 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
   cost0025:
     f_max:
     - "0 dimensionless"
@@ -616,10 +616,10 @@ implementations:
     - "0 dimensionless"
     r_min:
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
   cost0026:
@@ -640,11 +640,11 @@ implementations:
     - "0 dimensionless"
     r_min:
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0027:
     f_max:
@@ -664,11 +664,11 @@ implementations:
     - "0 dimensionless"
     r_min:
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0028:
     f_max:
@@ -687,12 +687,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0029:
     f_max:
@@ -711,11 +711,11 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
   cost0030:
@@ -735,12 +735,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0031:
     f_max:
@@ -759,12 +759,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0032:
     f_max:
@@ -783,11 +783,11 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
   cost0033:
@@ -807,12 +807,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0034:
     f_max:
@@ -831,11 +831,11 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
   cost0035:
@@ -855,12 +855,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0036:
     f_max:
@@ -879,11 +879,11 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
   cost0037:
@@ -903,12 +903,12 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
   cost0038:
     f_max:
@@ -927,12 +927,12 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
   cost0039:
     f_max:
@@ -951,12 +951,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0040:
     f_max:
@@ -975,12 +975,12 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
   cost0041:
     f_max:
@@ -999,13 +999,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0042:
     f_max:
     - "0 dimensionless"
@@ -1023,13 +1023,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0043:
     f_max:
     - "0 dimensionless"
@@ -1047,13 +1047,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0044:
     f_max:
     - "0 dimensionless"
@@ -1071,13 +1071,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0045:
     f_max:
     - "0 dimensionless"
@@ -1095,13 +1095,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0046:
     f_max:
     - "0 dimensionless"
@@ -1119,13 +1119,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
     - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0047:
     f_max:
     - "0 dimensionless"
@@ -1143,13 +1143,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0048:
     f_max:
     - "0 dimensionless"
@@ -1167,13 +1167,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0049:
     f_max:
     - "0 dimensionless"
@@ -1191,13 +1191,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0050:
     f_max:
     - "0 dimensionless"
@@ -1215,13 +1215,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
     - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0051:
     f_max:
     - "0 dimensionless"
@@ -1239,13 +1239,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
     - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0052:
     f_max:
     - "0 dimensionless"
@@ -1263,13 +1263,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0053:
     f_max:
     - "1 dimensionless"
@@ -1287,13 +1287,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0054:
     f_max:
     - "1 dimensionless"
@@ -1311,13 +1311,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0055:
     f_max:
     - "1 dimensionless"
@@ -1335,13 +1335,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0056:
     f_max:
     - "1 dimensionless"
@@ -1359,13 +1359,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0057:
     f_max:
     - "1 dimensionless"
@@ -1383,13 +1383,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0058:
     f_max:
     - "1 dimensionless"
@@ -1407,13 +1407,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0059:
     f_max:
     - "1 dimensionless"
@@ -1431,13 +1431,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
     - "0 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0060:
     f_max:
     - "1 dimensionless"
@@ -1455,13 +1455,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0061:
     f_max:
     - "1 dimensionless"
@@ -1479,13 +1479,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0062:
     f_max:
     - "0 dimensionless"
@@ -1503,13 +1503,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0063:
     f_max:
     - "0 dimensionless"
@@ -1527,13 +1527,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0064:
     f_max:
     - "0 dimensionless"
@@ -1551,13 +1551,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0065:
     f_max:
     - "0 dimensionless"
@@ -1575,13 +1575,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
     - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0066:
     f_max:
     - "0 dimensionless"
@@ -1599,13 +1599,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0067:
     f_max:
     - "0 dimensionless"
@@ -1623,13 +1623,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1136 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0068:
     f_max:
     - "0 dimensionless"
@@ -1647,13 +1647,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0069:
     f_max:
     - "0 dimensionless"
@@ -1671,13 +1671,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
     - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0070:
     f_max:
     - "0 dimensionless"
@@ -1695,13 +1695,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
     - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0071:
     f_max:
     - "0 dimensionless"
@@ -1719,13 +1719,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0072:
     f_max:
     - "1 dimensionless"
@@ -1743,13 +1743,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0073:
     f_max:
     - "1 dimensionless"
@@ -1767,13 +1767,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0074:
     f_max:
     - "1 dimensionless"
@@ -1791,13 +1791,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0075:
     f_max:
     - "1 dimensionless"
@@ -1815,13 +1815,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0076:
     f_max:
     - "1 dimensionless"
@@ -1839,13 +1839,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0077:
     f_max:
     - "1 dimensionless"
@@ -1863,13 +1863,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0078:
     f_max:
     - "1 dimensionless"
@@ -1887,13 +1887,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0079:
     f_max:
     - "1 dimensionless"
@@ -1911,13 +1911,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0080:
     f_max:
     - "1 dimensionless"
@@ -1935,13 +1935,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0081:
     f_max:
     - "0 dimensionless"
@@ -1959,13 +1959,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "0 CHF/t"
     - "672 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
     - "0 CHF/t"
-    - "768 CHF/t"
-    - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0082:
     f_max:
     - "0 dimensionless"
@@ -1983,13 +1983,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0083:
     f_max:
     - "1 dimensionless"
@@ -2007,13 +2007,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0084:
     f_max:
     - "1 dimensionless"
@@ -2031,13 +2031,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0085:
     f_max:
     - "1 dimensionless"
@@ -2055,13 +2055,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0086:
     f_max:
     - "1 dimensionless"
@@ -2079,13 +2079,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0087:
     f_max:
     - "0 dimensionless"
@@ -2103,13 +2103,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
     - "672 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0088:
     f_max:
     - "0 dimensionless"
@@ -2127,13 +2127,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
     - "672 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0089:
     f_max:
     - "0 dimensionless"
@@ -2151,13 +2151,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
   cost0090:
     f_max:
     - "0 dimensionless"
@@ -2175,13 +2175,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0091:
     f_max:
     - "0 dimensionless"
@@ -2199,13 +2199,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
   cost0092:
     f_max:
     - "0 dimensionless"
@@ -2223,13 +2223,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0093:
     f_max:
     - "0 dimensionless"
@@ -2247,13 +2247,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
   cost0094:
     f_max:
     - "0 dimensionless"
@@ -2271,13 +2271,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0095:
     f_max:
     - "1 dimensionless"
@@ -2295,13 +2295,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
   cost0096:
     f_max:
     - "1 dimensionless"
@@ -2319,13 +2319,13 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0097:
     f_max:
     - "1 dimensionless"
@@ -2343,13 +2343,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0098:
     f_max:
     - "1 dimensionless"
@@ -2367,13 +2367,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
   cost0099:
     f_max:
     - "1 dimensionless"
@@ -2391,13 +2391,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0100:
     f_max:
     - "1 dimensionless"
@@ -2415,13 +2415,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
   cost0101:
     f_max:
     - "1 dimensionless"
@@ -2439,13 +2439,13 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0102:
     f_max:
     - "0 dimensionless"
@@ -2463,13 +2463,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "1136 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0103:
     f_max:
     - "0 dimensionless"
@@ -2487,13 +2487,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0104:
     f_max:
     - "0 dimensionless"
@@ -2511,13 +2511,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
     - "672 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0105:
     f_max:
     - "0 dimensionless"
@@ -2535,13 +2535,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
     - "672 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0106:
     f_max:
     - "0 dimensionless"
@@ -2559,13 +2559,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0107:
     f_max:
     - "0 dimensionless"
@@ -2583,13 +2583,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0108:
     f_max:
     - "0 dimensionless"
@@ -2607,13 +2607,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0109:
     f_max:
     - "0 dimensionless"
@@ -2631,13 +2631,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
     - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0110:
     f_max:
     - "0 dimensionless"
@@ -2655,13 +2655,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0111:
     f_max:
     - "1 dimensionless"
@@ -2679,13 +2679,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0112:
     f_max:
     - "1 dimensionless"
@@ -2703,13 +2703,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0113:
     f_max:
     - "1 dimensionless"
@@ -2727,13 +2727,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0114:
     f_max:
     - "1 dimensionless"
@@ -2751,13 +2751,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0115:
     f_max:
     - "1 dimensionless"
@@ -2775,13 +2775,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0116:
     f_max:
     - "1 dimensionless"
@@ -2799,13 +2799,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0117:
     f_max:
     - "1 dimensionless"
@@ -2823,13 +2823,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0118:
     f_max:
     - "1 dimensionless"
@@ -2847,13 +2847,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0119:
     f_max:
     - "1 dimensionless"
@@ -2871,13 +2871,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0120:
     f_max:
     - "1 dimensionless"
@@ -2895,13 +2895,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0121:
     f_max:
     - "0 dimensionless"
@@ -2920,12 +2920,12 @@ implementations:
     - "0 dimensionless"
     r_min:
     - "0 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
-    - "100 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
+    - "200 CHF/t"
   cost0122:
     f_max:
     - "0 dimensionless"
@@ -2944,12 +2944,12 @@ implementations:
     - "0 dimensionless"
     r_min:
     - "0 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
   cost0123:
     f_max:
     - "0 dimensionless"
@@ -2968,11 +2968,11 @@ implementations:
     - "0 dimensionless"
     r_min:
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
   cost0124:
     f_max:
@@ -2992,10 +2992,10 @@ implementations:
     - "0 dimensionless"
     r_min:
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
   cost0125:
@@ -3015,12 +3015,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "1136 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0126:
     f_max:
@@ -3039,12 +3039,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0127:
     f_max:
@@ -3063,12 +3063,12 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
   cost0128:
     f_max:
@@ -3087,11 +3087,11 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
     - "672 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
   cost0129:
@@ -3111,13 +3111,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0130:
     f_max:
     - "0 dimensionless"
@@ -3135,12 +3135,12 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
   cost0131:
     f_max:
@@ -3159,13 +3159,13 @@ implementations:
     - "1 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
-    - "1472 CHF/t"
+    - "294 CHF/t"
+    - "1288 CHF/t"
   cost0132:
     f_max:
     - "0 dimensionless"
@@ -3183,12 +3183,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0133:
     f_max:
@@ -3207,13 +3207,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0134:
     f_max:
     - "0 dimensionless"
@@ -3231,12 +3231,12 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
   cost0135:
     f_max:
@@ -3255,13 +3255,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0136:
     f_max:
     - "0 dimensionless"
@@ -3279,12 +3279,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
     - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0137:
     f_max:
@@ -3303,12 +3303,12 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
+    - "588 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "672 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
   cost0138:
     f_max:
@@ -3327,12 +3327,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
     - "0 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0139:
     f_max:
@@ -3351,13 +3351,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0140:
     f_max:
     - "1 dimensionless"
@@ -3375,12 +3375,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0141:
     f_max:
@@ -3399,12 +3399,12 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
   cost0142:
     f_max:
@@ -3423,10 +3423,10 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
@@ -3447,12 +3447,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "968 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "847 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0144:
     f_max:
@@ -3471,13 +3471,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
-    - "768 CHF/t"
-    - "100 CHF/t"
-    - "1472 CHF/t"
+    - "672 CHF/t"
+    - "200 CHF/t"
+    - "1288 CHF/t"
   cost0145:
     f_max:
     - "1 dimensionless"
@@ -3495,12 +3495,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "100 CHF/t"
-    - "768 CHF/t"
-    - "336 CHF/t"
+    - "200 CHF/t"
+    - "672 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0146:
     f_max:
@@ -3519,10 +3519,10 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "1136 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "994 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
@@ -3543,12 +3543,12 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "544 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "476 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "336 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"
   cost0148:
     f_max:
@@ -3567,13 +3567,13 @@ implementations:
     - "0 dimensionless"
     - "1 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
-    - "768 CHF/t"
+    - "672 CHF/t"
     - "0 CHF/t"
-    - "1472 CHF/t"
+    - "1288 CHF/t"
   cost0149:
     f_max:
     - "1 dimensionless"
@@ -3591,11 +3591,11 @@ implementations:
     - "0 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "1136 CHF/t"
-    - "100 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "994 CHF/t"
+    - "200 CHF/t"
     - "0 CHF/t"
     - "0 CHF/t"
   cost0150:
@@ -3615,10 +3615,10 @@ implementations:
     - "1 dimensionless"
     - "0 dimensionless"
     r_min:
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "100 CHF/t"
-    - "336 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "200 CHF/t"
+    - "294 CHF/t"
     - "0 CHF/t"

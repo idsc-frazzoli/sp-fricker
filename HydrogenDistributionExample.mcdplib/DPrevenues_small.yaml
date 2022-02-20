@@ -6,1015 +6,781 @@ R:
 implementations:
   revenue001:
     f_max:
+    - "147000000 CHF"
+    r_min:
+    - "4 years"
+    - "0.75 CHF/kg"
+  revenue002:
+    f_max:
+    - "183750000 CHF"
+    r_min:
+    - "5 years"
+    - "0.75 CHF/kg"
+  revenue003:
+    f_max:
+    - "220500000 CHF"
+    r_min:
+    - "6 years"
+    - "0.75 CHF/kg"
+  revenue004:
+    f_max:
+    - "257250000 CHF"
+    r_min:
+    - "7 years"
+    - "0.75 CHF/kg"
+  revenue005:
+    f_max:
+    - "294000000 CHF"
+    r_min:
+    - "8 years"
+    - "0.75 CHF/kg"
+  revenue006:
+    f_max:
+    - "330750000 CHF"
+    r_min:
+    - "9 years"
+    - "0.75 CHF/kg"
+  revenue007:
+    f_max:
+    - "367500000 CHF"
+    r_min:
+    - "10 years"
+    - "0.75 CHF/kg"
+  revenue008:
+    f_max:
+    - "404250000 CHF"
+    r_min:
+    - "11 years"
+    - "0.75 CHF/kg"
+  revenue009:
+    f_max:
+    - "441000000 CHF"
+    r_min:
+    - "12 years"
+    - "0.75 CHF/kg"
+  revenue010:
+    f_max:
+    - "477750000 CHF"
+    r_min:
+    - "13 years"
+    - "0.75 CHF/kg"
+  revenue011:
+    f_max:
+    - "514500000 CHF"
+    r_min:
+    - "14 years"
+    - "0.75 CHF/kg"
+  revenue012:
+    f_max:
+    - "551250000 CHF"
+    r_min:
+    - "15 years"
+    - "0.75 CHF/kg"
+  revenue013:
+    f_max:
+    - "588000000 CHF"
+    r_min:
+    - "16 years"
+    - "0.75 CHF/kg"
+  revenue014:
+    f_max:
     - "196000000 CHF"
     r_min:
     - "4 years"
     - "1.0 CHF/kg"
-  revenue002:
+  revenue015:
     f_max:
     - "245000000 CHF"
     r_min:
     - "5 years"
     - "1.0 CHF/kg"
-  revenue003:
+  revenue016:
     f_max:
     - "294000000 CHF"
     r_min:
     - "6 years"
     - "1.0 CHF/kg"
-  revenue004:
+  revenue017:
     f_max:
     - "343000000 CHF"
     r_min:
     - "7 years"
     - "1.0 CHF/kg"
-  revenue005:
+  revenue018:
     f_max:
     - "392000000 CHF"
     r_min:
     - "8 years"
     - "1.0 CHF/kg"
-  revenue006:
+  revenue019:
     f_max:
     - "441000000 CHF"
     r_min:
     - "9 years"
     - "1.0 CHF/kg"
-  revenue007:
+  revenue020:
     f_max:
     - "490000000 CHF"
     r_min:
     - "10 years"
     - "1.0 CHF/kg"
-  revenue008:
+  revenue021:
     f_max:
     - "539000000 CHF"
     r_min:
     - "11 years"
     - "1.0 CHF/kg"
-  revenue009:
+  revenue022:
     f_max:
     - "588000000 CHF"
     r_min:
     - "12 years"
     - "1.0 CHF/kg"
-  revenue010:
+  revenue023:
     f_max:
     - "637000000 CHF"
     r_min:
     - "13 years"
     - "1.0 CHF/kg"
-  revenue011:
+  revenue024:
     f_max:
     - "686000000 CHF"
     r_min:
     - "14 years"
     - "1.0 CHF/kg"
-  revenue012:
+  revenue025:
     f_max:
     - "735000000 CHF"
     r_min:
     - "15 years"
     - "1.0 CHF/kg"
-  revenue013:
+  revenue026:
     f_max:
     - "784000000 CHF"
     r_min:
     - "16 years"
     - "1.0 CHF/kg"
-  revenue014:
+  revenue027:
     f_max:
     - "245000000 CHF"
     r_min:
     - "4 years"
     - "1.25 CHF/kg"
-  revenue015:
+  revenue028:
     f_max:
     - "306250000 CHF"
     r_min:
     - "5 years"
     - "1.25 CHF/kg"
-  revenue016:
+  revenue029:
     f_max:
     - "367500000 CHF"
     r_min:
     - "6 years"
     - "1.25 CHF/kg"
-  revenue017:
+  revenue030:
     f_max:
     - "428750000 CHF"
     r_min:
     - "7 years"
     - "1.25 CHF/kg"
-  revenue018:
+  revenue031:
     f_max:
     - "490000000 CHF"
     r_min:
     - "8 years"
     - "1.25 CHF/kg"
-  revenue019:
+  revenue032:
     f_max:
     - "551250000 CHF"
     r_min:
     - "9 years"
     - "1.25 CHF/kg"
-  revenue020:
+  revenue033:
     f_max:
     - "612500000 CHF"
     r_min:
     - "10 years"
     - "1.25 CHF/kg"
-  revenue021:
+  revenue034:
     f_max:
     - "673750000 CHF"
     r_min:
     - "11 years"
     - "1.25 CHF/kg"
-  revenue022:
+  revenue035:
     f_max:
     - "735000000 CHF"
     r_min:
     - "12 years"
     - "1.25 CHF/kg"
-  revenue023:
+  revenue036:
     f_max:
     - "796250000 CHF"
     r_min:
     - "13 years"
     - "1.25 CHF/kg"
-  revenue024:
+  revenue037:
     f_max:
     - "857500000 CHF"
     r_min:
     - "14 years"
     - "1.25 CHF/kg"
-  revenue025:
+  revenue038:
     f_max:
     - "918750000 CHF"
     r_min:
     - "15 years"
     - "1.25 CHF/kg"
-  revenue026:
+  revenue039:
     f_max:
     - "980000000 CHF"
     r_min:
     - "16 years"
     - "1.25 CHF/kg"
-  revenue027:
+  revenue040:
     f_max:
     - "294000000 CHF"
     r_min:
     - "4 years"
     - "1.5 CHF/kg"
-  revenue028:
+  revenue041:
     f_max:
     - "367500000 CHF"
     r_min:
     - "5 years"
     - "1.5 CHF/kg"
-  revenue029:
+  revenue042:
     f_max:
     - "441000000 CHF"
     r_min:
     - "6 years"
     - "1.5 CHF/kg"
-  revenue030:
+  revenue043:
     f_max:
     - "514500000 CHF"
     r_min:
     - "7 years"
     - "1.5 CHF/kg"
-  revenue031:
+  revenue044:
     f_max:
     - "588000000 CHF"
     r_min:
     - "8 years"
     - "1.5 CHF/kg"
-  revenue032:
+  revenue045:
     f_max:
     - "661500000 CHF"
     r_min:
     - "9 years"
     - "1.5 CHF/kg"
-  revenue033:
+  revenue046:
     f_max:
     - "735000000 CHF"
     r_min:
     - "10 years"
     - "1.5 CHF/kg"
-  revenue034:
+  revenue047:
     f_max:
     - "808500000 CHF"
     r_min:
     - "11 years"
     - "1.5 CHF/kg"
-  revenue035:
+  revenue048:
     f_max:
     - "882000000 CHF"
     r_min:
     - "12 years"
     - "1.5 CHF/kg"
-  revenue036:
+  revenue049:
     f_max:
     - "955500000 CHF"
     r_min:
     - "13 years"
     - "1.5 CHF/kg"
-  revenue037:
+  revenue050:
     f_max:
     - "1029000000 CHF"
     r_min:
     - "14 years"
     - "1.5 CHF/kg"
-  revenue038:
+  revenue051:
     f_max:
     - "1102500000 CHF"
     r_min:
     - "15 years"
     - "1.5 CHF/kg"
-  revenue039:
+  revenue052:
     f_max:
     - "1176000000 CHF"
     r_min:
     - "16 years"
     - "1.5 CHF/kg"
-  revenue040:
+  revenue053:
     f_max:
     - "343000000 CHF"
     r_min:
     - "4 years"
     - "1.75 CHF/kg"
-  revenue041:
+  revenue054:
     f_max:
     - "428750000 CHF"
     r_min:
     - "5 years"
     - "1.75 CHF/kg"
-  revenue042:
+  revenue055:
     f_max:
     - "514500000 CHF"
     r_min:
     - "6 years"
     - "1.75 CHF/kg"
-  revenue043:
+  revenue056:
     f_max:
     - "600250000 CHF"
     r_min:
     - "7 years"
     - "1.75 CHF/kg"
-  revenue044:
+  revenue057:
     f_max:
     - "686000000 CHF"
     r_min:
     - "8 years"
     - "1.75 CHF/kg"
-  revenue045:
+  revenue058:
     f_max:
     - "771750000 CHF"
     r_min:
     - "9 years"
     - "1.75 CHF/kg"
-  revenue046:
+  revenue059:
     f_max:
     - "857500000 CHF"
     r_min:
     - "10 years"
     - "1.75 CHF/kg"
-  revenue047:
+  revenue060:
     f_max:
     - "943250000 CHF"
     r_min:
     - "11 years"
     - "1.75 CHF/kg"
-  revenue048:
+  revenue061:
     f_max:
     - "1029000000 CHF"
     r_min:
     - "12 years"
     - "1.75 CHF/kg"
-  revenue049:
+  revenue062:
     f_max:
     - "1114750000 CHF"
     r_min:
     - "13 years"
     - "1.75 CHF/kg"
-  revenue050:
+  revenue063:
     f_max:
     - "1200500000 CHF"
     r_min:
     - "14 years"
     - "1.75 CHF/kg"
-  revenue051:
+  revenue064:
     f_max:
     - "1286250000 CHF"
     r_min:
     - "15 years"
     - "1.75 CHF/kg"
-  revenue052:
+  revenue065:
     f_max:
     - "1372000000 CHF"
     r_min:
     - "16 years"
     - "1.75 CHF/kg"
-  revenue053:
+  revenue066:
     f_max:
     - "392000000 CHF"
     r_min:
     - "4 years"
     - "2.0 CHF/kg"
-  revenue054:
+  revenue067:
     f_max:
     - "490000000 CHF"
     r_min:
     - "5 years"
     - "2.0 CHF/kg"
-  revenue055:
+  revenue068:
     f_max:
     - "588000000 CHF"
     r_min:
     - "6 years"
     - "2.0 CHF/kg"
-  revenue056:
+  revenue069:
     f_max:
     - "686000000 CHF"
     r_min:
     - "7 years"
     - "2.0 CHF/kg"
-  revenue057:
+  revenue070:
     f_max:
     - "784000000 CHF"
     r_min:
     - "8 years"
     - "2.0 CHF/kg"
-  revenue058:
+  revenue071:
     f_max:
     - "882000000 CHF"
     r_min:
     - "9 years"
     - "2.0 CHF/kg"
-  revenue059:
+  revenue072:
     f_max:
     - "980000000 CHF"
     r_min:
     - "10 years"
     - "2.0 CHF/kg"
-  revenue060:
+  revenue073:
     f_max:
     - "1078000000 CHF"
     r_min:
     - "11 years"
     - "2.0 CHF/kg"
-  revenue061:
+  revenue074:
     f_max:
     - "1176000000 CHF"
     r_min:
     - "12 years"
     - "2.0 CHF/kg"
-  revenue062:
+  revenue075:
     f_max:
     - "1274000000 CHF"
     r_min:
     - "13 years"
     - "2.0 CHF/kg"
-  revenue063:
+  revenue076:
     f_max:
     - "1372000000 CHF"
     r_min:
     - "14 years"
     - "2.0 CHF/kg"
-  revenue064:
+  revenue077:
     f_max:
     - "1470000000 CHF"
     r_min:
     - "15 years"
     - "2.0 CHF/kg"
-  revenue065:
+  revenue078:
     f_max:
     - "1568000000 CHF"
     r_min:
     - "16 years"
     - "2.0 CHF/kg"
-  revenue066:
+  revenue079:
     f_max:
     - "441000000 CHF"
     r_min:
     - "4 years"
     - "2.25 CHF/kg"
-  revenue067:
+  revenue080:
     f_max:
     - "551250000 CHF"
     r_min:
     - "5 years"
     - "2.25 CHF/kg"
-  revenue068:
+  revenue081:
     f_max:
     - "661500000 CHF"
     r_min:
     - "6 years"
     - "2.25 CHF/kg"
-  revenue069:
+  revenue082:
     f_max:
     - "771750000 CHF"
     r_min:
     - "7 years"
     - "2.25 CHF/kg"
-  revenue070:
+  revenue083:
     f_max:
     - "882000000 CHF"
     r_min:
     - "8 years"
     - "2.25 CHF/kg"
-  revenue071:
+  revenue084:
     f_max:
     - "992250000 CHF"
     r_min:
     - "9 years"
     - "2.25 CHF/kg"
-  revenue072:
+  revenue085:
     f_max:
     - "1102500000 CHF"
     r_min:
     - "10 years"
     - "2.25 CHF/kg"
-  revenue073:
+  revenue086:
     f_max:
     - "1212750000 CHF"
     r_min:
     - "11 years"
     - "2.25 CHF/kg"
-  revenue074:
+  revenue087:
     f_max:
     - "1323000000 CHF"
     r_min:
     - "12 years"
     - "2.25 CHF/kg"
-  revenue075:
+  revenue088:
     f_max:
     - "1433250000 CHF"
     r_min:
     - "13 years"
     - "2.25 CHF/kg"
-  revenue076:
+  revenue089:
     f_max:
     - "1543500000 CHF"
     r_min:
     - "14 years"
     - "2.25 CHF/kg"
-  revenue077:
+  revenue090:
     f_max:
     - "1653750000 CHF"
     r_min:
     - "15 years"
     - "2.25 CHF/kg"
-  revenue078:
+  revenue091:
     f_max:
     - "1764000000 CHF"
     r_min:
     - "16 years"
     - "2.25 CHF/kg"
-  revenue079:
+  revenue092:
     f_max:
     - "490000000 CHF"
     r_min:
     - "4 years"
     - "2.5 CHF/kg"
-  revenue080:
+  revenue093:
     f_max:
     - "612500000 CHF"
     r_min:
     - "5 years"
     - "2.5 CHF/kg"
-  revenue081:
+  revenue094:
     f_max:
     - "735000000 CHF"
     r_min:
     - "6 years"
     - "2.5 CHF/kg"
-  revenue082:
+  revenue095:
     f_max:
     - "857500000 CHF"
     r_min:
     - "7 years"
     - "2.5 CHF/kg"
-  revenue083:
+  revenue096:
     f_max:
     - "980000000 CHF"
     r_min:
     - "8 years"
     - "2.5 CHF/kg"
-  revenue084:
+  revenue097:
     f_max:
     - "1102500000 CHF"
     r_min:
     - "9 years"
     - "2.5 CHF/kg"
-  revenue085:
+  revenue098:
     f_max:
     - "1225000000 CHF"
     r_min:
     - "10 years"
     - "2.5 CHF/kg"
-  revenue086:
+  revenue099:
     f_max:
     - "1347500000 CHF"
     r_min:
     - "11 years"
     - "2.5 CHF/kg"
-  revenue087:
+  revenue100:
     f_max:
     - "1470000000 CHF"
     r_min:
     - "12 years"
     - "2.5 CHF/kg"
-  revenue088:
+  revenue101:
     f_max:
     - "1592500000 CHF"
     r_min:
     - "13 years"
     - "2.5 CHF/kg"
-  revenue089:
+  revenue102:
     f_max:
     - "1715000000 CHF"
     r_min:
     - "14 years"
     - "2.5 CHF/kg"
-  revenue090:
+  revenue103:
     f_max:
     - "1837500000 CHF"
     r_min:
     - "15 years"
     - "2.5 CHF/kg"
-  revenue091:
+  revenue104:
     f_max:
     - "1960000000 CHF"
     r_min:
     - "16 years"
     - "2.5 CHF/kg"
-  revenue092:
+  revenue105:
     f_max:
     - "539000000 CHF"
     r_min:
     - "4 years"
     - "2.75 CHF/kg"
-  revenue093:
+  revenue106:
     f_max:
     - "673750000 CHF"
     r_min:
     - "5 years"
     - "2.75 CHF/kg"
-  revenue094:
+  revenue107:
     f_max:
     - "808500000 CHF"
     r_min:
     - "6 years"
     - "2.75 CHF/kg"
-  revenue095:
+  revenue108:
     f_max:
     - "943250000 CHF"
     r_min:
     - "7 years"
     - "2.75 CHF/kg"
-  revenue096:
+  revenue109:
     f_max:
     - "1078000000 CHF"
     r_min:
     - "8 years"
     - "2.75 CHF/kg"
-  revenue097:
+  revenue110:
     f_max:
     - "1212750000 CHF"
     r_min:
     - "9 years"
     - "2.75 CHF/kg"
-  revenue098:
+  revenue111:
     f_max:
     - "1347500000 CHF"
     r_min:
     - "10 years"
     - "2.75 CHF/kg"
-  revenue099:
+  revenue112:
     f_max:
     - "1482250000 CHF"
     r_min:
     - "11 years"
     - "2.75 CHF/kg"
-  revenue100:
+  revenue113:
     f_max:
     - "1617000000 CHF"
     r_min:
     - "12 years"
     - "2.75 CHF/kg"
-  revenue101:
+  revenue114:
     f_max:
     - "1751750000 CHF"
     r_min:
     - "13 years"
     - "2.75 CHF/kg"
-  revenue102:
+  revenue115:
     f_max:
     - "1886500000 CHF"
     r_min:
     - "14 years"
     - "2.75 CHF/kg"
-  revenue103:
+  revenue116:
     f_max:
     - "2021250000 CHF"
     r_min:
     - "15 years"
     - "2.75 CHF/kg"
-  revenue104:
+  revenue117:
     f_max:
     - "2156000000 CHF"
     r_min:
     - "16 years"
     - "2.75 CHF/kg"
-  revenue105:
+  revenue118:
     f_max:
     - "588000000 CHF"
     r_min:
     - "4 years"
     - "3.0 CHF/kg"
-  revenue106:
+  revenue119:
     f_max:
     - "735000000 CHF"
     r_min:
     - "5 years"
     - "3.0 CHF/kg"
-  revenue107:
+  revenue120:
     f_max:
     - "882000000 CHF"
     r_min:
     - "6 years"
     - "3.0 CHF/kg"
-  revenue108:
+  revenue121:
     f_max:
     - "1029000000 CHF"
     r_min:
     - "7 years"
     - "3.0 CHF/kg"
-  revenue109:
+  revenue122:
     f_max:
     - "1176000000 CHF"
     r_min:
     - "8 years"
     - "3.0 CHF/kg"
-  revenue110:
+  revenue123:
     f_max:
     - "1323000000 CHF"
     r_min:
     - "9 years"
     - "3.0 CHF/kg"
-  revenue111:
+  revenue124:
     f_max:
     - "1470000000 CHF"
     r_min:
     - "10 years"
     - "3.0 CHF/kg"
-  revenue112:
+  revenue125:
     f_max:
     - "1617000000 CHF"
     r_min:
     - "11 years"
     - "3.0 CHF/kg"
-  revenue113:
-    f_max:
-    - "1764000000 CHF"
-    r_min:
-    - "12 years"
-    - "3.0 CHF/kg"
-  revenue114:
-    f_max:
-    - "1911000000 CHF"
-    r_min:
-    - "13 years"
-    - "3.0 CHF/kg"
-  revenue115:
-    f_max:
-    - "2058000000 CHF"
-    r_min:
-    - "14 years"
-    - "3.0 CHF/kg"
-  revenue116:
-    f_max:
-    - "2205000000 CHF"
-    r_min:
-    - "15 years"
-    - "3.0 CHF/kg"
-  revenue117:
-    f_max:
-    - "2352000000 CHF"
-    r_min:
-    - "16 years"
-    - "3.0 CHF/kg"
-  revenue118:
-    f_max:
-    - "637000000 CHF"
-    r_min:
-    - "4 years"
-    - "3.25 CHF/kg"
-  revenue119:
-    f_max:
-    - "796250000 CHF"
-    r_min:
-    - "5 years"
-    - "3.25 CHF/kg"
-  revenue120:
-    f_max:
-    - "955500000 CHF"
-    r_min:
-    - "6 years"
-    - "3.25 CHF/kg"
-  revenue121:
-    f_max:
-    - "1114750000 CHF"
-    r_min:
-    - "7 years"
-    - "3.25 CHF/kg"
-  revenue122:
-    f_max:
-    - "1274000000 CHF"
-    r_min:
-    - "8 years"
-    - "3.25 CHF/kg"
-  revenue123:
-    f_max:
-    - "1433250000 CHF"
-    r_min:
-    - "9 years"
-    - "3.25 CHF/kg"
-  revenue124:
-    f_max:
-    - "1592500000 CHF"
-    r_min:
-    - "10 years"
-    - "3.25 CHF/kg"
-  revenue125:
-    f_max:
-    - "1751750000 CHF"
-    r_min:
-    - "11 years"
-    - "3.25 CHF/kg"
   revenue126:
     f_max:
-    - "1911000000 CHF"
+    - "1764000000 CHF"
     r_min:
     - "12 years"
-    - "3.25 CHF/kg"
+    - "3.0 CHF/kg"
   revenue127:
     f_max:
-    - "2070250000 CHF"
+    - "1911000000 CHF"
     r_min:
     - "13 years"
-    - "3.25 CHF/kg"
+    - "3.0 CHF/kg"
   revenue128:
-    f_max:
-    - "2229500000 CHF"
-    r_min:
-    - "14 years"
-    - "3.25 CHF/kg"
-  revenue129:
-    f_max:
-    - "2388750000 CHF"
-    r_min:
-    - "15 years"
-    - "3.25 CHF/kg"
-  revenue130:
-    f_max:
-    - "2548000000 CHF"
-    r_min:
-    - "16 years"
-    - "3.25 CHF/kg"
-  revenue131:
-    f_max:
-    - "686000000 CHF"
-    r_min:
-    - "4 years"
-    - "3.5 CHF/kg"
-  revenue132:
-    f_max:
-    - "857500000 CHF"
-    r_min:
-    - "5 years"
-    - "3.5 CHF/kg"
-  revenue133:
-    f_max:
-    - "1029000000 CHF"
-    r_min:
-    - "6 years"
-    - "3.5 CHF/kg"
-  revenue134:
-    f_max:
-    - "1200500000 CHF"
-    r_min:
-    - "7 years"
-    - "3.5 CHF/kg"
-  revenue135:
-    f_max:
-    - "1372000000 CHF"
-    r_min:
-    - "8 years"
-    - "3.5 CHF/kg"
-  revenue136:
-    f_max:
-    - "1543500000 CHF"
-    r_min:
-    - "9 years"
-    - "3.5 CHF/kg"
-  revenue137:
-    f_max:
-    - "1715000000 CHF"
-    r_min:
-    - "10 years"
-    - "3.5 CHF/kg"
-  revenue138:
-    f_max:
-    - "1886500000 CHF"
-    r_min:
-    - "11 years"
-    - "3.5 CHF/kg"
-  revenue139:
     f_max:
     - "2058000000 CHF"
     r_min:
-    - "12 years"
-    - "3.5 CHF/kg"
-  revenue140:
-    f_max:
-    - "2229500000 CHF"
-    r_min:
-    - "13 years"
-    - "3.5 CHF/kg"
-  revenue141:
-    f_max:
-    - "2401000000 CHF"
-    r_min:
     - "14 years"
-    - "3.5 CHF/kg"
-  revenue142:
-    f_max:
-    - "2572500000 CHF"
-    r_min:
-    - "15 years"
-    - "3.5 CHF/kg"
-  revenue143:
-    f_max:
-    - "2744000000 CHF"
-    r_min:
-    - "16 years"
-    - "3.5 CHF/kg"
-  revenue144:
-    f_max:
-    - "735000000 CHF"
-    r_min:
-    - "4 years"
-    - "3.75 CHF/kg"
-  revenue145:
-    f_max:
-    - "918750000 CHF"
-    r_min:
-    - "5 years"
-    - "3.75 CHF/kg"
-  revenue146:
-    f_max:
-    - "1102500000 CHF"
-    r_min:
-    - "6 years"
-    - "3.75 CHF/kg"
-  revenue147:
-    f_max:
-    - "1286250000 CHF"
-    r_min:
-    - "7 years"
-    - "3.75 CHF/kg"
-  revenue148:
-    f_max:
-    - "1470000000 CHF"
-    r_min:
-    - "8 years"
-    - "3.75 CHF/kg"
-  revenue149:
-    f_max:
-    - "1653750000 CHF"
-    r_min:
-    - "9 years"
-    - "3.75 CHF/kg"
-  revenue150:
-    f_max:
-    - "1837500000 CHF"
-    r_min:
-    - "10 years"
-    - "3.75 CHF/kg"
-  revenue151:
-    f_max:
-    - "2021250000 CHF"
-    r_min:
-    - "11 years"
-    - "3.75 CHF/kg"
-  revenue152:
+    - "3.0 CHF/kg"
+  revenue129:
     f_max:
     - "2205000000 CHF"
     r_min:
-    - "12 years"
-    - "3.75 CHF/kg"
-  revenue153:
-    f_max:
-    - "2388750000 CHF"
-    r_min:
-    - "13 years"
-    - "3.75 CHF/kg"
-  revenue154:
-    f_max:
-    - "2572500000 CHF"
-    r_min:
-    - "14 years"
-    - "3.75 CHF/kg"
-  revenue155:
-    f_max:
-    - "2756250000 CHF"
-    r_min:
     - "15 years"
-    - "3.75 CHF/kg"
-  revenue156:
-    f_max:
-    - "2940000000 CHF"
-    r_min:
-    - "16 years"
-    - "3.75 CHF/kg"
-  revenue157:
-    f_max:
-    - "784000000 CHF"
-    r_min:
-    - "4 years"
-    - "4.0 CHF/kg"
-  revenue158:
-    f_max:
-    - "980000000 CHF"
-    r_min:
-    - "5 years"
-    - "4.0 CHF/kg"
-  revenue159:
-    f_max:
-    - "1176000000 CHF"
-    r_min:
-    - "6 years"
-    - "4.0 CHF/kg"
-  revenue160:
-    f_max:
-    - "1372000000 CHF"
-    r_min:
-    - "7 years"
-    - "4.0 CHF/kg"
-  revenue161:
-    f_max:
-    - "1568000000 CHF"
-    r_min:
-    - "8 years"
-    - "4.0 CHF/kg"
-  revenue162:
-    f_max:
-    - "1764000000 CHF"
-    r_min:
-    - "9 years"
-    - "4.0 CHF/kg"
-  revenue163:
-    f_max:
-    - "1960000000 CHF"
-    r_min:
-    - "10 years"
-    - "4.0 CHF/kg"
-  revenue164:
-    f_max:
-    - "2156000000 CHF"
-    r_min:
-    - "11 years"
-    - "4.0 CHF/kg"
-  revenue165:
+    - "3.0 CHF/kg"
+  revenue130:
     f_max:
     - "2352000000 CHF"
     r_min:
-    - "12 years"
-    - "4.0 CHF/kg"
-  revenue166:
-    f_max:
-    - "2548000000 CHF"
-    r_min:
-    - "13 years"
-    - "4.0 CHF/kg"
-  revenue167:
-    f_max:
-    - "2744000000 CHF"
-    r_min:
-    - "14 years"
-    - "4.0 CHF/kg"
-  revenue168:
-    f_max:
-    - "2940000000 CHF"
-    r_min:
-    - "15 years"
-    - "4.0 CHF/kg"
-  revenue169:
-    f_max:
-    - "3136000000 CHF"
-    r_min:
     - "16 years"
-    - "4.0 CHF/kg"
+    - "3.0 CHF/kg"
