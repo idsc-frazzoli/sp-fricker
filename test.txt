@@ -1,0 +1,636 @@
+Script started on 2022-03-03 14:35:05+01:00 [TERM="screen" TTY="/dev/pts/0" COLUMNS="92" LINES="22"]
+root@sylvain:~/sp-fricker# cat mcdp_commands.txt 
+docker pull registry-stage.duckietown.org/andreacensi/mcdp:z6-py38
+alias docker-mcdp-solve='docker run --rm -v ${PWD}:${PWD} -w ${PWD} registry-stage.duckietown.org/andreacensi/mcdp:z6-py38 mcdp-solve'
+docker-mcdp-solve -d HydrogenDistributionExample_pos.mcdplib hydrogenDist '<`dpos: d55301540, 0 CHF>'
+docker-mcdp-solve -d HydrogenDistributionExample.mcdplib --imp hydrogenDist '<100 t/day, 50 t/day, 30 t/day, 40 t/day, 60 t/day, 0 CHF>'
+docker-mcdp-solve -d HydrogenDistributionExample.mcdplib --imp hydrogenDist_small '<55 t/day, 30 t/day, 15 t/day, 40 t/day, 0 CHF>'
+docker-mcdp-solve -d HydrogenDistributionExample.mcdplib --imp hydrogenDist_small_certificates '<55 t/day, 30 t/day, 15 t/day, 40 t/day, 0 CHF>'
+
+root@sylvain:~/sp-fricker# alias docker-mcdp-solve='docker run --rm -v ${PWD}:${PWD} -w ${PWD} registry-stage.duckietown.org/andreacensi/mcdp:z6-py38 mcdp-solve'
+root@sylvain:~/sp-fricker# docker-mcdp-solve -d HydrogenDistributionExample.mcdplib --imp hydrogenDist_small '<55 t/day, 30 t/day, 15 t/day, 40 t/day, 0 CHF>'
+Inside entrypoint.sh
+USER 
+UID 0
+HOME /home
+Now executing command mcdp-solve -d HydrogenDistributionExample.mcdplib --imp hydrogenDist_small <55 t/day, 30 t/day, 15 t/day, 40 t/day, 0 CHF>
+INFO:commons:version: 6.1.5
+INFO:typing:version: 6.1.8
+INFO:mcdp:version: 6.0.3
+     conf_tools|    __init__.py:9    - <module>       | [32mconf_tools 6.0.2[0m
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(mcdp-solve:1): Gdk-CRITICAL **: 13:35:43.431: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+
+(mcdp-solve:1): Gdk-CRITICAL **: 13:35:43.446: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+/project/mcdp/src/mcdp_docs/manual_constants.py:322: UserWarning: Note that manual_link_css_instead_of_including = true
+  warnings.warn(msg)
+           ipce|    __init__.py:6    - [31m<module>[0m| [32m[32mversion: 6.0.35[0m[0m
+       mcdp_cli|  solve_meat.py:55   - [31msolve_main[0m| [32m[32mUsing output dir 'out/out-022'[0m[0m
+       mcdp_cli|  solve_meat.py:58   - [31msolve_main[0m| [32m[32mLooking for libraries in ['.']...[0m[0m
+       mcdp_cli|  solve_meat.py:61   - [31msolve_main[0m| [32m[32mFound 2 libraries.[0m[0m
+mcdp_utils_misc.p|      timing.py:32   - [31mtimeit[0m| [35m[35mtimeit result: 1.88 s (>= 0.5) for ndpt_dp_rvalue[0m[0m
+ mcdp_importers| yaml_loader.py:111  - [31mread_yaml[0m| [32m[32m [2mres[0m: CatalogueDP(PosetProduct(11: R[t/d],R[t/d],R[t/d],R[t/d],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t])|PosetProduct(18: R[CHF/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d]))[0m[0m
+      mcdp_lang|eval_ndp_imp.py:464  - [31meval_ndp_dpwrap[0m| [32m[32m [2mwant_F[0m: PosetProduct(11: R[t/d],R[t/d],R[t/d],R[t/d],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t])
+ [2mwant_R[0m: PosetProduct(18: R[CHF/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d])[0m[0m
+      mcdp_lang|eval_ndp_imp.py:465  - [31meval_ndp_dpwrap[0m| [32m[32m [2mdp_F[0m: PosetProduct(11: R[t/d],R[t/d],R[t/d],R[t/d],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t])
+ [2mdp_R[0m: PosetProduct(18: R[CHF/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d])[0m[0m
+ mcdp_importers| yaml_loader.py:111  - [31mread_yaml[0m| [32m[32m [2mres[0m: CatalogueDP(PosetProduct(14: R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d])|PosetProduct(15: R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[CHF]))[0m[0m
+      mcdp_lang|eval_ndp_imp.py:464  - [31meval_ndp_dpwrap[0m| [32m[32m [2mwant_F[0m: PosetProduct(14: R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d])
+ [2mwant_R[0m: PosetProduct(15: R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[CHF])[0m[0m
+      mcdp_lang|eval_ndp_imp.py:465  - [31meval_ndp_dpwrap[0m| [32m[32m [2mdp_F[0m: PosetProduct(14: R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d],R[t/d])
+ [2mdp_R[0m: PosetProduct(15: R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[CHF])[0m[0m
+ mcdp_importers| yaml_loader.py:111  - [31mread_yaml[0m| [32m[32m [2mres[0m: CatalogueDP(PosetProduct(14: R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[])|PosetProduct(7: R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t]))[0m[0m
+      mcdp_lang|eval_ndp_imp.py:464  - [31meval_ndp_dpwrap[0m| [32m[32m [2mwant_F[0m: PosetProduct(14: R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[])
+ [2mwant_R[0m: PosetProduct(7: R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t])[0m[0m
+      mcdp_lang|eval_ndp_imp.py:465  - [31meval_ndp_dpwrap[0m| [32m[32m [2mdp_F[0m: PosetProduct(14: R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[],R[])
+ [2mdp_R[0m: PosetProduct(7: R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t],R[CHF/t])[0m[0m
+^CTraceback (most recent call last):
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 605, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 1933, in parseImpl
+    raise ParseException(instring, errloc, errmsg, self)
+pyparsing.exceptions.ParseException: Expected Keyword "ℝ", found '0'  (at char 0), (line:1, col:1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/mcdp-solve", line 11, in <module>
+    load_entry_point('PyMCDP-z6', 'console_scripts', 'mcdp-solve')()
+  File "/usr/local/lib/python3.7/dist-packages/quickapp/quick_app_base.py", line 72, in entry
+    return quickapp_main(cls, args=args, sys_exit=sys_exit)
+  File "/usr/local/lib/python3.7/dist-packages/quickapp/quick_app.py", line 275, in quickapp_main
+    args=args, sys_exit=sys_exit)
+  File "/usr/local/lib/python3.7/dist-packages/decent_params/utils/script_utils.py", line 25, in wrap_script_entry_point
+    ret = wrap_script_entry_point_noexit(function, logger, exceptions_no_traceback, args)
+  File "/usr/local/lib/python3.7/dist-packages/decent_params/utils/script_utils.py", line 49, in wrap_script_entry_point_noexit
+    ret = function(args)
+  File "/usr/local/lib/python3.7/dist-packages/quickapp/quick_app_base.py", line 165, in main
+    ret = self.go()
+  File "/project/mcdp/src/mcdp_cli/solve.py", line 112, in go
+    make,
+  File "/project/mcdp/src/mcdp_cli/solve_meat.py", line 67, in solve_main
+    ndp = library.load_ndp(model_name)
+  File "/project/mcdp/src/mcdp_library/library.py", line 155, in load_ndp
+    return self.load_spec(SPEC_MODELS, id_ndp, context)
+  File "/project/mcdp/src/mcdp_library/library.py", line 185, in load_spec
+    res = self._load_generic(thing_name, spec_name, parsing_function, context)
+  File "/project/mcdp/src/mcdp_library/library.py", line 236, in _load_generic
+    res_data = actual_load()
+  File "/project/mcdp/src/mcdp_library/library.py", line 226, in actual_load
+    res = parsing_function(l, data, realpath, context=context_mine)
+  File "/project/mcdp/src/mcdp_library/library.py", line 281, in parse_ndp
+    result = self._parse_with_hooks(parse_ndp, string, realpath, context)
+  File "/project/mcdp/src/mcdp_library/library.py", line 337, in _parse_with_hooks
+    result = parse_ndp_like(string, context=context_mine)
+  File "/project/mcdp/src/mcdp_lang/parse_interface.py", line 35, in parse
+    return f(string, context)
+  File "/project/mcdp/src/mcdp_lang/parse_interface.py", line 61, in parse_ndp
+    res = parse_ndp_eval(expr2, context)
+  File "/project/mcdp/src/mcdp_lang/parse_interface.py", line 83, in parse_ndp_eval
+    res = eval_ndp(v, context)
+  File "<decorator-gen-751>", line 2, in eval_ndp
+  File "/project/mcdp/src/mcdp_lang/parse_actions.py", line 55, in decorate_add_where
+    return f(*args, **kwargs)
+  File "/project/mcdp/src/mcdp_lang/eval_ndp_imp.py", line 124, in eval_ndp
+    return hook(r, context)
+  File "/project/mcdp/src/mcdp_lang/eval_ndp_imp.py", line 1417, in eval_build_problem
+    eval_statement(s, context)
+  File "<decorator-gen-752>", line 2, in eval_statement
+  File "/project/mcdp/src/mcdp_lang/parse_actions.py", line 55, in decorate_add_where
+    return f(*args, **kwargs)
+  File "/project/mcdp/src/mcdp_lang/eval_ndp_imp.py", line 1208, in eval_statement
+    ndp = eval_ndp(r.dp_rvalue, context)
+  File "<decorator-gen-751>", line 2, in eval_ndp
+  File "/project/mcdp/src/mcdp_lang/parse_actions.py", line 55, in decorate_add_where
+    return f(*args, **kwargs)
+  File "/project/mcdp/src/mcdp_lang/eval_ndp_imp.py", line 124, in eval_ndp
+    return hook(r, context)
+  File "/project/mcdp/src/mcdp_lang/eval_ndp_imp.py", line 143, in eval_ndp_dpinstance
+    return eval_ndp(r.dp_rvalue, context)
+  File "<decorator-gen-751>", line 2, in eval_ndp
+  File "/project/mcdp/src/mcdp_lang/parse_actions.py", line 55, in decorate_add_where
+    return f(*args, **kwargs)
+  File "/project/mcdp/src/mcdp_lang/eval_ndp_imp.py", line 124, in eval_ndp
+    return hook(r, context)
+  File "/project/mcdp/src/mcdp_lang/eval_ndp_imp.py", line 323, in eval_ndp_load
+    res = context2.load_ndp(name)
+  File "/project/mcdp/src/mcdp_ndp/modelbuildingcontext2.py", line 130, in load_ndp
+    return self._load_hooks(load_arg, self.load_ndp_hooks, NamedDP)
+  File "/project/mcdp/src/mcdp_ndp/modelbuildingcontext2.py", line 161, in _load_hooks
+    res = hook(load_arg, context=self)
+  File "/project/mcdp/src/mcdp_library/library.py", line 155, in load_ndp
+    return self.load_spec(SPEC_MODELS, id_ndp, context)
+  File "/project/mcdp/src/mcdp_library/library.py", line 185, in load_spec
+    res = self._load_generic(thing_name, spec_name, parsing_function, context)
+  File "/project/mcdp/src/mcdp_library/library.py", line 236, in _load_generic
+    res_data = actual_load()
+  File "/project/mcdp/src/mcdp_library/library.py", line 226, in actual_load
+    res = parsing_function(l, data, realpath, context=context_mine)
+  File "/project/mcdp/src/mcdp_library/library.py", line 281, in parse_ndp
+    result = self._parse_with_hooks(parse_ndp, string, realpath, context)
+  File "/project/mcdp/src/mcdp_library/library.py", line 337, in _parse_with_hooks
+    result = parse_ndp_like(string, context=context_mine)
+  File "/project/mcdp/src/mcdp_lang/parse_interface.py", line 35, in parse
+    return f(string, context)
+  File "/project/mcdp/src/mcdp_lang/parse_interface.py", line 61, in parse_ndp
+    res = parse_ndp_eval(expr2, context)
+  File "/project/mcdp/src/mcdp_lang/parse_interface.py", line 83, in parse_ndp_eval
+    res = eval_ndp(v, context)
+  File "<decorator-gen-751>", line 2, in eval_ndp
+  File "/project/mcdp/src/mcdp_lang/parse_actions.py", line 55, in decorate_add_where
+    return f(*args, **kwargs)
+  File "/project/mcdp/src/mcdp_lang/eval_ndp_imp.py", line 124, in eval_ndp
+    return hook(r, context)
+  File "/project/mcdp/src/mcdp_lang/eval_ndp_imp.py", line 432, in eval_ndp_dpwrap
+    dp = eval_primitivedp(impl, context)
+  File "<decorator-gen-755>", line 2, in eval_primitivedp
+  File "/project/mcdp/src/mcdp_lang/parse_actions.py", line 55, in decorate_add_where
+    return f(*args, **kwargs)
+  File "/project/mcdp/src/mcdp_lang/eval_primitivedp_imp.py", line 25, in eval_primitivedp
+    return eval_primitivedp_code_spec(r, context)
+  File "/project/mcdp/src/mcdp_lang/eval_primitivedp_imp.py", line 37, in eval_primitivedp_code_spec
+    res = eval_codespec(r, expect=PrimitiveDP, context=context)
+  File "<decorator-gen-756>", line 2, in eval_codespec
+  File "/project/mcdp/src/mcdp_lang/parse_actions.py", line 55, in decorate_add_where
+    return f(*args, **kwargs)
+  File "/project/mcdp/src/mcdp_lang/eval_codespec_imp.py", line 31, in eval_codespec
+    res = instantiate_spec(function_name=function_name, kwargs=kwargs, context=context)
+  File "/project/mcdp/src/mcdp_lang/eval_codespec_imp_utils.py", line 41, in instantiate_spec
+    return function(**kwargs)
+  File "/project/mcdp/src/mcdp_importers/yaml_loader.py", line 90, in read_yaml
+    vu: ValueWithUnits = parse_constant(f, context=context)
+  File "/project/mcdp/src/mcdp_lang/parse_interface.py", line 35, in parse
+    return f(string, context)
+  File "/project/mcdp/src/mcdp_lang/parse_interface.py", line 156, in parse_constant
+    x = parse_wrap(expr, string)[0]
+  File "/project/mcdp/src/mcdp_lang_utils/parse_wrapping.py", line 71, in parse_wrap
+    parsed = expr.parseString(string0, parseAll=True)  # [0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 806, in parseString
+    loc, tokens = self._parse(instring, 0)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/mcdp/src/mcdp_lang/my_pyparsing_helpers.py", line 87, in parseImpl
+    self.expr.tryParse(instring, loc)
+  File "/project/src/pyparsing/pyparsing/core.py", line 662, in tryParse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/mcdp/src/mcdp_lang/my_pyparsing_helpers.py", line 87, in parseImpl
+    self.expr.tryParse(instring, loc)
+  File "/project/src/pyparsing/pyparsing/core.py", line 662, in tryParse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/mcdp/src/mcdp_lang/my_pyparsing_helpers.py", line 87, in parseImpl
+    self.expr.tryParse(instring, loc)
+  File "/project/src/pyparsing/pyparsing/core.py", line 662, in tryParse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/mcdp/src/mcdp_lang/my_pyparsing_helpers.py", line 87, in parseImpl
+    self.expr.tryParse(instring, loc)
+  File "/project/src/pyparsing/pyparsing/core.py", line 662, in tryParse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/mcdp/src/mcdp_lang/my_pyparsing_helpers.py", line 87, in parseImpl
+    self.expr.tryParse(instring, loc)
+  File "/project/src/pyparsing/pyparsing/core.py", line 662, in tryParse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/mcdp/src/mcdp_lang/my_pyparsing_helpers.py", line 87, in parseImpl
+    self.expr.tryParse(instring, loc)
+  File "/project/src/pyparsing/pyparsing/core.py", line 662, in tryParse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/mcdp/src/mcdp_lang/my_pyparsing_helpers.py", line 87, in parseImpl
+    self.expr.tryParse(instring, loc)
+  File "/project/src/pyparsing/pyparsing/core.py", line 662, in tryParse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/mcdp/src/mcdp_lang/my_pyparsing_helpers.py", line 87, in parseImpl
+    self.expr.tryParse(instring, loc)
+  File "/project/src/pyparsing/pyparsing/core.py", line 662, in tryParse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/mcdp/src/mcdp_lang/my_pyparsing_helpers.py", line 87, in parseImpl
+    self.expr.tryParse(instring, loc)
+  File "/project/src/pyparsing/pyparsing/core.py", line 662, in tryParse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/mcdp/src/mcdp_lang/my_pyparsing_helpers.py", line 87, in parseImpl
+    self.expr.tryParse(instring, loc)
+  File "/project/src/pyparsing/pyparsing/core.py", line 662, in tryParse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/mcdp/src/mcdp_lang/my_pyparsing_helpers.py", line 87, in parseImpl
+    self.expr.tryParse(instring, loc)
+  File "/project/src/pyparsing/pyparsing/core.py", line 662, in tryParse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3671, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/mcdp/src/mcdp_lang/my_pyparsing_helpers.py", line 87, in parseImpl
+    self.expr.tryParse(instring, loc)
+  File "/project/src/pyparsing/pyparsing/core.py", line 662, in tryParse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3173, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 694, in _parseCache
+    value = self._parseNoCache(instring, loc, doActions, callPreParse)
+  File "/project/src/pyparsing/pyparsing/core.py", line 601, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, preloc, doActions)
+  File "/project/src/pyparsing/pyparsing/core.py", line 3402, in parseImpl
+    ret = e._parse(instring, loc, doActions)
+KeyboardInterrupt
+root@sylvain:~/sp-fricker# exit
+exit
+
+Script done on 2022-03-03 14:38:37+01:00 [COMMAND_EXIT_CODE="1"]
